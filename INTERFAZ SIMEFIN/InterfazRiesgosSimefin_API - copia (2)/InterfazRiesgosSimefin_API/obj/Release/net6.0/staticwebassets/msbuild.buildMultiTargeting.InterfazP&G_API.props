@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InterfazP&amp;G_API.props" />
+</Project>

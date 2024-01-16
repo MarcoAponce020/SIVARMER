@@ -1,0 +1,45 @@
+﻿@model IEnumerable<InterfazRiesgosSimefin_WEB.Models.Dto.PortafolioDto>
+@{
+    ViewData["Title"] = "IndexPortafolio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Lista de Portafolios</h1>
+        </div>
+        <div class="col text-end pt-1">
+            <a asp-controller="Portafolios" asp-action="CrearPortafolio" class="btn btn-outline-primary"><i class="bi bi-plus-square-fill"></i> Crear Nuevo Portafolio</a>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>F_Posicion</th>
+                <th>Nombre</th>
+                <th>Sub Portafolio</th>
+                <th>Lista de Datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.F_Posicion</td>
+                    <td>@item.NombrePortafolio</td>
+                    <td>@item.SubPortafolio</td>
+                    <td>@item.listaDatos</td>
+                    <td>
+                        <a asp-controller="Portafolios" asp-action="ActualizarPortafolio" class="btn btn-outline-sucess"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-controller="Portafolios" asp-action="RemoverPortafolio" class="btn btn-outline-danger"><i class="bi bi-trash-fill"></i></a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+

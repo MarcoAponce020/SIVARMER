@@ -1,0 +1,12 @@
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\bin\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.deps.json
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\bin\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.dll
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\bin\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.pdb
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.AssemblyInfoInputs.cache
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.AssemblyInfo.cs
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.csproj.CoreCompileInputs.cache
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.sourcelink.json
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.dll
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\refint\InterfazRiesgosSimefin_Utilidad.dll
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\InterfazRiesgosSimefin_Utilidad.pdb
+C:\C#\INTERFAZ SIMEFIN\InterfazRiesgosSimefin_API - copia (2)\InterfazRiesgosSimefin_Utilidad\obj\Debug\net6.0\ref\InterfazRiesgosSimefin_Utilidad.dll
