@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\InterfazRiesgosSimefin_WEB.props" />
-</Project>
