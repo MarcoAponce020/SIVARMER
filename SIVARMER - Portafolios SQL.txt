@@ -1,0 +1,19 @@
+  alter table [PortafoliosPG].[dbo].[Portafolios]
+  add SubPortafolioId int
+
+
+  alter table [PortafoliosPG].[dbo].[Portafolios]
+  add ListaFechas nvarchar(max)
+
+
+CREATE TABLE [PortafoliosPG].[dbo].[SubPortafolios]
+( 
+	SubPortafolioId Int IDENTITY(1,1) PRIMARY KEY,
+	Descripcion NVarchar(100)
+)
+
+
+INSERT INTO [PortafoliosPG].[dbo].[SubPortafolios] VALUES('DERIVADOS DE NEGOCIACION')
+INSERT INTO [PortafoliosPG].[dbo].[SubPortafolios] VALUES('DERIVADOS ESTRUCTURALES')
+INSERT INTO [PortafoliosPG].[dbo].[SubPortafolios] VALUES('CONSOLIDADO')
+INSERT INTO [PortafoliosPG].[dbo].[SubPortafolios] VALUES('Global')
