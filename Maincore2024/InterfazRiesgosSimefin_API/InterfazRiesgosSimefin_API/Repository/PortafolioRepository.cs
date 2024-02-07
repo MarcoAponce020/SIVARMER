@@ -292,17 +292,12 @@ namespace InterfazRiesgosSimefin_API.Repository
                             }
                         } //col
 
-                        //Comprando fechas vs datos. Si hay diferencia, abortar
-                        var resulta1 = dictionaryDates.Except(dictionaryData).ToDictionary(x => x.Key, x => x.Value);
-                        var resulta2 = dictionaryDates.Count == dictionaryData.Count && !dictionaryDates.Except(dictionaryData).Any();
-                        var commonKeys = dictionaryDates.Keys.Intersect(dictionaryData.Keys).ToList();
-                        var diff = dictionaryData.Where(x => x.Value != dictionaryDates[x.Key]).ToDictionary(x => x.Key, x => x.Value);
-
-
                         if (newPortafolio != null && newPortafolio.SubPortafolioId > 0)
                         {
-                            //Comprando fechas vs datos
-                            if (dictionaryDates.Count() != dictionaryData.Count())
+                            //Comparando fechas vs datos. En cada diccionario se agregó como Key la columna.
+                            //Entonces se compara que las claves de cada diccionario existan en ambos. Si hay diferencia, abortar
+                            bool isKeysTheSame = dictionaryDates.Count == dictionaryData.Count && !dictionaryDates.Keys.Except(dictionaryData.Keys).Any();
+                            if (!isKeysTheSame)
                             {
                                 response.Mensaje = "Archivo no procesado por incoherencia en datos.";
                                 response.ErrorMessages.Add($"Fila ({row}). La lista de fechas no coincide con la lista de datos.");
@@ -310,6 +305,16 @@ namespace InterfazRiesgosSimefin_API.Repository
                                 response.statusCode = HttpStatusCode.BadRequest;
                                 return response;
                             }
+
+                            ////Comparando fechas vs datos
+                            //if (dictionaryDates.Count() != dictionaryData.Count())
+                            //{
+                            //    response.Mensaje = "Archivo no procesado por incoherencia en datos.";
+                            //    response.ErrorMessages.Add($"Fila ({row}). La lista de fechas no coincide con la lista de datos.");
+                            //    response.IsExitoso = false;
+                            //    response.statusCode = HttpStatusCode.BadRequest;
+                            //    return response;
+                            //}
 
                             var datos = (from f in dictionaryDates
                                          join d in dictionaryData on f.Key equals d.Key
@@ -328,8 +333,16 @@ namespace InterfazRiesgosSimefin_API.Repository
                     var jsonString = JsonSerializer.Serialize(portafoliosList);
 
                     var result = await this.SavePortfolios(portafoliosList);
-                    response.ErrorMessages.AddRange(result); 
+                    response.ErrorMessages.AddRange(result);
                 }
+            }
+            catch (KeyNotFoundException ke)
+            {
+                response.IsExitoso = false;
+                response.ErrorMessages.Add($"Datos corruptos. { ke.Message.ToString() }");
+                response.statusCode = HttpStatusCode.BadRequest;
+                response.Resultado = false;
+                return response;
             }
             catch (Exception ex)
             {

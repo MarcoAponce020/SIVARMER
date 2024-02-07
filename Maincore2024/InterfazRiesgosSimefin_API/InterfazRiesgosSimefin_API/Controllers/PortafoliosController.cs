@@ -12,8 +12,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class PortafoliosController : ControllerBase
-    {
-              
+    {              
 
         private readonly ILogger<PortafoliosController> _logger;
         private readonly IPortafolioRepository _portafolioRepo;
@@ -39,7 +38,15 @@ namespace InterfazRiesgosSimefin_API.Controllers
                 _logger.LogInformation("Obtener los Portafolios");
                 IEnumerable<Portafolio> portafolioList = await _portafolioRepo.ObtenerTodos();
 
-                _response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
+                List<PortafolioDto> temp = new List<PortafolioDto>();
+                portafolioList.ToList().ForEach(portafolio => {
+                    var datos = _mapper.Map<PortafolioDto>(portafolio);
+                    datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
+                    temp.Add(datos);
+                });
+                _response.Resultado = temp;
+
+                //_response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
                 _response.statusCode = HttpStatusCode.OK;
                 return Ok(_response);
             }
@@ -135,7 +142,16 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     _response.ErrorMessages.Add("No existe Información para esta Fecha");
                     return NotFound(_response);
                 }
-                _response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
+
+                List<PortafolioDto> temp = new List<PortafolioDto>();
+                portafolioList.ToList().ForEach(portafolio => {
+                    var datos = _mapper.Map<PortafolioDto>(portafolio);
+                    datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
+                    temp.Add(datos);
+                });
+                _response.Resultado = temp;
+
+                //_response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
                 _response.statusCode = HttpStatusCode.OK;
 
                 return Ok(_response);   
