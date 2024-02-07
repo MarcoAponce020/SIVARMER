@@ -4,6 +4,7 @@ using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Net;
 
 namespace InterfazRiesgosSimefin_API.Controllers
@@ -69,16 +70,19 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     return BadRequest(_response);
                 }
 
-                //var portafolio = PortafolioStore.portafolioList.FirstOrDefault(p => p.IdPortafolio == idPortafolio);
                 var portafolio = await _portafolioRepo.Obtener(p => p.IdPortafolio == idPortafolio);
 
                 if (portafolio == null)
                 {
                     _response.statusCode = HttpStatusCode.NotFound;
-                    _response.IsExitoso=false;
+                    _response.IsExitoso = false;
                     return NotFound(_response);
                 }
-                _response.Resultado = _mapper.Map<PortafolioDto>(portafolio);
+
+                var datos = _mapper.Map<PortafolioDto>(portafolio); 
+                datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
+
+                _response.Resultado = datos;
                 _response.statusCode = HttpStatusCode.OK;
                 return Ok(_response);
 

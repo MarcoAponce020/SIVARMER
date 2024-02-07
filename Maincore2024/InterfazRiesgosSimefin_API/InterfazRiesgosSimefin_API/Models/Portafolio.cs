@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using InterfazRiesgosSimefin_API.Models.Dto;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterfazRiesgosSimefin_API.Models
@@ -10,16 +11,17 @@ namespace InterfazRiesgosSimefin_API.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdPortafolio { get; set; }
-        [Required]
-        public string F_Posicion { get; set; }
 
         [Required]
-        public string NombrePortafolio { get; set; }
+        public string? F_Posicion { get; set; }
+
+        [Required]
+        public string? NombrePortafolio { get; set; }
 
         [Required]
         public string? SubPortafolio { get; set; }
 
-        public string listaDatos { get; set; } = string.Empty;
+        public string? listaDatos { get; set; }
         public int No_Envio { get; set; }
 
         public DateTime FechaCreacion { get; set; }
@@ -29,7 +31,7 @@ namespace InterfazRiesgosSimefin_API.Models
         [Required]
         public int SubPortafolioId { get; set; } = 0;
 
-        public string ListaFechas { get; set; } = string.Empty;
-
     }
+
+
 }

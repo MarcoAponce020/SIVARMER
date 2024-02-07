@@ -14,7 +14,9 @@ namespace InterfazRiesgosSimefin_API
             CreateMap<Portafolio, PortafolioCreateDto>().ReverseMap();
             CreateMap<Portafolio, PortafolioUpdateDto>().ReverseMap();
 
-
+            //CreateMap<PortafolioDto, Portafolio>()
+            //    .ForMember(x => x.ListaFechas, x => x.MapFrom(y => y.ListaFechas))
+            //    .ReverseMap();
 
         }
     }

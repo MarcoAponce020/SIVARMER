@@ -8,14 +8,14 @@ namespace InterfazRiesgosSimefin_API.Models.Dto
        
         public int IdPortafolio { get; set; }
         [Required]
-        public string F_Posicion { get; set; }
+        public string? F_Posicion { get; set; }
 
         [Required]
         [MaxLength(30)]
-        public string NombrePortafolio { get; set; }
-        public string SubPortafolio { get; set; }
+        public string? NombrePortafolio { get; set; }
+        public string? SubPortafolio { get; set; }
 
-        public string listaDatos { get; set; }
+        //public dynamic? listaDatos { get; set; }
 
         public int No_Envio { get; set; }
         public DateTime FechaCreacion { get; set; }
@@ -25,7 +25,14 @@ namespace InterfazRiesgosSimefin_API.Models.Dto
         [Required]
         public int SubPortafolioId { get; set; }
 
-        public string ListaFechas { get; set; }
+        public dynamic? listaDatos { get; set; }
 
     }
+
+    public class Datos
+    {
+        public string? Fecha { get; set; }
+        public string? valor { get; set; }
+    }
+
 }

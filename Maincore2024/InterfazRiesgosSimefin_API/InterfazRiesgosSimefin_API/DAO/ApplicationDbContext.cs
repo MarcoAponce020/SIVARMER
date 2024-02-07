@@ -32,7 +32,7 @@ namespace InterfazRiesgosSimefin_API.DAO
                     No_Envio = 1,
                     FechaCreacion = DateTime.Now,
                     FechaModificacion = DateTime.Now,
-                    ListaFechas = "20240125"
+                    //ListaFechas = new List<Datos>()
 
                 },
                 new Portafolio()
@@ -45,7 +45,7 @@ namespace InterfazRiesgosSimefin_API.DAO
                     No_Envio = 1,
                     FechaCreacion = DateTime.Now,
                     FechaModificacion = DateTime.Now,
-                    ListaFechas = "20240125"
+                    //ListaFechas = new List<Datos>()
                 }
 
 

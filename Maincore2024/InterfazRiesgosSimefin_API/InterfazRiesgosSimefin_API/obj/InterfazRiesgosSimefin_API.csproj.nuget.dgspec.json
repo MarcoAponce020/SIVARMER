@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {}
+    "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {}
   },
   "projects": {
-    "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {
+    "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+        "projectUniqueName": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
         "projectName": "InterfazRiesgosSimefin_API",
-        "projectPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+        "projectPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
         "packagesPath": "C:\\Users\\Nelson\\.nuget\\packages\\",
-        "outputPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\obj\\",
+        "outputPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nelson\\AppData\\Roaming\\NuGet\\NuGet.Config",

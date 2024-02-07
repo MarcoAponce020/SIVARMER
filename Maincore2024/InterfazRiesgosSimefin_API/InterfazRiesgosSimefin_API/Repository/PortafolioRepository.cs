@@ -1,8 +1,10 @@
-﻿using InterfazRiesgosSimefin_API.DAO;
+﻿using AutoMapper.Execution;
+using InterfazRiesgosSimefin_API.DAO;
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
+using System.Linq;
 using System.Net;
 using System.Text;
 using System.Text.Json;
@@ -12,6 +14,7 @@ namespace InterfazRiesgosSimefin_API.Repository
     public class PortafolioRepository : Repository<Portafolio>, IPortafolioRepository
     {
         private readonly ApplicationDbContext _db;
+        private const int rowDate = 2;
 
         public PortafolioRepository(ApplicationDbContext db) : base(db)
         {
@@ -31,7 +34,7 @@ namespace InterfazRiesgosSimefin_API.Repository
 
         #region Carga de Excel ...
 
-        public async Task<APIResponse> ExcelLoad(IFormFile file)
+        public async Task<APIResponse> ExcelLoad_OLD(IFormFile file)
         {
             var response = new APIResponse();
             var resultReader = string.Empty;
@@ -79,7 +82,7 @@ namespace InterfazRiesgosSimefin_API.Repository
                     }
 
                     //Obteniendo el listado de fechas
-                    listaFechas = this.GetDateList(worksheet);
+                    listaFechas = this.GetDateList_OLD(worksheet);
                     if (!listaFechas.Any() && listaFechas.Count == 0)
                     {
                         response.Mensaje = "Faltan datos para procesar -fechas de portafolios-.";
@@ -154,7 +157,7 @@ namespace InterfazRiesgosSimefin_API.Repository
 
                             if (listaFechas.Count() > 0)
                             {
-                                newPortafolio.ListaFechas = string.Join(",", listaFechas);
+                                //newPortafolio.ListaFechas = string.Join(",", listaFechas);
                             }
                             if (listaDatos.Count() > 0)
                             {
@@ -186,7 +189,187 @@ namespace InterfazRiesgosSimefin_API.Repository
             return response;
         }
 
-        private List<string?> GetDateList(ExcelWorksheet worksheet) 
+        public async Task<APIResponse> ExcelLoad(IFormFile file)
+        {
+            var response = new APIResponse();
+            var resultReader = string.Empty;
+            string worksheetsName = "Hoja1";
+            var format = new ExcelTextFormat();
+            format.Delimiter = ',';
+            format.TextQualifier = '"';
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
+            string? fechaPosicionPivote = string.Empty;
+            List<Portafolio> portafoliosList = new List<Portafolio>();
+
+            Dictionary<int, string?> dictionaryDates = new Dictionary<int, string?>();
+            Dictionary<int, string?> dictionaryData = new Dictionary<int, string?>();
+            List<string> listaDatos = new List<string>();
+
+            try
+            {
+                //Obteniendo el catálogo de SubPortafolios
+                var subPortafolioList = this.GetSubPortfolios();
+                if (!subPortafolioList.Any() && subPortafolioList.Count() == 0)
+                {
+                    response.Mensaje = "Faltan datos para procesar -Catálogo de SubPortafolios-.";
+                    response.IsExitoso = false;
+                    response.statusCode = HttpStatusCode.BadRequest;
+                    return response;
+                }
+
+                ExcelWorksheet? worksheet = null;
+                using (var reader = new System.IO.StreamReader(file.OpenReadStream()))
+                using (ExcelPackage package = new ExcelPackage())
+                {
+                    resultReader = reader.ReadToEnd();
+                    worksheet = package.Workbook.Worksheets.Add(worksheetsName);
+                    worksheet = package.Workbook.Worksheets[0];
+                    worksheet.Cells["A1"].LoadFromText(resultReader, format);
+
+                    //Validando la fecha pivote
+                    fechaPosicionPivote = worksheet.Cells[1, 1].Value?.ToString()?.Trim();
+                    if (string.IsNullOrEmpty(fechaPosicionPivote))
+                    {
+                        response.Mensaje = "Faltan datos para procesar -fecha de posición inicial-.";
+                        response.IsExitoso = false;
+                        response.statusCode = HttpStatusCode.BadRequest;
+                        return response;
+                    }
+
+                    //Obteniendo el listado de fechas
+                    dictionaryDates = this.GetDateList(worksheet);
+                    if (!dictionaryDates.Any() && dictionaryDates.Count == 0)
+                    {
+                        response.Mensaje = "Faltan datos para procesar -fechas de portafolios-.";
+                        response.IsExitoso = false;
+                        response.statusCode = HttpStatusCode.BadRequest;
+                        return response;
+                    }
+
+                    Portafolio newPortafolio = new Portafolio();
+                    int colCount = worksheet.Dimension.End.Column;  //get Column Count
+                    int rowCount = worksheet.Dimension.End.Row;     //get row count
+
+                    //Partiendo de la fila 3, donde se encuentra el cuerpo de los portafolios
+                    for (int row = 3; row <= rowCount; row++)
+                    {
+                        dictionaryData = new Dictionary<int, string?>();
+                        newPortafolio = new Portafolio
+                        {
+                            F_Posicion = fechaPosicionPivote,
+                            NombrePortafolio = "TOTAL",
+                            No_Envio = 1,
+                            FechaCreacion = DateTime.Now,
+                            FechaModificacion = DateTime.Now
+                        };
+
+                        for (int col = 1; col <= colCount; col++)
+                        {
+                            string? currentCellValue = worksheet.Cells[row, col].Value?.ToString()?.Trim();
+                            if (!string.IsNullOrEmpty(currentCellValue))
+                            {
+                                //Subportafolios
+                                if (col == 1)
+                                {
+                                    string? subPortfolio = currentCellValue.ToUpper();
+                                    newPortafolio.SubPortafolio = subPortfolio;
+                                    newPortafolio.SubPortafolioId = this.GetSubPortfolioValue(subPortafolioList, newPortafolio.SubPortafolio);
+                                    //Dado el caso de que el SubPortafolioId no existe en BD
+                                    if (newPortafolio.SubPortafolioId == 0)
+                                    {
+                                        response.ErrorMessages.Add($"Configuración errónea en archivo origen. {Environment.NewLine} El valor de SubPortafolio no existe en BD.. Fila ({row}, {col}) => '{subPortfolio}'.");
+                                    }
+                                }
+
+                                if (col > 1)
+                                {
+                                    if (subPortafolioList.Any(x => x.SubPortafolioId == newPortafolio.SubPortafolioId))
+                                    {
+                                        dictionaryData.Add(col, currentCellValue);
+                                    }
+                                }
+                            }
+                        } //col
+
+                        //Comprando fechas vs datos. Si hay diferencia, abortar
+                        var resulta1 = dictionaryDates.Except(dictionaryData).ToDictionary(x => x.Key, x => x.Value);
+                        var resulta2 = dictionaryDates.Count == dictionaryData.Count && !dictionaryDates.Except(dictionaryData).Any();
+                        var commonKeys = dictionaryDates.Keys.Intersect(dictionaryData.Keys).ToList();
+                        var diff = dictionaryData.Where(x => x.Value != dictionaryDates[x.Key]).ToDictionary(x => x.Key, x => x.Value);
+
+
+                        if (newPortafolio != null && newPortafolio.SubPortafolioId > 0)
+                        {
+                            //Comprando fechas vs datos
+                            if (dictionaryDates.Count() != dictionaryData.Count())
+                            {
+                                response.Mensaje = "Archivo no procesado por incoherencia en datos.";
+                                response.ErrorMessages.Add($"Fila ({row}). La lista de fechas no coincide con la lista de datos.");
+                                response.IsExitoso = false;
+                                response.statusCode = HttpStatusCode.BadRequest;
+                                return response;
+                            }
+
+                            var datos = (from f in dictionaryDates
+                                         join d in dictionaryData on f.Key equals d.Key
+                                         select new { Fecha = f.Value, Valor = d.Value }).ToList();
+
+                            if (datos != null)
+                            {
+                                newPortafolio.listaDatos = JsonSerializer.Serialize(datos);
+                            }
+
+                            //Agregando el nuevo porfatolio a la lista
+                            portafoliosList.Add(newPortafolio);
+                        }
+                    } //row
+
+                    var jsonString = JsonSerializer.Serialize(portafoliosList);
+
+                    var result = await this.SavePortfolios(portafoliosList);
+                    response.ErrorMessages.AddRange(result); 
+                }
+            }
+            catch (Exception ex)
+            {
+                response.IsExitoso = false;
+                response.ErrorMessages.Add(ex.Message.ToString());
+                response.statusCode = HttpStatusCode.BadRequest;
+                response.Resultado = false;
+                return response;
+            }
+
+            response.Resultado = true;
+            response.statusCode = HttpStatusCode.OK;
+            response.Mensaje = "Archivo procesado con éxito.";
+            return response;
+        }
+
+        /// <summary>
+        /// Get date list
+        /// </summary>
+        /// <param name="worksheet"></param>
+        /// <returns></returns>
+        private Dictionary<int, string?> GetDateList(ExcelWorksheet worksheet)
+        {
+            Dictionary<int, string?> dateList = new Dictionary<int, string?>();
+            int colCount = worksheet.Dimension.End.Column;
+
+            for (int col = 2; col <= colCount; col++)
+            {
+                string? currentCellValue = worksheet.Cells[rowDate, col].Value?.ToString()?.Trim();
+                if (!string.IsNullOrEmpty(currentCellValue))
+                {
+                    dateList.Add(col, currentCellValue);
+                }
+            }
+
+            return dateList;
+        }
+
+
+        private List<string?> GetDateList_OLD(ExcelWorksheet worksheet) 
         {
             List<string?> dateList = new List<string?>();
             int colCount = worksheet.Dimension.End.Column;
@@ -229,7 +412,6 @@ namespace InterfazRiesgosSimefin_API.Repository
                                 portafolio.FechaModificacion = DateTime.Now;
                                 portafolio.No_Envio += 1;
                                 portafolio.listaDatos = item.listaDatos;
-                                portafolio.ListaFechas = item.ListaFechas;
                                 _db.Entry(portafolio).State = EntityState.Modified;
                             }
                             else
