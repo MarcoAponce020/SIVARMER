@@ -4,7 +4,6 @@ using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using System.Net;
 
 namespace InterfazRiesgosSimefin_API.Controllers
@@ -38,15 +37,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
                 _logger.LogInformation("Obtener los Portafolios");
                 IEnumerable<Portafolio> portafolioList = await _portafolioRepo.ObtenerTodos();
 
-                List<PortafolioDto> temp = new List<PortafolioDto>();
-                portafolioList.ToList().ForEach(portafolio => {
-                    var datos = _mapper.Map<PortafolioDto>(portafolio);
-                    datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
-                    temp.Add(datos);
-                });
-                _response.Resultado = temp;
-
-                //_response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
+                _response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
                 _response.statusCode = HttpStatusCode.OK;
                 return Ok(_response);
             }
@@ -64,7 +55,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public async Task<ActionResult<APIResponse>> GetPortafolio(int idPortafolio)
         {
             try
@@ -86,10 +76,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     return NotFound(_response);
                 }
 
-                var datos = _mapper.Map<PortafolioDto>(portafolio); 
-                datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
-
-                _response.Resultado = datos;
+                _response.Resultado = _mapper.Map<PortafolioDto>(portafolio); ;
                 _response.statusCode = HttpStatusCode.OK;
                 return Ok(_response);
 
@@ -109,7 +96,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public async Task<ActionResult<APIResponse>> GetPortafolioFecha(string fechaPosicion)
         {
 
@@ -143,15 +129,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     return NotFound(_response);
                 }
 
-                List<PortafolioDto> temp = new List<PortafolioDto>();
-                portafolioList.ToList().ForEach(portafolio => {
-                    var datos = _mapper.Map<PortafolioDto>(portafolio);
-                    datos.listaDatos = JsonConvert.DeserializeObject(portafolio.listaDatos);
-                    temp.Add(datos);
-                });
-                _response.Resultado = temp;
-
-                //_response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
+                _response.Resultado = _mapper.Map<IEnumerable<PortafolioDto>>(portafolioList);
                 _response.statusCode = HttpStatusCode.OK;
 
                 return Ok(_response);   

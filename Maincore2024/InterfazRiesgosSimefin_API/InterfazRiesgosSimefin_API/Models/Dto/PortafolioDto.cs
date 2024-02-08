@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterfazRiesgosSimefin_API.Models.Dto
 {
@@ -13,9 +12,10 @@ namespace InterfazRiesgosSimefin_API.Models.Dto
         [Required]
         [MaxLength(30)]
         public string? NombrePortafolio { get; set; }
+
         public string? SubPortafolio { get; set; }
 
-        //public dynamic? listaDatos { get; set; }
+        public dynamic? listaDatos { get; set; }
 
         public int No_Envio { get; set; }
         public DateTime FechaCreacion { get; set; }
@@ -25,14 +25,12 @@ namespace InterfazRiesgosSimefin_API.Models.Dto
         [Required]
         public int SubPortafolioId { get; set; }
 
-        public dynamic? listaDatos { get; set; }
-
     }
 
-    public class Datos
+    public class ListaDatosDto
     {
         public string? Fecha { get; set; }
-        public string? valor { get; set; }
+        public decimal? Valor { get; set; }
     }
 
 }

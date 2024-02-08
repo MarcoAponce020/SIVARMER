@@ -1,5 +1,4 @@
-﻿using InterfazRiesgosSimefin_API.Models.Dto;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterfazRiesgosSimefin_API.Models

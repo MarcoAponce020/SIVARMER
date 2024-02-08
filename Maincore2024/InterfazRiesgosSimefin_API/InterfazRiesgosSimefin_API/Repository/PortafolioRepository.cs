@@ -1,12 +1,9 @@
-﻿using AutoMapper.Execution;
-using InterfazRiesgosSimefin_API.DAO;
+﻿using InterfazRiesgosSimefin_API.DAO;
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Text.Json;
 
 namespace InterfazRiesgosSimefin_API.Repository
