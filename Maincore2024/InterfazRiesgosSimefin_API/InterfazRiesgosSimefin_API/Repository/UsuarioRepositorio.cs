@@ -2,13 +2,9 @@
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
-using Microsoft.AspNetCore.Authorization.Infrastructure;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json.Linq;
 using System.IdentityModel.Tokens.Jwt;
-using System.Net;
 using System.Security.Claims;
 using System.Text;
 
@@ -18,12 +14,18 @@ namespace InterfazRiesgosSimefin_API.Repository
     {
         private readonly ApplicationDbContext _db;
         private string secretKey;
+        private readonly int accessToken = 0;
+        private readonly int refreshToken = 0;
+
         public UsuarioRepository(ApplicationDbContext db,IConfiguration configuration)
         {
             _db = db;
             secretKey = configuration.GetValue<string>("ApiSettings:Secret");
+            accessToken = int.Parse(configuration.GetValue<string>("ApiSettings:AccessToken"));
+            refreshToken = int.Parse(configuration.GetValue<string>("ApiSettings:RefreshToken"));
 
         }
+
         public bool IsUsuarioUnico(string userName)
         {
            var usuario = _db.Usuarios.FirstOrDefault(u => u.UserName.ToLower() == userName.ToLower());
@@ -34,10 +36,10 @@ namespace InterfazRiesgosSimefin_API.Repository
             return false;
         }
 
-        public async Task<TokenDTO> Login(LoginRequestDTO loginRequestDTO)
+        public async Task<TokenDTO> Login(LoginRequestDTO userDTO)
         {
-            var usuario = await _db.Usuarios.FirstOrDefaultAsync(u => u.UserName.ToLower() == loginRequestDTO.Username.ToLower() &&
-                                                                  u.Password == loginRequestDTO.Password);
+            var usuario = await _db.Usuarios.FirstOrDefaultAsync(u => u.UserName.Trim().ToLower() == userDTO.Username.Trim().ToLower() &&
+                                                                      u.Password.Trim() == userDTO.Password.Trim());
          
             if (usuario == null )
             {
@@ -49,8 +51,9 @@ namespace InterfazRiesgosSimefin_API.Repository
                     //Usuario = null
                 };
             }
+
             var tokenId = $"JTI{Guid.NewGuid()}";
-            var accessToken = await GetAccessToken(usuario,tokenId);
+            var accessToken = await GetAccessToken(usuario, tokenId);
             var refreshToken = await CreateNewRefreshToken(usuario.Id.ToString(), tokenId);
             TokenDTO tokenDTO = new()
             {
@@ -96,7 +99,7 @@ namespace InterfazRiesgosSimefin_API.Repository
                    new Claim(JwtRegisteredClaimNames.Sub, usuario.Id.ToString())
 
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(1),//Tiempo que expira el Token
+                Expires = DateTime.UtcNow.AddMinutes(this.accessToken),//Tiempo que expira el Token
                 SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
@@ -172,13 +175,15 @@ namespace InterfazRiesgosSimefin_API.Repository
                 isValid = true,
                 idUsuario = idUsuario,
                 tokenId = tokenId,
-                TiempoExpiracion = DateTime.UtcNow.AddMinutes(1),//Tiempo que expira el token
+                TiempoExpiracion = DateTime.UtcNow.AddMinutes(this.refreshToken),//Tiempo que expira el token
                 refreshToken = Guid.NewGuid() + "-" + Guid.NewGuid()
             };
             await _db.refreshTokens.AddAsync(refreshToken);
             await _db.SaveChangesAsync();
             return refreshToken.refreshToken;
         }
+
+
         private (bool isExitoso, string idUsuario, string tokenId) GetAccessTokenData (string accessToken)
         {
             try
@@ -196,5 +201,6 @@ namespace InterfazRiesgosSimefin_API.Repository
             }
 
         }
+
     }
 }

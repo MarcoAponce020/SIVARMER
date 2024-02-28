@@ -8,6 +8,8 @@ using System.Net;
 
 namespace InterfazRiesgosSimefin_API.Controllers
 {
+
+    [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
     [Route("api/[controller]")]
     [ApiController]
     public class PortafoliosController : ControllerBase
@@ -28,8 +30,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
         
         /*Metodo para obtener los portafolios*/
         [HttpGet]
-        [Authorize(Roles ="admin" , AuthenticationSchemes ="Bearer")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetPortafolios()
         {
             try
@@ -51,10 +51,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
 
         /*retorna un solo objeto*/
         [HttpGet("{idPortafolio:int}", Name = "GetPortafolio")]
-        [Authorize(Roles = "admin" , AuthenticationSchemes = "Bearer")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<APIResponse>> GetPortafolio(int idPortafolio)
         {
             try
@@ -91,11 +87,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
 
 
         [HttpGet("fechaPosicion:string", Name = "GetPortafolioFecha")] //retorna un solo objeto por fecha
-        [Authorize(Roles ="admin,developer" , AuthenticationSchemes = "Bearer")]
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<APIResponse>> GetPortafolioFecha(string fechaPosicion)
         {
 
@@ -147,11 +138,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
 
         /*Crear un portafolio*/
         [HttpPost]
-        [Authorize(Roles = "admin" , AuthenticationSchemes = "Bearer")]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<ActionResult<APIResponse>> CrearPortafolio([FromForm] PortafolioCreateDto createDto)
         {
             try
@@ -188,10 +174,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
 
         /*Eliminar un portafolio*/
         [HttpDelete("{idPortafolio:int}")]
-        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeletePortafolio(int idPortafolio)
         {
             try
@@ -224,9 +206,6 @@ namespace InterfazRiesgosSimefin_API.Controllers
         }
 
         [HttpPut("{idPortafolio:int}")]
-        [Authorize(Roles = "admin" , AuthenticationSchemes = "Bearer")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> UpdatePortafolio(int idPortafolio, [FromBody] PortafolioUpdateDto updateDto)
         {
  

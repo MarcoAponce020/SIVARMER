@@ -1,10 +1,9 @@
 ﻿using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using System.Security.Claims;
 
 namespace InterfazRiesgosSimefin_API.Controllers
 {

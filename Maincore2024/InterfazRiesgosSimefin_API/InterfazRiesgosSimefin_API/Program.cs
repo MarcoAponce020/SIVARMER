@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Net;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(options => { 
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -89,6 +91,28 @@ if (app.Environment.IsProduction())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+// Middleware de manejo de código de estado 401
+app.UseStatusCodePages(async context =>
+{
+    if (context.HttpContext.Response.StatusCode == (int)HttpStatusCode.Unauthorized)
+    {
+        context.HttpContext.Response.Headers["Content-Type"] = "application/json";
+        context.HttpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+
+        await context.HttpContext.Response.WriteAsync(System.Text.Json.JsonSerializer.Serialize(
+            new
+            {
+                IsExitoso = false,
+                statusCode = 401,
+                Mensaje = "Se ha denegado la autorización para esta solicitud.."
+            }
+        ));
+
+    }
+});
+
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
