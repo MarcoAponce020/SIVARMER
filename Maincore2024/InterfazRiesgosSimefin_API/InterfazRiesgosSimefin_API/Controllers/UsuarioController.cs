@@ -1,9 +1,11 @@
-﻿using InterfazRiesgosSimefin_API.Models;
+﻿using InterfazRiesgosSimefin_API.DAO;
+using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using System.Runtime.CompilerServices;
 
 namespace InterfazRiesgosSimefin_API.Controllers
 {
@@ -12,10 +14,12 @@ namespace InterfazRiesgosSimefin_API.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepository _usuarioRepo;
+        private readonly ApplicationDbContext _db;
         private APIResponse _response;
-        public UsuarioController(IUsuarioRepository usuarioRepo)
+        public UsuarioController(IUsuarioRepository usuarioRepo, ApplicationDbContext db)
         {
             _usuarioRepo = usuarioRepo;
+            _db = db;
             _response = new();
         }
 
@@ -24,6 +28,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO modelo)
         {
             var tokenDTO = await _usuarioRepo.Login(modelo);
+
             if (tokenDTO == null || string.IsNullOrEmpty(tokenDTO.AccessToken))
             {
                 _response.statusCode = HttpStatusCode.BadRequest;
@@ -80,7 +85,16 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     _response.ErrorMessages.Add("Token Inválido");
                     return BadRequest(_response);
                 }
-                 _response.statusCode = HttpStatusCode.OK;
+
+                var existeRefreshToken = _db.refreshTokens.FirstOrDefault(u => u.refreshToken == tokenDTO.RefreshToken);
+                if (existeRefreshToken.TiempoExpiracion > DateTime.UtcNow)
+                {
+                    _response.statusCode = HttpStatusCode.BadRequest;
+                    _response.IsExitoso = false;
+                    _response.ErrorMessages.Add("El Token aún No ha expirado");
+                    return BadRequest(_response);
+                }
+                _response.statusCode = HttpStatusCode.OK;
                 _response.IsExitoso = true;
                 _response.Resultado = tokenDTOResponse;
 

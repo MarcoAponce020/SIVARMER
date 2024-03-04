@@ -3730,19 +3730,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nelson\\.nuget\\packages\\": {}
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+      "projectUniqueName": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
       "projectName": "InterfazRiesgosSimefin_API",
-      "projectPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
-      "packagesPath": "C:\\Users\\Nelson\\.nuget\\packages\\",
-      "outputPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\obj\\",
+      "projectPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+      "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nelson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vcarrilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3762,6 +3767,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3842,24 +3852,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3868,8 +3860,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

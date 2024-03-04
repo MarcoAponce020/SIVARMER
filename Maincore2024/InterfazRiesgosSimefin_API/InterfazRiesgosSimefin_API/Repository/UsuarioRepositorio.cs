@@ -2,8 +2,10 @@
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -17,7 +19,7 @@ namespace InterfazRiesgosSimefin_API.Repository
         private readonly int accessToken = 0;
         private readonly int refreshToken = 0;
 
-        public UsuarioRepository(ApplicationDbContext db,IConfiguration configuration)
+        public UsuarioRepository(ApplicationDbContext db, IConfiguration configuration)
         {
             _db = db;
             secretKey = configuration.GetValue<string>("ApiSettings:Secret");
@@ -28,7 +30,7 @@ namespace InterfazRiesgosSimefin_API.Repository
 
         public bool IsUsuarioUnico(string userName)
         {
-           var usuario = _db.Usuarios.FirstOrDefault(u => u.UserName.ToLower() == userName.ToLower());
+            var usuario = _db.Usuarios.FirstOrDefault(u => u.UserName.ToLower() == userName.ToLower());
             if (usuario == null)
             {
                 return false;
@@ -40,8 +42,8 @@ namespace InterfazRiesgosSimefin_API.Repository
         {
             var usuario = await _db.Usuarios.FirstOrDefaultAsync(u => u.UserName.Trim().ToLower() == userDTO.Username.Trim().ToLower() &&
                                                                       u.Password.Trim() == userDTO.Password.Trim());
-         
-            if (usuario == null )
+
+            if (usuario == null)
             {
                 return new TokenDTO()
                 {
@@ -59,7 +61,7 @@ namespace InterfazRiesgosSimefin_API.Repository
             {
                 AccessToken = accessToken, //Obtiene el token creado
                 RefreshToken = refreshToken
-               // Usuario = usuario,
+                // Usuario = usuario,
             };
             return tokenDTO;
         }
@@ -82,12 +84,13 @@ namespace InterfazRiesgosSimefin_API.Repository
 
 
 
-        private  async Task<string> GetAccessToken(Usuario usuario, string tokenId)
+        private async Task<string> GetAccessToken(Usuario usuario, string tokenId)
         {
             //Si Usuario Existe Generamos el JW Token
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(secretKey);
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]
@@ -111,14 +114,17 @@ namespace InterfazRiesgosSimefin_API.Repository
         public async Task<TokenDTO> RefreshAccessToken(TokenDTO tokenDTO)
         {
             //Encontrar un refresh token existente
-            var existeRefreshToken = await _db.refreshTokens.FirstOrDefaultAsync(u => u.refreshToken == tokenDTO.RefreshToken);
+            var existeRefreshToken = await _db.refreshTokens.FirstOrDefaultAsync(u => u.refreshToken == tokenDTO.RefreshToken && u.isValid == true);
             if (existeRefreshToken == null)
             {
                 return new TokenDTO();
             }
+
+
             //Se comparan los datos del token de acceso y actualización existente proporcionada y, si no coinciden entonces se considera como corrupto el token
             var accessTokenData = GetAccessTokenData(tokenDTO.AccessToken);
-            if (!accessTokenData.isExitoso|| accessTokenData.idUsuario != existeRefreshToken.idUsuario || accessTokenData.tokenId !=existeRefreshToken.tokenId)
+            if (!accessTokenData.isExitoso || accessTokenData.idUsuario != existeRefreshToken.idUsuario
+                || accessTokenData.tokenId != existeRefreshToken.tokenId)
             {
                 existeRefreshToken.isValid = false;
                 _db.SaveChanges();
@@ -130,35 +136,50 @@ namespace InterfazRiesgosSimefin_API.Repository
             {
                 var chainRecords = _db.refreshTokens.Where(u => u.idUsuario == existeRefreshToken.idUsuario
                 && u.tokenId == existeRefreshToken.tokenId);
-                foreach (var item in chainRecords)
+
+                var count = chainRecords.Count(x => int.Parse(x.idUsuario) == 1);
+
+                bool isValid = false;
+                if (count < 6)
                 {
-                    item.isValid = false;
+                    isValid = true;
+
                 }
-                _db.UpdateRange(chainRecords);
-                _db.SaveChanges();
+                else
+                {
+                    foreach (var item in chainRecords)
+                    {
+                        item.isValid = false;
+                    }
+                    _db.UpdateRange(chainRecords);
+                    _db.SaveChanges();
+                }
+
+
                 return tokenDTO;
             }
+
+
             //si acaba de expirar, se marca como no válido y regresa vacío
             if (existeRefreshToken.TiempoExpiracion < DateTime.UtcNow)
             {
                 existeRefreshToken.isValid = false;
                 _db.SaveChanges();
-                return new TokenDTO();  
+                return new TokenDTO();
             }
             //Remplaza el token viejo por uno nuevo y actualiza la fecha de expiracion
             var newRefreshToken = await CreateNewRefreshToken(existeRefreshToken.idUsuario, existeRefreshToken.tokenId);
+
             existeRefreshToken.isValid = false;
             _db.SaveChanges();
 
-          
-            var usuarioAplicacion =  _db.Usuarios.FirstOrDefault(u => u.Id.ToString() == existeRefreshToken.idUsuario);
+
+            var usuarioAplicacion = _db.Usuarios.FirstOrDefault(u => u.Id.ToString() == existeRefreshToken.idUsuario);
             if (usuarioAplicacion == null)
-            {
                 return new TokenDTO();
-            }
 
             //Generar un nuevo access token 
-            var newAccessToken = await GetAccessToken(usuarioAplicacion,existeRefreshToken.tokenId);
+            var newAccessToken = await GetAccessToken(usuarioAplicacion, existeRefreshToken.tokenId);
 
             return new TokenDTO()
             {
@@ -176,7 +197,7 @@ namespace InterfazRiesgosSimefin_API.Repository
                 idUsuario = idUsuario,
                 tokenId = tokenId,
                 TiempoExpiracion = DateTime.UtcNow.AddMinutes(this.refreshToken),//Tiempo que expira el token
-                refreshToken = Guid.NewGuid() + "-" + Guid.NewGuid()
+                refreshToken = Guid.NewGuid().ToString()
             };
             await _db.refreshTokens.AddAsync(refreshToken);
             await _db.SaveChangesAsync();
@@ -184,7 +205,7 @@ namespace InterfazRiesgosSimefin_API.Repository
         }
 
 
-        private (bool isExitoso, string idUsuario, string tokenId) GetAccessTokenData (string accessToken)
+        private (bool isExitoso, string idUsuario, string tokenId) GetAccessTokenData(string accessToken)
         {
             try
             {
@@ -194,13 +215,15 @@ namespace InterfazRiesgosSimefin_API.Repository
                 var idUsuario = jwt.Claims.FirstOrDefault(u => u.Type == JwtRegisteredClaimNames.Sub).Value;
                 return (true, idUsuario, tokenId);
             }
-            catch 
+            catch
             {
 
-                return (false, null,null);
+                return (false, null, null);
             }
 
         }
+
+
 
     }
 }
