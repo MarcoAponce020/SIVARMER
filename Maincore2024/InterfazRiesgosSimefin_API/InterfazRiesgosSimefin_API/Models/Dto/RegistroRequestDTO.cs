@@ -1,13 +1,20 @@
-﻿namespace InterfazRiesgosSimefin_API.Models.Dto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace InterfazRiesgosSimefin_API.Models.Dto
 {
     public class RegistroRequestDTO
     {
-        public string UserName { get; set; }
 
-        public string Nombre { get; set; }
+        [Required]
+        public string UserName { get; set; } = string.Empty;
 
-        public string Password { get; set; }
+        [Required]
+        public string Nombre { get; set; } = string.Empty;
 
-        public string Rol { get; set; }
+        [Required]
+        public string Password { get; set; } = string.Empty;
+
+        [Required]
+        public string Rol { get; set; } = string.Empty;
     }
 }

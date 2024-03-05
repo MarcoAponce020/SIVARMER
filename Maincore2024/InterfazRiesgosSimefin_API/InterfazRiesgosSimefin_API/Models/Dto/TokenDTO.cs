@@ -1,17 +1,15 @@
-﻿using System.Net;
-using System.Security.Claims;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace InterfazRiesgosSimefin_API.Models.Dto
 {
     public class TokenDTO
     {
- 
-     //   public Usuario Usuario { get; set; } 
-        public string AccessToken { get; set; }
-        public string RefreshToken { get; set; }
 
+        [Required]
+        public string AccessToken { get; set; } = string.Empty;
 
-
+        [Required]
+        public string RefreshToken { get; set; } = string.Empty;
 
     }
 

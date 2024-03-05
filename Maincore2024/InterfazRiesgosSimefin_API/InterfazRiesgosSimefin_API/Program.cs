@@ -3,6 +3,7 @@ using InterfazRiesgosSimefin_API.DAO;
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Repository;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
+using InterfazRiesgosSimefin_API.Repository.User;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -61,8 +62,10 @@ builder.Services.AddAuthentication(x =>
         {
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
-            ValidateIssuer = false,
-            ValidateAudience = false
+            ValidateIssuer = false, //No interesa validar quién solicita, por usar credenciales
+            ValidateAudience = false, //No se necesita saber de donde está solicitando el usuario
+            ValidateLifetime = true, //Tiempo de vida del token
+            ClockSkew = TimeSpan.Zero //No debe existir expiración del tiempo de vida del token
         };
     });
 
@@ -76,6 +79,7 @@ builder.Services.AddIdentity<UsuarioAplicacion, IdentityRole>()
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddScoped<IPortafolioRepository, PortafolioRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
 
 var app = builder.Build();
 

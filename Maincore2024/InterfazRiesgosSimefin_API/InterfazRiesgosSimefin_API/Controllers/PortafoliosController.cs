@@ -72,7 +72,7 @@ namespace InterfazRiesgosSimefin_API.Controllers
                     return NotFound(_response);
                 }
 
-                _response.Resultado = _mapper.Map<PortafolioDto>(portafolio); ;
+                _response.Resultado = _mapper.Map<PortafolioDto>(portafolio);
                 _response.statusCode = HttpStatusCode.OK;
                 return Ok(_response);
 

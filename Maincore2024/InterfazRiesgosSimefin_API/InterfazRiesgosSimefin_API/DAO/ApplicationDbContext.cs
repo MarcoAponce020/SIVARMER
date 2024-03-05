@@ -1,6 +1,7 @@
 ﻿using InterfazRiesgosSimefin_API.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterfazRiesgosSimefin_API.DAO
 
@@ -20,7 +21,15 @@ namespace InterfazRiesgosSimefin_API.DAO
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            modelBuilder.Entity<RefreshToken>(entity =>
+            {
+                entity.Property(e => e.isValid).HasComputedColumnSql("(case when [TiempoExpiracion]<getutcdate() then CONVERT([bit],(0)) else CONVERT([bit],(1)) end)", false);
+            });
+
             base.OnModelCreating(modelBuilder);
         }
+
+
     }
 }

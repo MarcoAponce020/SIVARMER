@@ -16,15 +16,15 @@ namespace InterfazRiesgosSimefin_API.Repository
     {
         private readonly ApplicationDbContext _db;
         private string secretKey;
-        private readonly int accessToken = 0;
-        private readonly int refreshToken = 0;
+        private readonly int accessTokenTime = 0;
+        private readonly int refreshTokenTime = 0;
 
         public UsuarioRepository(ApplicationDbContext db, IConfiguration configuration)
         {
             _db = db;
             secretKey = configuration.GetValue<string>("ApiSettings:Secret");
-            accessToken = int.Parse(configuration.GetValue<string>("ApiSettings:AccessToken"));
-            refreshToken = int.Parse(configuration.GetValue<string>("ApiSettings:RefreshToken"));
+            accessTokenTime = int.Parse(configuration.GetValue<string>("ApiSettings:AccessTokenTime"));
+            refreshTokenTime = int.Parse(configuration.GetValue<string>("ApiSettings:RefreshTokenTime"));
 
         }
 
@@ -102,7 +102,7 @@ namespace InterfazRiesgosSimefin_API.Repository
                    new Claim(JwtRegisteredClaimNames.Sub, usuario.Id.ToString())
 
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(this.accessToken),//Tiempo que expira el Token
+                Expires = DateTime.UtcNow.AddMinutes(this.accessTokenTime),//Tiempo que expira el Token
                 SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
@@ -196,7 +196,7 @@ namespace InterfazRiesgosSimefin_API.Repository
                 isValid = true,
                 idUsuario = idUsuario,
                 tokenId = tokenId,
-                TiempoExpiracion = DateTime.UtcNow.AddMinutes(this.refreshToken),//Tiempo que expira el token
+                TiempoExpiracion = DateTime.UtcNow.AddMinutes(this.refreshTokenTime),//Tiempo que expira el token
                 refreshToken = Guid.NewGuid().ToString()
             };
             await _db.refreshTokens.AddAsync(refreshToken);
