@@ -10,7 +10,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace InterfazRiesgosSimefin_API.Repository.User
+namespace InterfazRiesgosSimefin_API.Services.Authorization
 {
 
     public class AuthorizationService : IAuthorizationService
@@ -57,25 +57,26 @@ namespace InterfazRiesgosSimefin_API.Repository.User
                     };
                 }
 
-                string tokenCreated = this.GenerateAccessToken(user);
-                string refreshTokenCreated = this.GenerateRefreshToken();
+                string tokenCreated = GenerateAccessToken(user);
+                string refreshTokenCreated = GenerateRefreshToken();
 
-                response = await this.SaveRefreshToken(user.Id, tokenCreated, refreshTokenCreated);
+                response = await SaveRefreshToken(user.Id, tokenCreated, refreshTokenCreated);
 
                 var userData = _mapper.Map<UserDTO>(user);
                 var tokenData = (TokenDTO)response.Resultado;
 
-                response.Resultado = new { 
-                    userName = userData.UserName, 
-                    nombre = userData.Nombre, 
-                    accessToken = tokenData.AccessToken, 
-                    refreshToken = tokenData.RefreshToken 
+                response.Resultado = new
+                {
+                    userName = userData.UserName,
+                    nombre = userData.Nombre,
+                    accessToken = tokenData.AccessToken,
+                    refreshToken = tokenData.RefreshToken
                 };
             }
             catch (Exception ex)
             {
                 response.IsExitoso = false;
-                response.Mensaje = this.GetExceptionMessage(ex);
+                response.Mensaje = GetExceptionMessage(ex);
                 response.statusCode = HttpStatusCode.BadRequest;
             }
 
@@ -112,22 +113,22 @@ namespace InterfazRiesgosSimefin_API.Repository.User
                     return response;
                 }
 
-                var refreshTokenCreated = this.GenerateRefreshToken();
+                var refreshTokenCreated = GenerateRefreshToken();
 
                 var user = await _dbCtx.Usuarios.AsNoTracking().FirstOrDefaultAsync(u => u.Id == int.Parse(refreshTokenExpired.idUsuario));
-                var tokenCreated = this.GenerateAccessToken(user);
+                var tokenCreated = GenerateAccessToken(user);
 
                 //Actualizando el tiempo de expiración del token viejo
                 refreshTokenExpired.TiempoExpiracion = DateTime.MinValue;
                 _dbCtx.Entry(refreshTokenExpired).State = EntityState.Modified;
                 await _dbCtx.SaveChangesAsync();
 
-                response = await this.SaveRefreshToken(user.Id, tokenCreated, refreshTokenCreated);
+                response = await SaveRefreshToken(user.Id, tokenCreated, refreshTokenCreated);
             }
             catch (Exception ex)
             {
                 response.IsExitoso = false;
-                response.Mensaje = this.GetExceptionMessage(ex);
+                response.Mensaje = GetExceptionMessage(ex);
                 response.statusCode = HttpStatusCode.BadRequest;
             }
 
@@ -146,7 +147,7 @@ namespace InterfazRiesgosSimefin_API.Repository.User
 
             try
             {
-                bool isUsuarioUnico = this.IsUsuarioUnico(modelRequest.UserName);
+                bool isUsuarioUnico = IsUsuarioUnico(modelRequest.UserName);
 
                 if (isUsuarioUnico)
                 {
@@ -178,7 +179,7 @@ namespace InterfazRiesgosSimefin_API.Repository.User
             catch (Exception ex)
             {
                 response.IsExitoso = false;
-                response.Mensaje = this.GetExceptionMessage(ex);
+                response.Mensaje = GetExceptionMessage(ex);
                 response.statusCode = HttpStatusCode.BadRequest;
             }
             return response;

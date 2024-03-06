@@ -1,7 +1,7 @@
 ﻿using InterfazRiesgosSimefin_API.Models.Dto;
 using InterfazRiesgosSimefin_API.Models;
 
-namespace InterfazRiesgosSimefin_API.Repository.User
+namespace InterfazRiesgosSimefin_API.Services.Authorization
 {
 
     public interface IAuthorizationService
