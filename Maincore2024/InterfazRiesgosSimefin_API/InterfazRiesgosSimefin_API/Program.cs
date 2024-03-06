@@ -109,7 +109,23 @@ app.UseStatusCodePages(async context =>
             {
                 IsExitoso = false,
                 statusCode = 401,
-                Mensaje = "Se ha denegado la autorización para esta solicitud.."
+                Mensaje = "Se ha denegado la autorización para esta solicitud, , Favor de utilizar un Token Valido"
+            }
+        ));
+
+    }
+
+    if (context.HttpContext.Response.StatusCode == (int)HttpStatusCode.Forbidden)
+    {
+        context.HttpContext.Response.Headers["Content-Type"] = "application/json";
+        context.HttpContext.Response.StatusCode = (int)HttpStatusCode.Forbidden;
+
+        await context.HttpContext.Response.WriteAsync(System.Text.Json.JsonSerializer.Serialize(
+            new
+            {
+                IsExitoso = false,
+                statusCode = 403,
+                Mensaje = "No cuentas con los permisos suficientes para realizar esta solicitud"
             }
         ));
 

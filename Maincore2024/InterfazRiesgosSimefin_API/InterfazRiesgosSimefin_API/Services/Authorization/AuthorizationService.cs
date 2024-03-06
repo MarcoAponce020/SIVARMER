@@ -52,7 +52,7 @@ namespace InterfazRiesgosSimefin_API.Services.Authorization
                     return new APIResponse()
                     {
                         IsExitoso = false,
-                        Mensaje = "Usuario/Contraseña incorrectos.",
+                        Mensaje = "Usuario o Contraseña incorrectos.",
                         statusCode = HttpStatusCode.BadRequest
                     };
                 }

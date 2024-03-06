@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\maincore2024\\interfazriesgossimefin_api\\interfazriesgossimefin_api\\services\\authorization\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\services\\authorization\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\maincore2024\\interfazriesgossimefin_api\\interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\maincore2024\\interfazriesgossimefin_api\\interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\maincore2024\\interfazriesgossimefin_api\\interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\maincore2024\\interfazriesgossimefin_api\\interfazriesgossimefin_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 170,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAIMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T21:43:07.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-06T21:43:02.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortafoliosController.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T21:42:03.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Services\\Authorization\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Services\\Authorization\\AuthorizationService.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Services\\Authorization\\AuthorizationService.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Services\\Authorization\\AuthorizationService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T21:41:05.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\Maincore2024\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T21:41:05.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 40,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
