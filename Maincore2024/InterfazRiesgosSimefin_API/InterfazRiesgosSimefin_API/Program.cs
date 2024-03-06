@@ -3,7 +3,7 @@ using InterfazRiesgosSimefin_API.DAO;
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Repository;
 using InterfazRiesgosSimefin_API.Repository.IRepository;
-using InterfazRiesgosSimefin_API.Repository.User;
+using InterfazRiesgosSimefin_API.Services.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -78,7 +78,6 @@ builder.Services.AddIdentity<UsuarioAplicacion, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddScoped<IPortafolioRepository, PortafolioRepository>();
-builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
 
 var app = builder.Build();

@@ -1,116 +1,101 @@
 ﻿using InterfazRiesgosSimefin_API.DAO;
 using InterfazRiesgosSimefin_API.Models;
 using InterfazRiesgosSimefin_API.Models.Dto;
-using InterfazRiesgosSimefin_API.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using System.Runtime.CompilerServices;
+using AuthorizationService = InterfazRiesgosSimefin_API.Services.Authorization;
 
 namespace InterfazRiesgosSimefin_API.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly IUsuarioRepository _usuarioRepo;
-        private readonly ApplicationDbContext _db;
-        private APIResponse _response;
-        public UsuarioController(IUsuarioRepository usuarioRepo, ApplicationDbContext db)
+
+        private readonly AuthorizationService.IAuthorizationService _authorizationService;
+        private readonly ApplicationDbContext _ctx;
+
+        public UsuarioController(ApplicationDbContext ctx, AuthorizationService.IAuthorizationService authorizationService)
         {
-            _usuarioRepo = usuarioRepo;
-            _db = db;
-            _response = new();
+            _ctx = ctx;
+            _authorizationService = authorizationService;
         }
 
-
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequestDTO modelo)
+        /// <summary>
+        /// Obtener AccessToken a partir de las credenciales de usuario
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDTO request)
         {
-            var tokenDTO = await _usuarioRepo.Login(modelo);
+            APIResponse response = new APIResponse();
 
-            if (tokenDTO == null || string.IsNullOrEmpty(tokenDTO.AccessToken))
+            if (!ModelState.IsValid)
             {
-                _response.statusCode = HttpStatusCode.BadRequest;
-                _response.IsExitoso = false;
-                _response.ErrorMessages.Add("Username o Password son Incorrectos");
-                return BadRequest(_response);
+                response.statusCode = HttpStatusCode.BadRequest;
+                response.IsExitoso = false;
+                response.ErrorMessages.Add("Username o Password son requeridos.");
+                return BadRequest(response);
             }
-            _response.IsExitoso = true;
-            _response.statusCode = HttpStatusCode.OK;
-            _response.Resultado = tokenDTO;
-            _response.Mensaje = "Credenciales correctas";
-            return Ok(_response);
+
+            response = await _authorizationService.Login(request);
+            return Ok(response);
         }
 
-        [HttpPost("registrar")]
-        public async Task<IActionResult> Registrar([FromBody] RegistroRequestDTO modelo)
+        /// <summary>
+        /// Generar nuevo AccessToken a partir de un RefreshToken
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("RefreshToken")]
+        public async Task<IActionResult> GenerateRefreshToken([FromBody] TokenDTO request)
         {
-            bool isUsuarioUnico = _usuarioRepo.IsUsuarioUnico(modelo.UserName);
+            APIResponse response = new APIResponse();
 
-            if (isUsuarioUnico)
+            if (!ModelState.IsValid)
             {
-                _response.statusCode = HttpStatusCode.BadRequest;
-                _response.IsExitoso = false;
-                _response.ErrorMessages.Add("El Usuario ya Existe");
-                return BadRequest(_response);
+                response.statusCode = HttpStatusCode.BadRequest;
+                response.IsExitoso = false;
+                response.ErrorMessages.Add("AccessToken o RefreshToken son requeridos.");
+                return BadRequest(response);
             }
-            var usuario = await _usuarioRepo.Registrar(modelo);
-            if (usuario == null)
-            {
-                _response.statusCode = HttpStatusCode.BadRequest;
-                _response.IsExitoso = false;
-                _response.ErrorMessages.Add("Error al registrar Usuario");
-                return BadRequest(_response);
-            }
-            _response.statusCode = HttpStatusCode.OK;
-            _response.IsExitoso = true;
 
-            return Ok(_response);
+            response = await _authorizationService.GenerateRefreshAccessToken(request);
+
+            return Ok(response);
         }
 
-
-        //Metodo que genera el token con un refresh token
-
-        [HttpPost("refresh")]
-        public async Task<IActionResult> GetNewTokenFromRefreshToken([FromBody] TokenDTO tokenDTO)
+        /// <summary>
+        /// Registrar nuevo usuario
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        //[Authorize]
+        [HttpPost]
+        [Route("Registrar")]
+        public async Task<IActionResult> Registrar([FromBody] RegistroRequestDTO request)
         {
-            if (ModelState.IsValid)
+            APIResponse response = new APIResponse();
+
+            if (!ModelState.IsValid)
             {
-                var tokenDTOResponse = await _usuarioRepo.RefreshAccessToken(tokenDTO);
-                if (tokenDTOResponse == null || string.IsNullOrEmpty(tokenDTOResponse.AccessToken))
-                {
-                    _response.statusCode = HttpStatusCode.BadRequest;
-                    _response.IsExitoso = false;
-                    _response.ErrorMessages.Add("Token Inválido");
-                    return BadRequest(_response);
-                }
-
-                var existeRefreshToken = _db.refreshTokens.FirstOrDefault(u => u.refreshToken == tokenDTO.RefreshToken);
-                if (existeRefreshToken.TiempoExpiracion > DateTime.UtcNow)
-                {
-                    _response.statusCode = HttpStatusCode.BadRequest;
-                    _response.IsExitoso = false;
-                    _response.ErrorMessages.Add("El Token aún No ha expirado");
-                    return BadRequest(_response);
-                }
-                _response.statusCode = HttpStatusCode.OK;
-                _response.IsExitoso = true;
-                _response.Resultado = tokenDTOResponse;
-
-                return Ok(_response);
-
-            }
-            else
-            {
-                _response.IsExitoso = false;
-                _response.Resultado = "Entrada No válida";
-                return BadRequest(_response);
-
-
+                response.IsExitoso = false;
+                response.ErrorMessages.Add("Todos los datos son requeridos.");
+                response.statusCode = HttpStatusCode.BadRequest;
+                return BadRequest(response);
             }
 
+            response = await _authorizationService.Register(request);
+
+            return Ok(response);
         }
+
 
     }
+
 }

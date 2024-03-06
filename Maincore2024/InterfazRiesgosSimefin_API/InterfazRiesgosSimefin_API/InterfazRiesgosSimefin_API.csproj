@@ -24,7 +24,9 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\AuthenticationController.cs" />
+    <Compile Remove="Controllers\Usuario_OLDController.cs" />
     <Compile Remove="DAO\PortafolioStore.cs" />
+    <Compile Remove="Repository\UsuarioRepositorio.cs" />
   </ItemGroup>
 
   <ItemGroup>
