@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2bGEXZqk0e1peR2TVcQ3U1L6Mxh3afIX+qxIVL5f3dsBUL7GT7wfekIYvTsHGIZ899jpq4xUSr4/9+SVu/1Sg==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.apidescription.client\\8.0.0\\microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
