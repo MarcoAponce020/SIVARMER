@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9DQd9nKlcDyEBYepWb1EWrFf4q8xE4xBZXEfxyHmTsfs/JmfM/tXNneB+PiOYOkdkkYkoBZl/Vx+IMvixUClIg==",
+  "dgSpecHash": "ZIQ3toRUwV3eFuSC/k0aRDi+NynSwucSvnOFViz19uyIC4vc80odhZZtrP/gsoT/zRxWDqTPA+Ksa+vQSxscUw==",
   "success": true,
-  "projectFilePath": "C:\\C#\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
+  "projectFilePath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.apidescription.client\\8.0.0\\microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

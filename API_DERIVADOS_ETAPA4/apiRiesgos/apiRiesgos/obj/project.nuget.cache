@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hUEwjLjCjJsBULfkCDi7RKbmpuyEbvUmc7bKO2Qy4kNa3X4mvSaGB3u9zHAinp/Ydj5sVU7kMSNSDeSmf0RH4A==",
+  "dgSpecHash": "yzShAZiv29ZTajpitO8jW7HcffS7Ftt1A5T5Ygm0dghQcIP3KwkzIZ8kBbsR1CIP88dja6AP38j40Yd+kKTsbg==",
   "success": true,
-  "projectFilePath": "C:\\C#\\API_DERIVADOS_ETAPA4\\apiRiesgos\\apiRiesgos\\apiRiesgos.csproj",
+  "projectFilePath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\apiRiesgos\\apiRiesgos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.apidescription.client\\8.0.0\\microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512",

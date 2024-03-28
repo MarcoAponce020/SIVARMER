@@ -55,3 +55,14 @@ C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
 C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
 C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
 C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\Users\vcarrilm\Documents\SST3\SIVARMER\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
