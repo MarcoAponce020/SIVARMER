@@ -820,19 +820,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nelson\\.nuget\\packages\\": {}
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
-      "packagesPath": "C:\\Users\\Nelson\\.nuget\\packages\\",
-      "outputPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\obj\\",
+      "projectPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAO.csproj",
+      "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nelson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vcarrilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -846,8 +851,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj": {
-              "projectPath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj"
+            "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj": {
+              "projectPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj"
             }
           }
         }
@@ -856,6 +861,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -888,26 +898,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
