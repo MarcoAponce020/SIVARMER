@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mZZr+EafYZPPwnpHmzi5FuiDWVUl6noKGW/4ScepBz66NYpV2HAs4TKEynjebIkVbuMFqZp0zG5uxVk8ic0Ctg==",
+  "success": true,
+  "projectFilePath": "D:\\Banobras\\Aplicativos\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nelson\\.nuget\\packages\\microsoft.extensions.apidescription.client\\8.0.0\\microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\Nelson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Nelson\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Nelson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
