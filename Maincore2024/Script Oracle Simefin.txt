@@ -1,0 +1,138 @@
+USE [PortafoliosPG]
+GO
+
+
+*************************************************************
+/****** Object:  Table Portafolios] ******/
+*************************************************************
+
+CREATE SEQUENCE Portafolio_Id_SEQ START WITH 1 INCREMENT BY 1 NoCache NoCycle; 
+
+CREATE TABLE Portafolios (
+	IdPortafolio NUMBER NOT NULL,
+	F_Posicion Varchar2(8) NOT NULL,
+	NombrePortafolio Varchar2(200) NOT NULL,
+	SubPortafolio Varchar2(200) NOT NULL,
+	--listaDatos Varchar2(4000) NOT NULL,
+	ListaDatos CLOB NOT NULL,
+	No_Envio Int NOT NULL,
+	FechaCreacion Date NOT NULL,
+	FechaModificacion Date  NOT NULL,
+	SubPortafolioId Int  NULL,
+ CONSTRAINT PK_Portafolio PRIMARY KEY (IdPortafolio),
+ CONSTRAINT FK_SubPortafolio FOREIGN KEY (SubPortafolioId) REFERENCES SubPortafolios(SubPortafolioId)
+);
+
+CREATE OR REPLACE TRIGGER Trg_Insert_Portafolio_Id
+BEFORE INSERT ON Portafolios
+FOR EACH ROW
+BEGIN
+  IF :NEW.IdPortafolio IS NULL THEN
+    SELECT Portafolio_Id_SEQ.NEXTVAL INTO :NEW.IdPortafolio FROM dual;
+  END IF;
+END;
+
+
+*************************************************************
+/****** Object:  Table SubPortafolios] ******/
+*************************************************************
+
+CREATE TABLE SubPortafolios (
+	SubPortafolioId Int NOT NULL,
+	Descripcion Varchar2(100) NULL,
+ CONSTRAINT PK_SubPortafolio PRIMARY KEY (SubPortafolioId)
+);
+
+
+*************************************************************
+/****** Object:  Table Usuarios] ******/
+*************************************************************
+
+CREATE SEQUENCE User_Id_SEQ START WITH 1 INCREMENT BY 1 NoCache NoCycle; 
+
+CREATE TABLE Usuarios (
+	Id NUMBER NOT NULL,
+	UserName Varchar2(200) NOT NULL,
+	Nombre NVARCHAR2(200) NOT NULL,
+	Password NVARCHAR2(50) NOT NULL,
+	Rol Varchar2(200) NOT NULL,
+ CONSTRAINT PK_Usuarios PRIMARY KEY (Id)
+);
+
+CREATE OR REPLACE TRIGGER Trg_Insert_User_Id
+BEFORE INSERT ON Usuarios
+FOR EACH ROW
+BEGIN
+  IF :NEW.id IS NULL THEN
+    SELECT User_Id_SEQ.NEXTVAL INTO :NEW.id FROM dual;
+  END IF;
+END;
+
+
+*************************************************************
+/****** Object:  Table refreshTokens] ******/
+*************************************************************
+
+CREATE SEQUENCE Token_Id_SEQ START WITH 1 INCREMENT BY 1 NoCache NoCycle; 
+
+CREATE OR REPLACE FUNCTION IsActive_Token_From_To(p_expiration_date IN DATE)
+    RETURN number
+    DETERMINISTIC
+IS
+BEGIN
+    RETURN (CASE WHEN p_expiration_date > SYS_EXTRACT_UTC(CURRENT_TIMESTAMP) THEN 1 ELSE 0 END);
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE VALUE_ERROR;
+END;
+
+CREATE TABLE Tokens (
+    TokenId NUMBER NOT NULL,
+    UsuarioId NUMBER NOT NULL,
+    AccessToken VARCHAR2(2000),
+    RefreshToken VARCHAR2(500),
+    ExpirationDate TIMESTAMP NOT NULL,
+    --IsValid NUMBER GENERATED ALWAYS AS (CASE WHEN ExpirationDate > SYSDATE THEN 1 ELSE 0 END) VIRTUAL CHECK (IsValid IN (0, 1)),
+    IsValid GENERATED ALWAYS AS (IsActive_Token_From_To(ExpirationDate)) VIRTUAL,
+    CONSTRAINT PK_Tokens PRIMARY KEY (TokenId)
+);
+
+CREATE OR REPLACE TRIGGER Trg_Insert_Token_Id
+BEFORE INSERT ON Tokens
+FOR EACH ROW
+BEGIN
+  IF :NEW.TokenId IS NULL THEN
+    SELECT Token_Id_SEQ.NEXTVAL INTO :NEW.TokenId FROM dual;
+  END IF;
+END;
+
+
+*************************************************************
+
+INSERT INTO Usuarios(UserName, Nombre, Password, Rol) VALUES('vcarrilm', 'Vianey Carrillo Manuel', 'Banobras05072021', 'admin');
+INSERT INTO Usuarios(UserName, Nombre, Password, Rol) VALUES('portafoliosPG', 'Developer', 'tester', 'developer');
+INSERT INTO Usuarios(UserName, Nombre, Password, Rol) VALUES('ngarevalo', 'Nelson Garcia Arevalo', 'ngarevalo', 'developer');
+
+Commit;
+
+
+*************************************************************
+
+
+INSERT INTO PortafoliosF_Posicion, NombrePortafolio, SubPortafolio, listaDatos, No_Envio, FechaCreacion, FechaModificacion, SubPortafolioId)
+VALUES(to_date('20230831','yyyyMMdd'), 'TOTAL', 'DERIVADOS DE NEGOCIACION', '[{"Fecha":"20230831","Valor":"3,208,895.82"},{"Fecha":"20230830","Valor":"1,065,128.33"},{"Fecha":"20230829","Valor":"3,333,119.33"},{"Fecha":"20230828","Valor":"1,271,467.64"},{"Fecha":"20230825","Valor":"-2,253,597.00"},{"Fecha":"20230824","Valor":"3,680,837.15"},{"Fecha":"20230823","Valor":"3,194,160.97"},{"Fecha":"20230822","Valor":"-3,213,507.59"},{"Fecha":"20230821","Valor":"-7,035,677.93"},{"Fecha":"20230818","Valor":"-1,796,213.52"},{"Fecha":"20230817","Valor":"-2,081,248.68"},{"Fecha":"20230816","Valor":"-957,956.10"},{"Fecha":"20230815","Valor":"3,017,229.14"},{"Fecha":"20230814","Valor":"1,735,790.33"},{"Fecha":"20230811","Valor":"1,870,007.18"},{"Fecha":"20230810","Valor":"-4,864,254.04"},{"Fecha":"20230809","Valor":"1,709,177.09"},{"Fecha":"20230808","Valor":"-1379573.721"},{"Fecha":"20230807","Valor":"618,943.16"},{"Fecha":"20230804","Valor":"674,613.69"},{"Fecha":"20230803","Valor":"642,546.84"},{"Fecha":"20230802","Valor":"2,405,490.68"},{"Fecha":"20230801","Valor":"-2,409,225.54"},{"Fecha":"20230731","Valor":"-3062867.774"},{"Fecha":"20230728","Valor":"-2,131,516.32"},{"Fecha":"20230727","Valor":"-3,195,898.87"},{"Fecha":"20230726","Valor":"-726,281.77"},{"Fecha":"20230725","Valor":"-2,072,357.63"},{"Fecha":"20230724","Valor":"-4,173,434.72"},{"Fecha":"20230721","Valor":"3,254,153.12"},{"Fecha":"20230720","Valor":"-4,314,685.93"},{"Fecha":"20230719","Valor":"-6,614,193.84"},{"Fecha":"20230718","Valor":"-1,768,532.82"},{"Fecha":"20230717","Valor":"-495,047.12"},{"Fecha":"20230714","Valor":"-1,615,270.37"},{"Fecha":"20230713","Valor":"-4,055,814.67"},{"Fecha":"20230712","Valor":"2,640,784.27"},{"Fecha":"20230711","Valor":"-5,770,575.55"},{"Fecha":"20230710","Valor":"-1,594,174.38"},{"Fecha":"20230707","Valor":"-5,656,120.43"},{"Fecha":"20230706","Valor":"-107,842.74"},{"Fecha":"20230705","Valor":"1,793,871.68"},{"Fecha":"20230704","Valor":"5,659,286.33"},{"Fecha":"20230703","Valor":"1,342,882.05"},{"Fecha":"20230630","Valor":"1,217,663.62"},{"Fecha":"20230629","Valor":"12,903,555.67"},{"Fecha":"20230628","Valor":"962,223.94"},{"Fecha":"20230627","Valor":"-1,014,047.17"}]', 2, to_date('2024-02-07','yyyy-MM-dd'), to_date('2024-03-01','yyyy-MM-dd'),1)
+
+Commit;
+
+
+*************************************************************
+
+
+INSERT INTO SubPortafolios VALUES(1, 'CONSOLIDADO');
+INSERT INTO SubPortafolios VALUES(2, 'DERIVADOS DE NEGOCIACION');
+INSERT INTO SubPortafolios VALUES(3, 'DERIVADOS ESTANDAR');
+INSERT INTO SubPortafolios VALUES(4, 'DERIVADOS ESTRUCTURALES');
+INSERT INTO SubPortafolios VALUES(5, 'Global');
+INSERT INTO SubPortafolios VALUES(6, 'IKOS CASH');
+
+Commit;
