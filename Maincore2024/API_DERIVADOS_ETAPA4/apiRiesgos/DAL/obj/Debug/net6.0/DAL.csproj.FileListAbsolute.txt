@@ -78,7 +78,7 @@ D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVAD
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
-D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.Up2Date
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
 D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb

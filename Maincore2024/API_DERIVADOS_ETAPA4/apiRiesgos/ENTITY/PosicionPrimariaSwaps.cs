@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ENTITY
+﻿namespace ENTITY
 {
     public class PosicionPrimariaSwaps
     {
@@ -38,16 +32,19 @@ namespace ENTITY
         public string Cal_Liq_Pasiva { get; set; }
         public string Px_Swap { get; set; }
         public string Colateral { get; set; }
-        //public string Ref_Pos_Cob { get; set; }
-        //public string Tipo_Pos_Cob { get; set; }
-        //public decimal Porc_Cob { get; set; }
         public int? D_Ante_Pasiva { get; set; }
-        //public string Op_St_Activa { get; set; }
-        //public string Op_St_Pasiva { get; set; }
         public decimal? St_Activa { get; set; }
         public decimal? St_Pasiva { get; set; }
-        //public string Moneda_Act { get; set; }
-        //public string Moneda_Pas { get; set; }
+
+
+
+        public string Moneda_Act { get; set; }
+        public string Moneda_Pas { get; set; }
+        public string Op_St_Activa { get; set; }
+        public string Op_St_Pasiva { get; set; }
+        public decimal Porc_Cob { get; set; }
+        public string Ref_Pos_Cob { get; set; }
+        public string Tipo_Pos_Cob { get; set; }
 
     }
 }

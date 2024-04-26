@@ -132,6 +132,7 @@ namespace apiRiesgos.Servicios
             try
             {
                 HttpClient client = Method_Headers(token, serviceUrl);
+                client.Timeout = TimeSpan.FromMinutes(5);
                 Uri myUri = new Uri(client.BaseAddress?.ToString() + "/" + reporte.ToString() + "/" + fecha.ToString());
                 //HttpResponseMessage tokenResponse = await client.GetAsync(Uri.EscapeUriString(client.BaseAddress?.ToString() + "/" + reporte.ToString() + "/" + fecha.ToString()));
                 HttpResponseMessage tokenResponse = await client.GetAsync(myUri.AbsoluteUri);
@@ -215,6 +216,7 @@ namespace apiRiesgos.Servicios
         {
             HttpClientHandler handler = new HttpClientHandler() { UseDefaultCredentials = false };
             HttpClient client = new HttpClient(handler);
+            handler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
 
             client.BaseAddress = new Uri(endpointURL);
             client.DefaultRequestHeaders.Accept.Clear();
