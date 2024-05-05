@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U1tneqJaMb1jbs8XSDmOOzFEDpAcos5ejXABjvgezvv95CJIGJ0QEHLU0oQnb2RwoSxTjo02x5Ot4N4a0yM/hQ==",
+  "dgSpecHash": "Yd3MvZ3Z+Gtige6FBtdHcmLYAj+tnQSAC5HKFcJapUnwH0oXIPI8cp0/cEJy/ZUHqeWF37ONDRuSNEc+DMXJMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\Maincore2024\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,10 @@
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
-    "C:\\Users\\vcarrilm\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
