@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WinSerAPIRiesgos||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|c:\\users\\vcarrilm\\desktop\\winserapiriesgos151020234\\winserapiriesgos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|solutionrelative:winserapiriesgos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\winserapiriesgos\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|solutionrelative:winserapiriesgos\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\winserapiriesgos\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|solutionrelative:winserapiriesgos\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|c:\\users\\vcarrilm\\desktop\\winserapiriesgos151020234\\winserapiriesgos\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99B55DBD-B57C-4AB0-8E46-E947A0B65989}|WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj|solutionrelative:winserapiriesgos\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 55,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WinSerAPIRiesgos",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj",
+              "RelativeDocumentMoniker": "WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj",
+              "ToolTip": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj",
+              "RelativeToolTip": "WinSerAPIRiesgos\\WinSerAPIRiesgos.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-23T17:19:07.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\App.config",
+              "RelativeDocumentMoniker": "WinSerAPIRiesgos\\App.config",
+              "ToolTip": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\App.config",
+              "RelativeToolTip": "WinSerAPIRiesgos\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-23T17:51:12.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectInstaller.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "WinSerAPIRiesgos\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\ProjectInstaller.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinSerAPIRiesgos\\ProjectInstaller.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:41:42.032Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Service1.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\Service1.cs",
+              "RelativeDocumentMoniker": "WinSerAPIRiesgos\\Service1.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\Service1.cs",
+              "RelativeToolTip": "WinSerAPIRiesgos\\Service1.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwC0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:40:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\Service1.cs",
+              "RelativeDocumentMoniker": "WinSerAPIRiesgos\\Service1.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Desktop\\WinSerAPIRiesgos151020234\\WinSerAPIRiesgos\\Service1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinSerAPIRiesgos\\Service1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:40:48.004Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 2,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
