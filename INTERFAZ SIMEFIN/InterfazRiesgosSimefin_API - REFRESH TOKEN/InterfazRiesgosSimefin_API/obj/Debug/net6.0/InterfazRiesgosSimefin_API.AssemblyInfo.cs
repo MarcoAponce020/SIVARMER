@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfazRiesgosSimefin_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f02d5043cfc004ea4d4cc78412a32fb7f725516")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfazRiesgosSimefin_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfazRiesgosSimefin_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

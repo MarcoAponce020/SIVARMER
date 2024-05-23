@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {}
+    "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {}
   },
   "projects": {
-    "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {
+    "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+        "projectUniqueName": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
         "projectName": "InterfazRiesgosSimefin_API",
-        "projectPath": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+        "projectPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
         "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\obj\\",
+        "outputPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -118,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

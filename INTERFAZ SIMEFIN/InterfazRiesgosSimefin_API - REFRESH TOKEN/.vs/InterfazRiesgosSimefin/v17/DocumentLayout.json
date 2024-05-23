@@ -1,0 +1,732 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\irepository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\usuarioaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\usuarioaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\dao\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\dao\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\dao\\portafoliostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\dao\\portafoliostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\security\\basicauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\security\\basicauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\portafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\portafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\portafoliocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\portafoliocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\registrorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\registrorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\portafolioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\portafolioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\portafoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\portafoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\irepository\\iportafoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\irepository\\iportafoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile1.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile1.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile2.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\properties\\publishprofiles\\folderprofile2.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Migrations\\20231207182243_CrearBDTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231128183141_creardatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231128183141_creardatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231128184230_a\u00F1adirportafolios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231128184230_a\u00F1adirportafolios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231130194634_usuariomigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231130194634_usuariomigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231128183757_a\u00F1adirportafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231128183757_a\u00F1adirportafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\dao\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\dao\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\dao\\portafoliostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\dao\\portafoliostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\models\\dto\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\models\\dto\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231207191940_createserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231207191940_createserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20231213230917_agregartablasidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20231213230917_agregartablasidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|c:\\users\\vcarrilm\\documents\\sst3\\sivarmer\\trunk\\c\u00F3digo\\interfaz simefin\\interfazriesgossimefin_api - refresh token\\interfazriesgossimefin_api\\migrations\\20240108183254_agregarrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC60F4C-6DE7-420D-A36F-57F5191A5D2B}|InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj|solutionrelative:interfazriesgossimefin_api\\migrations\\20240108183254_agregarrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 170,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240108183254_AgregarRefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20240108183254_AgregarRefreshToken.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20240108183254_AgregarRefreshToken.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20240108183254_AgregarRefreshToken.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20240108183254_AgregarRefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasicAuthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Security\\BasicAuthHandler.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Security\\BasicAuthHandler.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Security\\BasicAuthHandler.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Security\\BasicAuthHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20231213230917_AgregarTablasIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231213230917_AgregarTablasIdentity.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231213230917_AgregarTablasIdentity.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231213230917_AgregarTablasIdentity.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231213230917_AgregarTablasIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\UsuarioAplicacion.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\UsuarioAplicacion.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\UsuarioAplicacion.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\UsuarioAplicacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FolderProfile2.pubxml",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile2.pubxml",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile2.pubxml",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile2.pubxml",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile2.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FolderProfile1.pubxml",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20231207191940_CreateSERVER.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231207191940_CreateSERVER.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231207191940_CreateSERVER.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231207191940_CreateSERVER.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231207191940_CreateSERVER.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20231207182243_CrearBDTest.cs",
+              "DocumentMoniker": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Migrations\\20231207182243_CrearBDTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Migrations\\20231207182243_CrearBDTest.cs",
+              "ToolTip": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Migrations\\20231207182243_CrearBDTest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API\\Migrations\\20231207182243_CrearBDTest.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-07T18:22:43.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\APIResponse.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\APIResponse.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\APIResponse.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PortafoliosController.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAmwAYBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwBcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\UsuarioRepositorio.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAASwGIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistroRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\RegistroRequestDTO.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\RegistroRequestDTO.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\RegistroRequestDTO.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\RegistroRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\TokenDTO.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\TokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\LoginRequestDTO.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20231130194634_UsuarioMigracion.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231130194634_UsuarioMigracion.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231130194634_UsuarioMigracion.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231130194634_UsuarioMigracion.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231130194634_UsuarioMigracion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Usuario.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PortafolioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\PortafolioRepository.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\PortafolioRepository.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\PortafolioRepository.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\PortafolioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPortafolioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IPortafolioRepository.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IPortafolioRepository.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IPortafolioRepository.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IPortafolioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\Repository.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\Repository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAowDwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\MappingConfig.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\MappingConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PortafolioUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioUpdateDto.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioUpdateDto.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioUpdateDto.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioUpdateDto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PortafolioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioCreateDto.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioCreateDto.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioCreateDto.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20231128184230_A\u00F1adirPortafolios.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128184230_A\u00F1adirPortafolios.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231128184230_A\u00F1adirPortafolios.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128184230_A\u00F1adirPortafolios.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231128184230_A\u00F1adirPortafolios.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20231128183757_A\u00F1adirPortafolio.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128183757_A\u00F1adirPortafolio.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231128183757_A\u00F1adirPortafolio.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128183757_A\u00F1adirPortafolio.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231128183757_A\u00F1adirPortafolio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20231128183141_CrearDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128183141_CrearDataBase.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Migrations\\20231128183141_CrearDataBase.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Migrations\\20231128183141_CrearDataBase.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Migrations\\20231128183141_CrearDataBase.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PortafolioDto.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-24T23:44:48.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PortafolioStore.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Portafolio.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Portafolio.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Portafolio.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Portafolio.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Portafolio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\DAO\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\appsettings.json",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-24T23:44:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Program.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PortafolioStore.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\DAO\\PortafolioStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PortafolioDto.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Models\\Dto\\PortafolioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PortafoliosController.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeDocumentMoniker": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "RelativeToolTip": "InterfazRiesgosSimefin_API\\Controllers\\PortafoliosController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:44:48.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yzShAZiv29ZTajpitO8jW7HcffS7Ftt1A5T5Ygm0dghQcIP3KwkzIZ8kBbsR1CIP88dja6AP38j40Yd+kKTsbg==",
+  "dgSpecHash": "J8XfvIXmLaaUBkj5oM0ZXuMNqY66YqqsMdlzKz6mkTt1D3n4LpC0I/JwGuZ9M31Pt4DLM6At2J/etjfq19W60g==",
   "success": true,
   "projectFilePath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\API_DERIVADOS_ETAPA4\\apiRiesgos\\apiRiesgos\\apiRiesgos.csproj",
   "expectedPackageFiles": [
@@ -134,7 +134,11 @@
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\vcarrilm\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }

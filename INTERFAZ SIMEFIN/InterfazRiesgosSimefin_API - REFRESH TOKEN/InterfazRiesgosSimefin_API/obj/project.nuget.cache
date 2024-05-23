@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+s3U7mUx8hOReq912T8j8naH1tJWztgxK37vkBxmhw1KWV8DocBnPIqTFHVz0+e7OTrZMeSB4jefIAyJQLbGw==",
+  "dgSpecHash": "e8lFJnXH4nxx/seRahHC4qIqICCiadnf2+93zLUw1Afkwc6vcIhTmGmwguInXZzjbc4JWUcDwk1es5KklWA3MA==",
   "success": true,
-  "projectFilePath": "C:\\C#\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
+  "projectFilePath": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\Código\\INTERFAZ SIMEFIN\\InterfazRiesgosSimefin_API - REFRESH TOKEN\\InterfazRiesgosSimefin_API\\InterfazRiesgosSimefin_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcarrilm\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\vcarrilm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
