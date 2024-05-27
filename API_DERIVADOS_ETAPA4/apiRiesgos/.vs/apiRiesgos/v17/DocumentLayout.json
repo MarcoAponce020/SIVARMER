@@ -552,7 +552,7 @@
               "RelativeDocumentMoniker": "DAORiesgos\\DAORiesgos.cs",
               "ToolTip": "C:\\Users\\vcarrilm\\Documents\\SST3\\SIVARMER\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4\\apiRiesgos\\DAORiesgos\\DAORiesgos.cs",
               "RelativeToolTip": "DAORiesgos\\DAORiesgos.cs",
-              "ViewState": "AQIAAEsGAAAAzszMzAwjwKkGAABTAAAA",
+              "ViewState": "AQIAALwHAAAA4MzMzMzgv6kGAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T18:11:55.723Z",
               "EditorCaption": ""
@@ -592,16 +592,6 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T18:03:08.113Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 30,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
