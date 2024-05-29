@@ -1,0 +1,17 @@
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Application.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Domain.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Application.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\bin\Release\net8.0\Riesgos.Simefin.Domain.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.csproj.AssemblyReference.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.AssemblyInfoInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.AssemblyInfo.cs
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.csproj.CoreCompileInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos..C209BB44.Up2Date
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\refint\Riesgos.Simefin.Infrastructure.Oracle.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\Riesgos.Simefin.Infrastructure.Oracle.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Release\net8.0\ref\Riesgos.Simefin.Infrastructure.Oracle.dll
