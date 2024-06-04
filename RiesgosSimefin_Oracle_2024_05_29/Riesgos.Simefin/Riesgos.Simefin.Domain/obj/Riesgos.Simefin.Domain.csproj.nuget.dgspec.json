@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj": {}
+    "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj": {}
   },
   "projects": {
-    "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj": {
+    "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj",
+        "projectUniqueName": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj",
         "projectName": "Riesgos.Simefin.Domain",
-        "projectPath": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj",
-        "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
-        "outputPath": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\obj\\",
+        "projectPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nelson\\.nuget\\packages\\",
+        "outputPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vcarrilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nelson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

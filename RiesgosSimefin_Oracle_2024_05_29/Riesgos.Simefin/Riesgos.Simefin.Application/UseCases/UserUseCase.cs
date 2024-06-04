@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Riesgos.Simefin.Application.DTOs;
 using Riesgos.Simefin.Application.DTOs.User;
@@ -20,12 +20,14 @@ namespace Riesgos.Simefin.Application.UseCases
         private readonly IAuthorizationRepository _authorizationRepository;
         private readonly IConfiguration _configuration;
         private readonly IUserRepository _userRepository;
+        private readonly PasswordHasher<Usuario> _passwordHasher;
 
         public UserUseCase(IAuthorizationRepository authorizationRepository, IConfiguration configuration, IUserRepository userRepository)
         {
             _authorizationRepository = authorizationRepository;
             _configuration = configuration;
             _userRepository = userRepository;
+            _passwordHasher = new PasswordHasher<Usuario>();
         }
 
         /// <summary>
@@ -39,16 +41,16 @@ namespace Riesgos.Simefin.Application.UseCases
 
             try
             {
-                //var user = await _dbCtx.Usuarios.AsNoTracking()
-                //                                .FirstOrDefaultAsync(u => u.UserName.Trim().ToLower() == modelRequest.Username.Trim().ToLower() &&
-                //                                                          u.Password.Trim() == modelRequest.Password.Trim());
                 var allUsers = await _userRepository.GetAllAsync();
-                var user = allUsers.FirstOrDefault(u => u.UserName.Trim().ToLower() == request.Username!.Trim().ToLower() &&
-                                                        u.Password.Trim() == request.Password!.Trim());
-                if (user == null)
+                //var user = allUsers.FirstOrDefault(u => u.UserName.Trim().ToLower() == request.Username!.Trim().ToLower() &&
+                //                                        u.Password.Trim() == request.Password!.Trim());
+                var user = allUsers.FirstOrDefault(u => u.UserName.Trim().ToLower() == request.Username!.Trim().ToLower());
+                var result = this.VerifyPassword(user!, request.Password!);
+
+                if (!result)
                 {
-                        response.IsExitoso = false;
-                        response.ErrorMessages.Add("Usuario o Contraseña incorrectos.");
+                    response.IsExitoso = false;
+                    response.ErrorMessages.Add("Usuario o Contraseña incorrectos.");
                     response.StatusCode = HttpStatusCode.BadRequest;
                     return response;
                 }
@@ -115,12 +117,15 @@ namespace Riesgos.Simefin.Application.UseCases
                     UserName = request.UserName
                 };
 
+                //Hasheando el password
+                usuario.Password = _passwordHasher.HashPassword(usuario, request.Password);
+
                 var userAdd = await _userRepository.AddAsync(usuario);
-                usuario.Password = "";
                 usuario.Id = this.GetUserByUserName(request.UserName).Id;
 
                 response.IsExitoso = userAdd > 0;
                 response.Mensaje = response.IsExitoso ? "Usuario generado con éxito." : "No fué posible crear el usuario.";
+                usuario.Password = "";
                 response.Resultado = usuario;
                 response.StatusCode = HttpStatusCode.OK;
 
@@ -256,6 +261,18 @@ namespace Riesgos.Simefin.Application.UseCases
                 return false;
             }
             return true;
+        }
+
+        /// <summary>
+        /// Verificar que el password encriptado existe o es correcto
+        /// </summary>
+        /// <param name="user"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public bool VerifyPassword(Usuario user, string password)
+        {
+            var result = _passwordHasher.VerifyHashedPassword(user, user.Password, password);
+            return result == PasswordVerificationResult.Success;
         }
 
         #endregion

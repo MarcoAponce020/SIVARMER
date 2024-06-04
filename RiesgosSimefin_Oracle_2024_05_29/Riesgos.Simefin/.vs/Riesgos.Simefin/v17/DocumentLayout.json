@@ -1,86 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\",
+  "WorkspaceRootPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\usecases\\authorizationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.application\\usecases\\authorizationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\usecases\\authorizationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\usecases\\portfoliousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\usecases\\portfoliousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\interfaces\\authorization\\iauthorizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\interfaces\\authorization\\iauthorizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\interfaces\\authorization\\iauthorizationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\interfaces\\authorization\\iauthorizationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\interfaces\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\interfaces\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\interfaces\\user\\iuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\interfaces\\user\\iuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.infrastructure.oracle\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|solutionrelative:riesgos.simefin.infrastructure.oracle\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\dtos\\user\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\dtos\\user\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\controllers\\portafolioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.infrastructure.oracle\\repositories\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|solutionrelative:riesgos.simefin.infrastructure.oracle\\repositories\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\dtos\\portfolio\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\dtos\\portfolio\\portafoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\riesgos.simefin.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\riesgos.simefin.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47DEBD36-1F9C-4587-AED9-058E6F6E9F49}|Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.domain\\entities\\portafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47DEBD36-1F9C-4587-AED9-058E6F6E9F49}|Riesgos.Simefin.Domain\\Riesgos.Simefin.Domain.csproj|solutionrelative:riesgos.simefin.domain\\entities\\portafolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\riesgossimefin_oracle\\riesgos.simefin\\riesgos.simefin.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.infrastructure.oracle\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|solutionrelative:riesgos.simefin.infrastructure.oracle\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 531,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,255 +41,76 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAMwB8AAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationUseCase.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:42:40.048Z",
+              "WhenOpened": "2024-06-04T17:32:21.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\appsettings.json",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
+              "RelativeToolTip": "Riesgos.Simefin.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T15:31:56.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IAuthorizationRepository.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationRepository.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationRepository.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationRepository.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAewB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:40:32.45Z",
+              "WhenOpened": "2024-05-31T18:00:29.181Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\User\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\Interfaces\\User\\IUserRepository.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\User\\IUserRepository.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\Interfaces\\User\\IUserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:40:23.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\DTOs\\User\\LoginRequestDTO.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\DTOs\\User\\LoginRequestDTO.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\DTOs\\User\\LoginRequestDTO.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\DTOs\\User\\LoginRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:40:12.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PortafoliosController.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\PortafoliosController.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\Controllers\\PortafoliosController.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\PortafoliosController.cs",
-              "RelativeToolTip": "Riesgos.Simefin.API\\Controllers\\PortafoliosController.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T17:42:26.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Portafolio.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Entities\\Portafolio.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Domain\\Entities\\Portafolio.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Domain\\Entities\\Portafolio.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Domain\\Entities\\Portafolio.cs",
-              "ViewState": "AQIAAAoAAADAZmZmZuY+wBwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:48:02.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PortafolioDTO.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\DTOs\\Portfolio\\PortafolioDTO.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\DTOs\\Portfolio\\PortafolioDTO.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\DTOs\\Portfolio\\PortafolioDTO.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\DTOs\\Portfolio\\PortafolioDTO.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:41:10.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PortfolioUseCase.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
-              "ViewState": "AQIAAHgBAAAAAAAAAAAwwI4BAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:37:52.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PortfolioRepository.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAAAwwOcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:37:52.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Riesgos.Simefin.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T23:56:42.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\appsettings.Development.json",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.Development.json",
-              "RelativeToolTip": "Riesgos.Simefin.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T22:38:58.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Riesgos.Simefin.WebAPI.csproj",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj",
-              "RelativeToolTip": "Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-24T22:31:59.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\appsettings.json",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
-              "RelativeToolTip": "Riesgos.Simefin.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T20:24:44.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TokenHelper.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Helpers\\TokenHelper.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\Helpers\\TokenHelper.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Helpers\\TokenHelper.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\Helpers\\TokenHelper.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAWwFcAAAAuAAAA",
+              "Title": "UserUseCase.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAjwDYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T20:04:42.803Z"
+              "WhenOpened": "2024-05-31T17:57:53.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthorizationUseCase.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\AuthorizationUseCase.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAYwDIAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T20:00:46.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Program.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\Program.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Program.cs",
-              "RelativeToolTip": "Riesgos.Simefin.API\\Program.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAiwG4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T19:53:04.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Riesgos.Simefin.API\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCgAAABMAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAjwFIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T19:48:41.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserUseCase.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\UserUseCase.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAYwH4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T19:40:31.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserUseCase.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\User\\IUserUseCase.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\Interfaces\\User\\IUserUseCase.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\User\\IUserUseCase.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\Interfaces\\User\\IUserUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T19:40:28.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthorizationUseCase.cs",
-              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationUseCase.cs",
-              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationUseCase.cs",
-              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\RiesgosSimefin_Oracle\\Riesgos.Simefin\\Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationUseCase.cs",
-              "RelativeToolTip": "Riesgos.Simefin.Application\\Interfaces\\Authorization\\IAuthorizationUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T19:40:25.12Z",
+              "WhenOpened": "2024-05-31T17:56:47.21Z",
               "EditorCaption": ""
             }
           ]
