@@ -1,0 +1,119 @@
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+C:\C#\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+C:\C#\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+C:\C#\API_Riesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+C:\C#\API_Riesgos\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.Up2Date
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.Up2Date
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\DAL.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\DAL.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\DAO.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\DAO.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\bin\Debug\net6.0\ENTITY.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.csproj.Up2Date
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\DAL.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\DAL\obj\Debug\net6.0\ref\DAL.dll

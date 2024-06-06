@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DrPWqFVKYnFhMKOmHwlkYXJ53ek4HHZB7P3Cgr1p2Dx7OZwywoiqIlIT/8H97XRJObNMBn5Ir9aZKmxURXisFw==",
+  "success": true,
+  "projectFilePath": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.extensions.apidescription.client\\8.0.0\\microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

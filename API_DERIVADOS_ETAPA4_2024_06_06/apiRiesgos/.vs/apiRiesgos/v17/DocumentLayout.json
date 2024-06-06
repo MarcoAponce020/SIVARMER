@@ -1,0 +1,554 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{645FCB1D-8918-4B47-8262-D5A9E5FCAC15}|DAORiesgos\\DAO.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\daoriesgos\\daoriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645FCB1D-8918-4B47-8262-D5A9E5FCAC15}|DAORiesgos\\DAO.csproj|solutionrelative:daoriesgos\\daoriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\controllers\\riesgoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\controllers\\riesgoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\servicios\\servicio_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\servicios\\servicio_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\servicios\\iservicio_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\servicios\\iservicio_api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABDCC7D1-8D98-42D2-B052-E954E4AA1F14}|DAL\\DAL.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\dal\\dalriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABDCC7D1-8D98-42D2-B052-E954E4AA1F14}|DAL\\DAL.csproj|solutionrelative:dal\\dalriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\apiriesgos\\getoracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\getoracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\flujosposicionesprimarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\flujosposicionesprimarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\be23523e2745f4009096bc5570f0f0e3421d48f739d7afc3e4a4237e1d98b0b7\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\posicionprimariaswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\posicionprimariaswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\c09d8586b5209c4c2e2bccdd9ecbecb5838547098299787088a2a8f90ae3e503\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f16d7ed325481f0dc16a20870ae8cbc6e992f49bcb24691b9b39cabc08f60272\\OracleCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\resultadoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\resultadoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\flujosswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\flujosswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\caracteristicasswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\caracteristicasswaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\posicionesprimforwards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\posicionesprimforwards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\comprasventasoperador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\comprasventasoperador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\7f98fdaac9d705a68d70434023c6fd56f977204d926dbc0c5754abd48c07be73\\DeveloperExceptionPageMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\acbbac15f6b141bae8d01d25f14f3249b49e5f08dc473a9f5d3d2623d61720f2\\SwaggerMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\a38ee89c2e52d4403e0c17ebdd650bcbf68411948bf2735c69f9933841ddaa0b\\SwaggerUIMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\b7e667c32d2ea6b6ebefde7da475276284f32dec4c1ceb78fce4d3d2b314a743\\AuthorizationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\6d07e6cd6cea8297e09f22f8a1dad8a5851e8703eaa4c197174bcc8ac7e77707\\EndpointMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f4afc3a88e25fb070f72b4a8058cd7e207766a7e6982c00e0931b159fe6558b6\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\d41eb95d2e757567d9c6d7003c4625227377b4045ca6c236a9a22bf2a767e39b\\ValueTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\reporteoperacioncvdivisas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\reporteoperacioncvdivisas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\comprastesoreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\comprastesoreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\470d3084ccff01cbfffdb653cdede89467eb744ee0ba266252d0a21e12cbf24b\\Monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\reporteposiciontesoreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\reporteposiciontesoreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\llamadamargen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\llamadamargen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|d:\\soluciones\\riesgos\\simefin etapa 4\\versiones\\api_derivados_etapa4_ultima_version\\apiriesgos\\entity\\posicionforwards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A511D3-B311-4D84-BB52-7DA0C164A559}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\posicionforwards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 155,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 712,
+          "SelectedChildIndex": 33,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Body.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\Body.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Body.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\Body.cs",
+              "RelativeToolTip": "ENTITY\\Body.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T20:17:17.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ComprasVentasOperador.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ComprasVentasOperador.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ComprasVentasOperador.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ComprasVentasOperador.cs",
+              "RelativeToolTip": "ENTITY\\ComprasVentasOperador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:53:43.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\be23523e2745f4009096bc5570f0f0e3421d48f739d7afc3e4a4237e1d98b0b7\\Task.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\be23523e2745f4009096bc5570f0f0e3421d48f739d7afc3e4a4237e1d98b0b7\\Task.cs",
+              "ViewState": "AQIAAKgFAAAAAAAAAAAvwLYFAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T22:55:01.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OracleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f16d7ed325481f0dc16a20870ae8cbc6e992f49bcb24691b9b39cabc08f60272\\OracleCommand.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f16d7ed325481f0dc16a20870ae8cbc6e992f49bcb24691b9b39cabc08f60272\\OracleCommand.cs",
+              "ViewState": "AQIAACUFAAAAAAAAAAAvwEIFAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:29:56.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeveloperExceptionPageMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\7f98fdaac9d705a68d70434023c6fd56f977204d926dbc0c5754abd48c07be73\\DeveloperExceptionPageMiddleware.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\7f98fdaac9d705a68d70434023c6fd56f977204d926dbc0c5754abd48c07be73\\DeveloperExceptionPageMiddleware.cs [Solo lectura]",
+              "ViewState": "AQIAADUAAAAAAAAAAAAkwEkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:20.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SwaggerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\acbbac15f6b141bae8d01d25f14f3249b49e5f08dc473a9f5d3d2623d61720f2\\SwaggerMiddleware.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\acbbac15f6b141bae8d01d25f14f3249b49e5f08dc473a9f5d3d2623d61720f2\\SwaggerMiddleware.cs [Solo lectura]",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SwaggerUIMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\a38ee89c2e52d4403e0c17ebdd650bcbf68411948bf2735c69f9933841ddaa0b\\SwaggerUIMiddleware.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\a38ee89c2e52d4403e0c17ebdd650bcbf68411948bf2735c69f9933841ddaa0b\\SwaggerUIMiddleware.cs [Solo lectura]",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:18.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\b7e667c32d2ea6b6ebefde7da475276284f32dec4c1ceb78fce4d3d2b314a743\\AuthorizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\b7e667c32d2ea6b6ebefde7da475276284f32dec4c1ceb78fce4d3d2b314a743\\AuthorizationMiddleware.cs [Solo lectura]",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwCwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:17.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EndpointMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\6d07e6cd6cea8297e09f22f8a1dad8a5851e8703eaa4c197174bcc8ac7e77707\\EndpointMiddleware.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\6d07e6cd6cea8297e09f22f8a1dad8a5851e8703eaa4c197174bcc8ac7e77707\\EndpointMiddleware.cs [Solo lectura]",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAkwGcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:17.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs [Solo lectura]",
+              "ViewState": "AQIAALMAAAAAAAAAAAAkwMsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:15.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f4afc3a88e25fb070f72b4a8058cd7e207766a7e6982c00e0931b159fe6558b6\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\f4afc3a88e25fb070f72b4a8058cd7e207766a7e6982c00e0931b159fe6558b6\\ControllerActionInvoker.cs [Solo lectura]",
+              "ViewState": "AQIAAG4BAAAAAAAAAAAkwIIBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:14.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ValueTask.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\d41eb95d2e757567d9c6d7003c4625227377b4045ca6c236a9a22bf2a767e39b\\ValueTask.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\d41eb95d2e757567d9c6d7003c4625227377b4045ca6c236a9a22bf2a767e39b\\ValueTask.cs [Solo lectura]",
+              "ViewState": "AQIAAMMBAAAAAAAAAAAkwNcBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:13.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActionMethodExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\c09d8586b5209c4c2e2bccdd9ecbecb5838547098299787088a2a8f90ae3e503\\ActionMethodExecutor.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\c09d8586b5209c4c2e2bccdd9ecbecb5838547098299787088a2a8f90ae3e503\\ActionMethodExecutor.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAvwIIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:08:13.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Servicio_API.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Servicios\\Servicio_API.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Servicios\\Servicio_API.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Servicios\\Servicio_API.cs",
+              "RelativeToolTip": "apiRiesgos\\Servicios\\Servicio_API.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwNoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T18:56:25.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IServicio_API.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Servicios\\IServicio_API.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Servicios\\IServicio_API.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Servicios\\IServicio_API.cs",
+              "RelativeToolTip": "apiRiesgos\\Servicios\\IServicio_API.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T18:56:08.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Monitor.cs",
+              "DocumentMoniker": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\470d3084ccff01cbfffdb653cdede89467eb744ee0ba266252d0a21e12cbf24b\\Monitor.cs",
+              "ToolTip": "C:\\Users\\vcarrilm\\AppData\\Local\\Temp\\.vsdbgsrc\\470d3084ccff01cbfffdb653cdede89467eb744ee0ba266252d0a21e12cbf24b\\Monitor.cs [Solo lectura]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T17:21:01.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CaracteristicasSwaps.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\CaracteristicasSwaps.cs",
+              "RelativeDocumentMoniker": "ENTITY\\CaracteristicasSwaps.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\CaracteristicasSwaps.cs",
+              "RelativeToolTip": "ENTITY\\CaracteristicasSwaps.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:55:36.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReportePosicionTesoreria.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ReportePosicionTesoreria.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ReportePosicionTesoreria.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ReportePosicionTesoreria.cs",
+              "RelativeToolTip": "ENTITY\\ReportePosicionTesoreria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:51:45.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Respuesta.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\Respuesta.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Respuesta.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\Respuesta.cs",
+              "RelativeToolTip": "ENTITY\\Respuesta.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:44:35.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Program.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Program.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Program.cs",
+              "RelativeToolTip": "apiRiesgos\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:21:00.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FlujosPosicionesPrimarias.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\FlujosPosicionesPrimarias.cs",
+              "RelativeDocumentMoniker": "ENTITY\\FlujosPosicionesPrimarias.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\FlujosPosicionesPrimarias.cs",
+              "RelativeToolTip": "ENTITY\\FlujosPosicionesPrimarias.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:19:55.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LlamadaMargen.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\LlamadaMargen.cs",
+              "RelativeDocumentMoniker": "ENTITY\\LlamadaMargen.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\LlamadaMargen.cs",
+              "RelativeToolTip": "ENTITY\\LlamadaMargen.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:16:28.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PosicionPrimariaSwaps.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionPrimariaSwaps.cs",
+              "RelativeDocumentMoniker": "ENTITY\\PosicionPrimariaSwaps.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionPrimariaSwaps.cs",
+              "RelativeToolTip": "ENTITY\\PosicionPrimariaSwaps.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA/wBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T17:33:48.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PosicionesPrimForwards.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionesPrimForwards.cs",
+              "RelativeDocumentMoniker": "ENTITY\\PosicionesPrimForwards.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionesPrimForwards.cs",
+              "RelativeToolTip": "ENTITY\\PosicionesPrimForwards.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T17:32:56.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResultadoAPI.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ResultadoAPI.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ResultadoAPI.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ResultadoAPI.cs",
+              "RelativeToolTip": "ENTITY\\ResultadoAPI.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T17:24:09.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutenticacionController.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Controllers\\AutenticacionController.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Controllers\\AutenticacionController.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Controllers\\AutenticacionController.cs",
+              "RelativeToolTip": "apiRiesgos\\Controllers\\AutenticacionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T16:47:37.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetOracleConnection.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\GetOracleConnection.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\GetOracleConnection.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\GetOracleConnection.cs",
+              "RelativeToolTip": "apiRiesgos\\GetOracleConnection.cs",
+              "ViewState": "AQIAAAQAAACAZmZmZuY8wBwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T16:42:52.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\appsettings.json",
+              "RelativeDocumentMoniker": "apiRiesgos\\appsettings.json",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\appsettings.json",
+              "RelativeToolTip": "apiRiesgos\\appsettings.json",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-14T16:41:56.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReporteOperacionCVDivisas.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ReporteOperacionCVDivisas.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ReporteOperacionCVDivisas.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ReporteOperacionCVDivisas.cs",
+              "RelativeToolTip": "ENTITY\\ReporteOperacionCVDivisas.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T20:42:13.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FlujosSwaps.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\FlujosSwaps.cs",
+              "RelativeDocumentMoniker": "ENTITY\\FlujosSwaps.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\FlujosSwaps.cs",
+              "RelativeToolTip": "ENTITY\\FlujosSwaps.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA0wB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:25:06.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PosicionForwards.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionForwards.cs",
+              "RelativeDocumentMoniker": "ENTITY\\PosicionForwards.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\PosicionForwards.cs",
+              "RelativeToolTip": "ENTITY\\PosicionForwards.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:18:46.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAORiesgos.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\DAORiesgos\\DAORiesgos.cs",
+              "RelativeDocumentMoniker": "DAORiesgos\\DAORiesgos.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\DAORiesgos\\DAORiesgos.cs",
+              "RelativeToolTip": "DAORiesgos\\DAORiesgos.cs",
+              "ViewState": "AQIAAMYJAAAAAAAAAAA4wNoJAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:11:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RiesgosController.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Controllers\\RiesgosController.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Controllers\\RiesgosController.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\apiRiesgos\\Controllers\\RiesgosController.cs",
+              "RelativeToolTip": "apiRiesgos\\Controllers\\RiesgosController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwDkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:06:06.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DALRiesgos.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\DAL\\DALRiesgos.cs",
+              "RelativeDocumentMoniker": "DAL\\DALRiesgos.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\DAL\\DALRiesgos.cs",
+              "RelativeToolTip": "DAL\\DALRiesgos.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAiwJMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:05:25.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ComprasTesoreria.cs",
+              "DocumentMoniker": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ComprasTesoreria.cs",
+              "RelativeDocumentMoniker": "ENTITY\\ComprasTesoreria.cs",
+              "ToolTip": "D:\\SOLUCIONES\\RIESGOS\\SIMEFIN ETAPA 4\\VERSIONES\\API_DERIVADOS_ETAPA4_ultima_version\\apiRiesgos\\ENTITY\\ComprasTesoreria.cs",
+              "RelativeToolTip": "ENTITY\\ComprasTesoreria.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:03:08.113Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
