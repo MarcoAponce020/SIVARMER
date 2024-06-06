@@ -20,3 +20,14 @@ D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSi
 D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\refint\Riesgos.Simefin.Domain.dll
 D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.pdb
 D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\ref\Riesgos.Simefin.Domain.dll
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\bin\Release\net8.0\Riesgos.Simefin.Domain.deps.json
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\bin\Release\net8.0\Riesgos.Simefin.Domain.dll
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\bin\Release\net8.0\Riesgos.Simefin.Domain.pdb
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.AssemblyInfoInputs.cache
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.AssemblyInfo.cs
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.dll
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\refint\Riesgos.Simefin.Domain.dll
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\Riesgos.Simefin.Domain.pdb
+C:\Users\vcarrilm\Documents\SST3\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Domain\obj\Release\net8.0\ref\Riesgos.Simefin.Domain.dll
