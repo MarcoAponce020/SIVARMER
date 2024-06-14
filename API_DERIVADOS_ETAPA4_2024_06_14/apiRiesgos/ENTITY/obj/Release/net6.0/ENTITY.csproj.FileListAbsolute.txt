@@ -1,0 +1,79 @@
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+D:\Respaldo\Unidad_C\Downloads\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\C#\apiRiesgos\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+C:\C#\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\bin\Release\net6.0\ENTITY.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfoInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.AssemblyInfo.cs
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.csproj.CoreCompileInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\refint\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ENTITY.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\ENTITY\obj\Release\net6.0\ref\ENTITY.dll
