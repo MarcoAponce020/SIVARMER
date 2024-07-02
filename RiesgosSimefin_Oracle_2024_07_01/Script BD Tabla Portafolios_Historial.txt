@@ -1,0 +1,8 @@
+CREATE TABLE Portafolios_Historial (
+    Fecha DATE,
+    Nombre_Origen NVarchar2(100),
+    Nombre_Destino NVarchar2(100),
+    Archivo_Base64 BLOB,
+    Origen Varchar2(50)
+);
+
