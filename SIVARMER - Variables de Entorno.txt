@@ -1,0 +1,32 @@
+
+SIVARMER_API_SIMEFIN_DEV (Portafolios:> Api Simefin:> P&L)
+
+{ 'ServerNameOrIP': 'bnodora26-b', 'Port': '1523', 'Scheme': 'PORTAPG', 'UserId': 'PORTAPG', 'Password': '6HYG5KOLH56NFRSH1', 'Secret': '82C306BA18271BFB5A31093822B7893BE95CA2FA7C36257167ACBD96F27AEB8B' }
+
+
+********************************************
+
+
+SIVARMER_API_SIMEFIN_WinS_DEV (Portafolios Servicio Windows:> Api Simefin:> P&L)
+
+{ 'UserName': 'fgarevalo', 'Password': 'fgarevalo' }
+
+
+********************************************
+
+SIVARMER_API_RIESGOS_VAR_DEV (Reportes:> Api Riesgos)
+
+{ 'ServerNameOrIP': 'bnodora26-b', 'Port': '1523', 'Scheme': 'Qavarmer', 'UserId': 'Riesvarm', 'Password': 'Zoh6pie8ci1i04NN1$' }
+
+
+SIVARMER_API_RIESGOS_DER_DEV (Reportes:> Api Riesgos)
+
+{ 'ServerNameOrIP': 'BNODORA04-B', 'Port': '1523', 'Scheme': 'daderivad', 'UserId': 'xyzwin', 'Password': 'xyzwin' }
+
+
+********************************************
+
+
+SIVARMER_API_RIESGOS_WinS_DEV (Correo WS:> WS Api Riesgos)
+
+{ DataBase: { 'ServerNameOrIP': 'bnodora26-b', 'Port': '1523', 'Scheme': 'Qavarmer', 'UserId': 'Riesvarm', 'Password': 'Zoh6pie8ci1i04NN1$' }, Email: { 'UserName': 'Aclspeisrv', 'Password': 'Banobras12012023$', 'EncryptionKey': 'fG0e7udLwg8+GJSnJaG+TkFWhua1CxjARL8YawTRj7s=' } }
