@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2ABBFFF1-3F69-438C-9CD5-41E8B01B2CAC}|Riesgos.Simefin.API\\Riesgos.Simefin.WebAPI.csproj|solutionrelative:riesgos.simefin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.infrastructure.oracle\\helpers\\oracleconnectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|solutionrelative:riesgos.simefin.infrastructure.oracle\\helpers\\oracleconnectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.application\\usecases\\portfoliousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D6CAE3F-1E93-4715-8B44-B5F6CE0E158F}|Riesgos.Simefin.Application\\Riesgos.Simefin.Application.csproj|solutionrelative:riesgos.simefin.application\\usecases\\portfoliousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\riesgossimefin_oracle_2024_05_29\\riesgos.simefin\\riesgos.simefin.infrastructure.oracle\\repositories\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B876C3-9D43-4313-83F3-64F1B9E70D2D}|Riesgos.Simefin.Infrastructure.Oracle\\Riesgos.Simefin.Infrastructure.Oracle.csproj|solutionrelative:riesgos.simefin.infrastructure.oracle\\repositories\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 531,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortfolioRepository.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Infrastructure.Oracle\\Repositories\\PortfolioRepository.cs",
+              "ViewState": "AQIAAEMBAAAAAAAAAAAAADMBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:21:14.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PortfolioUseCase.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Application\\UseCases\\PortfolioUseCase.cs",
+              "ViewState": "AQIAAHkCAAAAAAAAAAAiwJECAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:54:30.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OracleConnectionHelper.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Helpers\\OracleConnectionHelper.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.Infrastructure.Oracle\\Helpers\\OracleConnectionHelper.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.Infrastructure.Oracle\\Helpers\\OracleConnectionHelper.cs",
+              "RelativeToolTip": "Riesgos.Simefin.Infrastructure.Oracle\\Helpers\\OracleConnectionHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:43:53.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.API\\appsettings.json",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\RiesgosSimefin_Oracle_2024_05_29\\Riesgos.Simefin\\Riesgos.Simefin.API\\appsettings.json",
+              "RelativeToolTip": "Riesgos.Simefin.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T15:31:56.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
