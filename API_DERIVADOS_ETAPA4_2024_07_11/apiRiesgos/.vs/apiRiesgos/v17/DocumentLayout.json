@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{645FCB1D-8918-4B47-8262-D5A9E5FCAC15}|DAORiesgos\\DAO.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\api_derivados_etapa4_2024_06_06\\apiriesgos\\daoriesgos\\daoriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645FCB1D-8918-4B47-8262-D5A9E5FCAC15}|DAORiesgos\\DAO.csproj|solutionrelative:daoriesgos\\daoriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\api_derivados_etapa4_2024_06_06\\apiriesgos\\apiriesgos\\getoracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\getoracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\api_derivados_etapa4_2024_06_06\\apiriesgos\\apiriesgos\\controllers\\riesgoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\controllers\\riesgoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\api_derivados_etapa4_2024_06_06\\apiriesgos\\apiriesgos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{627B110F-CD7A-4028-BBFE-E1D0ABF34623}|apiRiesgos\\apiRiesgos.csproj|solutionrelative:apiriesgos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABDCC7D1-8D98-42D2-B052-E954E4AA1F14}|DAL\\DAL.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\transicionnvafsw\\trunk\\c\u00F3digo\\api_derivados_etapa4_2024_06_06\\apiriesgos\\dal\\dalriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABDCC7D1-8D98-42D2-B052-E954E4AA1F14}|DAL\\DAL.csproj|solutionrelative:dal\\dalriesgos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 155,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 712,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOracleConnection.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\GetOracleConnection.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\GetOracleConnection.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\GetOracleConnection.cs",
+              "RelativeToolTip": "apiRiesgos\\GetOracleConnection.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:59:28.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RiesgosController.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\Controllers\\RiesgosController.cs",
+              "RelativeDocumentMoniker": "apiRiesgos\\Controllers\\RiesgosController.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\Controllers\\RiesgosController.cs",
+              "RelativeToolTip": "apiRiesgos\\Controllers\\RiesgosController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAASwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:09:37.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\appsettings.json",
+              "RelativeDocumentMoniker": "apiRiesgos\\appsettings.json",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\apiRiesgos\\appsettings.json",
+              "RelativeToolTip": "apiRiesgos\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T15:15:53.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DALRiesgos.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\DAL\\DALRiesgos.cs",
+              "RelativeDocumentMoniker": "DAL\\DALRiesgos.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\DAL\\DALRiesgos.cs",
+              "RelativeToolTip": "DAL\\DALRiesgos.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAIA0wOEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:05:03.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAORiesgos.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\DAORiesgos\\DAORiesgos.cs",
+              "RelativeDocumentMoniker": "DAORiesgos\\DAORiesgos.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\C\u00F3digo\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\DAORiesgos\\DAORiesgos.cs",
+              "RelativeToolTip": "DAORiesgos\\DAORiesgos.cs",
+              "ViewState": "AQIAAF4HAAAAAAAAAAAAwHgHAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:57:13.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
