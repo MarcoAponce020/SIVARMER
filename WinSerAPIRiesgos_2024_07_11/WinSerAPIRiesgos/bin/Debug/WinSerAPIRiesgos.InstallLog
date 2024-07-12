@@ -1,0 +1,23 @@
+﻿Instalando ensamblado 'C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.InstallLog
+   assemblypath = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe
+Deshaciendo ensamblado 'C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.InstallLog
+   assemblypath = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe
+Instalando ensamblado 'C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.InstallLog
+   assemblypath = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe
+Instalando el servicio Service1...
+Creando el origen de EventLog Service1 en el registro Application...
+Deshaciendo ensamblado 'C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.InstallLog
+   assemblypath = C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Debug\WinSerAPIRiesgos.exe
+Restaurando el registro de eventos al estado anterior para el origen Service1.

@@ -1,0 +1,116 @@
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe.config
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.pdb
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\log4net.dll
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.dll
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\Topshelf.dll
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\log4net.xml
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.xml
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\bin\Release\Topshelf.xml
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.AssemblyReference.cache
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.ProjectInstaller.resources
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.GenerateResource.cache
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CopyComplete
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.exe
+C:\Users\dadmo001\source\repos\WinSerAPIRiesgos\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.pdb
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe.config
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.pdb
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\log4net.dll
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.dll
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Topshelf.dll
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\log4net.xml
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.xml
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Topshelf.xml
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.AssemblyReference.cache
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.ProjectInstaller.resources
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.GenerateResource.cache
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CopyComplete
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.exe
+C:\Users\vcarrilm\Documents\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.pdb
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe.config
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.pdb
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\log4net.dll
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.dll
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.dll
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Net.Http.Formatting.dll
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Topshelf.dll
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\log4net.xml
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.xml
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.xml
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\bin\Release\Topshelf.xml
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.AssemblyReference.cache
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.ProjectInstaller.resources
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.GenerateResource.cache
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CoreCompileInputs.cache
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CopyComplete
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.exe
+I:\Control de cambios\SIVARMER\2023\RFC1080\WinSerAPIRiesgos14092023\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.pdb
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe.config
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.pdb
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\log4net.dll
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.dll
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Topshelf.dll
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\log4net.xml
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.xml
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Topshelf.xml
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.AssemblyReference.cache
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.ProjectInstaller.resources
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.GenerateResource.cache
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.exe
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.pdb
+C:\Users\vcarrilm\Desktop\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAP.88D5D7BB.Up2Date
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe.config
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.exe
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\WinSerAPIRiesgos.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\log4net.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Buffers.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Formats.Asn1.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Memory.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Net.Http.Formatting.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Numerics.Vectors.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Text.Encodings.Web.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Text.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.ValueTuple.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Topshelf.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\log4net.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Newtonsoft.Json.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Buffers.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Formats.Asn1.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Memory.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Numerics.Vectors.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Text.Encodings.Web.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Text.Json.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\System.ValueTuple.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\bin\Release\Topshelf.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.AssemblyReference.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.ProjectInstaller.resources
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.GenerateResource.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.csproj.CoreCompileInputs.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAP.88D5D7BB.Up2Date
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.exe
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\WinSerAPIRiesgos151020234\WinSerAPIRiesgos\obj\Release\WinSerAPIRiesgos.pdb
