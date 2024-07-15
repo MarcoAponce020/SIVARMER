@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Riesgos.Simefin.WebAPI.props" />
-</Project>
