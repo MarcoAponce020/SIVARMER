@@ -1,0 +1,6 @@
+@Riesgos.Simefin.API_HostAddress = http://localhost:5038
+
+GET {{Riesgos.Simefin.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

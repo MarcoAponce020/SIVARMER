@@ -1,0 +1,45 @@
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.deps.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.AssemblyReference.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfoInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfo.cs
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.CoreCompileInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos..13C8DF04.Up2Date
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\refint\Riesgos.Simefin.Application.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\Maincore2024\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\ref\Riesgos.Simefin.Application.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.AssemblyReference.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfoInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfo.cs
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.CoreCompileInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos..13C8DF04.Up2Date
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\refint\Riesgos.Simefin.Application.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\RiesgosSimefin_Oracle\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\ref\Riesgos.Simefin.Application.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.deps.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\bin\Debug\net8.0\Riesgos.Simefin.Domain.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.AssemblyReference.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfoInputs.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.AssemblyInfo.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.csproj.CoreCompileInputs.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos..13C8DF04.Up2Date
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\refint\Riesgos.Simefin.Application.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\Riesgos.Simefin.Application.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Application\obj\Debug\net8.0\ref\Riesgos.Simefin.Application.dll
