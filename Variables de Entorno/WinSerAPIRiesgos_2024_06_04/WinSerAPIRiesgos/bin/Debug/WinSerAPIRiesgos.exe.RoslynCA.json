@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.9.0.0",
+        "fileVersion": "4.9.0-3.24121.1 (a98c90d5)",
+        "semanticVersion": "4.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'DOMConfigurator' está obsoleto: 'Use XmlConfigurator instead of DOMConfigurator'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/Service1.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'DOMConfigurator.Configure()' está obsoleto: 'Use XmlConfigurator.Configure instead of DOMConfigurator.Configure'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/Service1.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS4014",
+          "level": "warning",
+          "message": "Como esta llamada no es 'awaited', la ejecución del método actual continuará antes de que se complete la llamada. Puede aplicar el operador 'await' al resultado de la llamada.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/Service1.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 17,
+                  "endLine": 92,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/Helpers/OracleConnectionHelper.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4792",
+          "level": "warning",
+          "message": "Make sure that this logger's configuration is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/Service1.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/WinSerAPIRiesgos_2024_06_04/WinSerAPIRiesgos/ProjectInstaller.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 22,
+                  "endLine": 19,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "El tipo o el miembro están obsoletos",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS4014": {
+          "id": "CS4014",
+          "shortDescription": "Dado que no se esperaba esta llamada, la ejecución del método actual continuará antes de que se complete la llamada",
+          "fullDescription": "El método actual llama a un método asincrónico que devuelve una tarea o un Task<TResult>, y no aplica el operador Await al resultado. La llamada al método asincrónico inicia una tarea asincrónica. Sin embargo, debido a que no se aplica ningún operador Await, el programa continúa sin esperar a que finalice la tarea. En la mayoría de los casos, este comportamiento no es el esperado. Generalmente, otros aspectos del método de llamada dependen de los resultados de la llamada. O bien, se espera como mínimo que el método al que se llama se complete antes de volver al método que contiene la llamada.\u000d\u000a\u000d\u000aUn problema de igual importancia es el que se genera con las excepciones que se producen en el método asincrónico al que se llama. Las excepciones que se producen en un método que devuelve una tarea o un Task<TResult> se almacenan en la tarea devuelta. Si no espera por la tarea o no realiza una comprobación explícita de excepciones, la excepción se pierde. Si espera por la tarea, su excepción se vuelve a producir.\u000d\u000a\u000d\u000aComo procedimiento recomendado, siempre debe esperar por la llamada.\u000d\u000a\u000d\u000aConsidere la posibilidad de suprimir la advertencia solo si tiene la seguridad de que no desea esperar a que la llamada asincrónica se complete y que el método al que se llama no producirá excepciones. En ese caso, puede suprimir la advertencia asignando el resultado de la tarea de la llamada a una variable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS4014)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4792": {
+          "id": "S4792",
+          "shortDescription": "Configuring loggers is security-sensitive",
+          "fullDescription": "Configuring loggers is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4792",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
