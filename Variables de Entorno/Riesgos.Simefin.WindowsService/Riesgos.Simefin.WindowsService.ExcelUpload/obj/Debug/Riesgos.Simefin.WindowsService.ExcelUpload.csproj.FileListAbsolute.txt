@@ -1,0 +1,17 @@
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.exe.config
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.exe
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\log4net.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\Newtonsoft.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\System.Net.Http.Extensions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\System.Net.Http.Formatting.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\System.Net.Http.Primitives.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\log4net.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\bin\Debug\Newtonsoft.Json.xml
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.csproj.AssemblyReference.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.csproj.GenerateResource.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.csproj.CoreCompileInputs.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos..26DE071B.Up2Date
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.exe
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.ExcelUpload\obj\Debug\Riesgos.Simefin.WindowsService.ExcelUpload.ServiceExcelLoad.resources

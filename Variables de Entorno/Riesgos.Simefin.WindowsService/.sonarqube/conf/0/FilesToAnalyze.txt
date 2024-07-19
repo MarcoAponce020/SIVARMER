@@ -1,0 +1,13 @@
+﻿D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\Models\ApiResponse.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\Models\TokenRequest.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\Models\TokenResponse.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\Program.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\ProjectInstaller.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\ProjectInstaller.Designer.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\Properties\AssemblyInfo.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\ServiceExcelLoad.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\ServiceExcelLoad.Designer.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\TimestampedPatternLayout.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\ProjectInstaller.resx
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\App.config
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\Maincore2024\Riesgos.Simefin.WindowsService\Riesgos.Simefin.WindowsService.PortfolioLoad\packages.config

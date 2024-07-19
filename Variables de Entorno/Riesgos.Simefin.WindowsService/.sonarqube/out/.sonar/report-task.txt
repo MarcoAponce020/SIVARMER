@@ -1,0 +1,6 @@
+projectKey=Api_Simefin_WindowsService
+serverUrl=http://localhost:9000
+serverVersion=10.4.1.88267
+dashboardUrl=http://localhost:9000/dashboard?id=Api_Simefin_WindowsService
+ceTaskId=5003aef2-a902-4139-a608-47acb47f49ff
+ceTaskUrl=http://localhost:9000/api/ce/task?id=5003aef2-a902-4139-a608-47acb47f49ff

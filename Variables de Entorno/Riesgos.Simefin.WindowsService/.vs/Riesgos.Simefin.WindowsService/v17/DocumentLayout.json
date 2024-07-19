@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|d:\\banobras\\sistemas .net\\sst3\\sivarmer\\maincore2024\\riesgos.simefin.windowsservice\\riesgos.simefin.windowsservice.portfolioload\\serviceexcelload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|solutionrelative:riesgos.simefin.windowsservice.portfolioload\\serviceexcelload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\riesgos.simefin.windowsservice.portfolioload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|solutionrelative:riesgos.simefin.windowsservice.portfolioload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\riesgos.simefin.windowsservice.portfolioload\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F0D44650-2C17-4A4D-9806-F6130333AB82}|Riesgos.Simefin.WindowsService.PortfolioLoad\\Riesgos.Simefin.WindowsService.PortfolioLoad.csproj|solutionrelative:riesgos.simefin.windowsservice.portfolioload\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 531,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\Program.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.WindowsService.PortfolioLoad\\Program.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\Program.cs",
+              "RelativeToolTip": "Riesgos.Simefin.WindowsService.PortfolioLoad\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T05:03:37.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\App.config",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.WindowsService.PortfolioLoad\\App.config",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\App.config",
+              "RelativeToolTip": "Riesgos.Simefin.WindowsService.PortfolioLoad\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-02T21:51:15.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExcelLoad.cs",
+              "DocumentMoniker": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\ServiceExcelLoad.cs",
+              "RelativeDocumentMoniker": "Riesgos.Simefin.WindowsService.PortfolioLoad\\ServiceExcelLoad.cs",
+              "ToolTip": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\Maincore2024\\Riesgos.Simefin.WindowsService\\Riesgos.Simefin.WindowsService.PortfolioLoad\\ServiceExcelLoad.cs",
+              "RelativeToolTip": "Riesgos.Simefin.WindowsService.PortfolioLoad\\ServiceExcelLoad.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAqwH0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T02:41:18.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
