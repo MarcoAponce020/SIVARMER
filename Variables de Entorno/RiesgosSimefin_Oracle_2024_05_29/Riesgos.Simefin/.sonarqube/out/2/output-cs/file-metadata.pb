@@ -1,0 +1,8 @@
+ð
+äD:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Debug\net8.0\Riesgos.Simefin.Infrastructure.Oracle.AssemblyInfo.csutf-8é
+ÝD:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ò
+æD:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\obj\Debug\net8.0\Riesgos.Simefin.Infrastructure.Oracle.GlobalUsings.g.csutf-8É
+¿D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\Helpers\OracleConnectionHelper.csutf-8Æ
+¼D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\Repositories\UserRepository.csutf-8Ë
+ÁD:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\Repositories\PortfolioRepository.csutf-8Ï
+ÅD:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\CÃ³digo\RiesgosSimefin_Oracle_2024_05_29\Riesgos.Simefin\Riesgos.Simefin.Infrastructure.Oracle\Repositories\AuthorizationRepository.csutf-8

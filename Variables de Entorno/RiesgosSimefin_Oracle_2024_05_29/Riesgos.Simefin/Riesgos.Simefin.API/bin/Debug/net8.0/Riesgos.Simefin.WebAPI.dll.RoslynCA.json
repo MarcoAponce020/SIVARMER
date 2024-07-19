@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.9.0.0",
+        "fileVersion": "4.9.0-3.24121.1 (a98c90d5)",
+        "semanticVersion": "4.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Controllers/PortafoliosController.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 9,
+                  "endLine": 19,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Controllers/PortafoliosController.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 13,
+                  "endLine": 25,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Controllers/PortafoliosController.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 9,
+                  "endLine": 89,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Hide this public constructor by making it 'protected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Properties/Resources.Designer.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 18,
+                  "endLine": 32,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Helpers/StatusResponseHelper.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Properties/Resources.Designer.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 66,
+                  "endLine": 54,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0015",
+          "level": "note",
+          "message": "The header 'Content-Type' can be accessed using the ContentType property",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Program.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 9,
+                  "endLine": 137,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HeaderName": "Content-Type",
+              "ResolvedPropertyName": "ContentType"
+            }
+          }
+        },
+        {
+          "ruleId": "ASP0015",
+          "level": "note",
+          "message": "The header 'Content-Type' can be accessed using the ContentType property",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.API/Program.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 9,
+                  "endLine": 153,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HeaderName": "Content-Type",
+              "ResolvedPropertyName": "ContentType"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1824",
+          "level": "note",
+          "message": "Marcar ensamblados con NeutralResourcesLanguageAttribute",
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0015": {
+          "id": "ASP0015",
+          "shortDescription": "Suggest using IHeaderDictionary properties",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "CA1824": {
+          "id": "CA1824",
+          "shortDescription": "Marcar ensamblados con NeutralResourcesLanguageAttribute",
+          "fullDescription": "El atributo NeutralResourcesLanguage informa a ResourceManager del lenguaje que se utilizó para mostrar los recursos de una cultura neutral para un ensamblado. Esto mejora el rendimiento de la búsqueda para el primer recurso que cargue y puede reducir el espacio de trabajo.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1824",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode",
+              "CompilationEnd"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2292": {
+          "id": "S2292",
+          "shortDescription": "Trivial properties should be auto-implemented",
+          "fullDescription": "Trivial properties, which include no logic but setting and getting a backing field should be converted to auto-implemented properties, yielding cleaner and more readable code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2292",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
