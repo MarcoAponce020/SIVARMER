@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ENTITY/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "8.0.0"
+        },
+        "runtime": {
+          "ENTITY.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Client/8.0.0": {}
+    }
+  },
+  "libraries": {
+    "ENTITY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.ApiDescription.Client/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UadNHPNDlovYULAk7Tav9ZiY28+tkZaWuWUmuYoe61wrcI5zQIZqJcVyDhoYDWCZQR/2HxcMrJNlqfJC7jXa8Q==",
+      "path": "microsoft.extensions.apidescription.client/8.0.0",
+      "hashPath": "microsoft.extensions.apidescription.client.8.0.0.nupkg.sha512"
+    }
+  }
+}

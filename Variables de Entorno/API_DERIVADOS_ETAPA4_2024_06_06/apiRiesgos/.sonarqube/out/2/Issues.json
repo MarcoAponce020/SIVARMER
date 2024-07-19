@@ -1,0 +1,535 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.9.0.0",
+        "fileVersion": "4.9.0-3.24121.1 (a98c90d5)",
+        "semanticVersion": "4.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarValuacionReportos\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 26,
+                  "endLine": 16,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarComprasMesaDinero\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 26,
+                  "endLine": 42,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarReporteREVAME\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 26,
+                  "endLine": 81,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionCalculoVAR\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 26,
+                  "endLine": 94,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionRegulatorios\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 26,
+                  "endLine": 107,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarMovimientosTesoreria\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 26,
+                  "endLine": 146,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarReportePosicionTesoreria\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 26,
+                  "endLine": 120,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionForwards\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 26,
+                  "endLine": 159,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarGlobalTitulos\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 26,
+                  "endLine": 133,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarFlujosSwaps\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 26,
+                  "endLine": 172,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"FlujosPosicionesPrimariasProcess\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 38,
+                  "endLine": 185,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarCaracteristicasSwaps\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 26,
+                  "endLine": 198,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarLlamadaMargen\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 26,
+                  "endLine": 211,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionPrimariaSwaps\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 38,
+                  "endLine": 224,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarReporteOperacionCVDivisas\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 26,
+                  "endLine": 237,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionesPrimForwards\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 26,
+                  "endLine": 250,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetCatalogoDivisas\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 38,
+                  "endLine": 272,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarComprasVentasOperador\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 26,
+                  "endLine": 265,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetCatalogoPosiciones\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 41,
+                  "endLine": 278,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarTenenciaTitulos\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 26,
+                  "endLine": 29,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'DALRiesgos' to match pascal case naming rules, consider using 'DalRiesgos'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarComprasTesoreria\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 26,
+                  "endLine": 55,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"guardarPosicionPatrimonial\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/API_DERIVADOS_ETAPA4_2024_06_06/apiRiesgos/DAL/DALRiesgos.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 26,
+                  "endLine": 68,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

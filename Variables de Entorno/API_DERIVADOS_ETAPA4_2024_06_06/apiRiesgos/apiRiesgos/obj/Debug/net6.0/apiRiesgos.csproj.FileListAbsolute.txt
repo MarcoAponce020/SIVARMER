@@ -1,0 +1,700 @@
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CopyComplete
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+C:\Users\dadmo001\Desktop\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+C:\C#\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CopyComplete
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+C:\C#\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CopyComplete
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+C:\C#\API_Riesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CopyComplete
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+C:\Users\dadmo001\Downloads\apiRiesgos\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Miqo.EncryptedJsonConfiguration.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\web.config
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.deps.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.runtimeconfig.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\OpenAPIs\ws.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Miqo.EncryptedJsonConfiguration.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.Up2Date
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+D:\Banobras\Aplicativos\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\web.config
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.deps.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.runtimeconfig.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\OpenAPIs\ws.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Miqo.EncryptedJsonConfiguration.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.Up2Date
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+C:\Users\vcarrilm\Downloads\API_DERIVADOS_ETAPA4\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\web.config
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.runtimeconfig.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\OpenAPIs\ws.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Miqo.EncryptedJsonConfiguration.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.Up2Date
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+D:\SOLUCIONES\RIESGOS\SIMEFIN ETAPA 4\VERSIONES\API_DERIVADOS_ETAPA4_ultima_version\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\web.config
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.Development.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\appsettings.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\OpenAPIs\ws.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.deps.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\apiRiesgos.runtimeconfig.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\appsettings.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\publish\OpenAPIs\ws.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.exe
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.deps.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.runtimeconfig.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\apiRiesgos.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Miqo.EncryptedJsonConfiguration.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Text.Json.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAL.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\ENTITY.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\bin\Debug\net6.0\DAO.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.AssemblyReference.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.Properties.Resources.resources
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.GenerateResource.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.CoreCompileInputs.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cs
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.MvcApplicationPartsAssemblyInfo.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.build.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.development.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.apiRiesgos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.build.apiRiesgos.props
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.apiRiesgos.props
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.apiRiesgos.props
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\scopedcss\bundle\apiRiesgos.styles.css
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.csproj.Up2Date
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\refint\apiRiesgos.dll
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.pdb
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\apiRiesgos.genruntimeconfig.cache
+D:\Banobras\Sistemas .NET\SST3\SIVARMER\TransicionNvaFSW\Trunk\Código\API_DERIVADOS_ETAPA4_2024_06_06\apiRiesgos\apiRiesgos\obj\Debug\net6.0\ref\apiRiesgos.dll

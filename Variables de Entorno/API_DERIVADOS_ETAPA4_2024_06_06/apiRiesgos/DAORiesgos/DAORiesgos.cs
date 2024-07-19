@@ -1,0 +1,3688 @@
+﻿using ENTITY;
+using Oracle.ManagedDataAccess.Client;
+using System.Data;
+using System.Text;
+
+namespace DAO
+{
+    public class DAORiesgos
+    {
+
+        #region Reporte # 1
+
+        /// <summary>
+        /// Reporte # 1
+        /// </summary>
+        /// <param name="reporte"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public Respuesta guardarValuacionReportos(List<ValuacionReportos> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = eliminarValuacionReportos(reporte[0].FechaValuacion, conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (ValuacionReportos item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FECHAVALUACION", item.FechaValuacion);
+                        cmd.Parameters.Add("EMISION", item.Emision);
+                        cmd.Parameters.Add("TIPO", item.Tipo);
+                        cmd.Parameters.Add("FECHA", item.Fecha);
+                        cmd.Parameters.Add("NUMCONTRATO", item.NumContrato);
+                        cmd.Parameters.Add("NUMREFERENCIA", item.NumReferencia);
+                        cmd.Parameters.Add("MOVIMIENTOOPER", item.MovimientoOper);
+                        cmd.Parameters.Add("PARTE", item.Parte);
+                        cmd.Parameters.Add("TITULOS", item.Titulos);
+                        cmd.Parameters.Add("PRECIOOPERACION", item.PrecioOperacion);
+                        cmd.Parameters.Add("IMPORTEOPERACION", item.ImporteOperacion);
+                        cmd.Parameters.Add("IMPORTELIBROS", item.ImporteLibros);
+                        cmd.Parameters.Add("DIASTRANSCURRIDOS", item.DiasTranscurridos);
+                        cmd.Parameters.Add("DXV", item.DxV);
+                        cmd.Parameters.Add("TASAVENCIMIENTO", item.TasaVencimiento);
+                        cmd.Parameters.Add("TASADIARIA", item.TasaDiaria);
+                        cmd.Parameters.Add("TASACURVA", item.TasaCurva);
+                        cmd.Parameters.Add("PREMIO", item.Premio);
+                        cmd.Parameters.Add("PRECIOVECTOR", item.PrecioVector);
+                        cmd.Parameters.Add("VALORMERCADO", item.ValorMercado);
+                        cmd.Parameters.Add("PORTAFOLIO", item.Portafolio);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_VAL_REPORTOS (FECHAVALUACION" +
+                                                                                 ",EMISION" +
+                                                                                 ",TIPO" +
+                                                                                 ",FECHA" +
+                                                                                 ",NUMCONTRATO" +
+                                                                                 ",NUMREFERENCIA" +
+                                                                                 ",MOVIMIENTOOPER" +
+                                                                                 ",PARTE" +
+                                                                                 ",TITULOS" +
+                                                                                 ",PRECIOOPERACION" +
+                                                                                 ",IMPORTEOPERACION" +
+                                                                                 ",IMPORTELIBROS" +
+                                                                                 ",DIASTRANSCURRIDOS" +
+                                                                                 ",DXV" +
+                                                                                 ",TASAVENCIMIENTO" +
+                                                                                 ",TASADIARIA" +
+                                                                                 ",TASACURVA" +
+                                                                                 ",PREMIO" +
+                                                                                 ",PRECIOVECTOR" +
+                                                                                 ",VALORMERCADO" +
+                                                                                 ",PORTAFOLIO) " +
+                                                                          "VALUES (:FECHAVALUACION, :EMISION, :TIPO, :FECHA, :NUMCONTRATO, :NUMREFERENCIA, :MOVIMIENTOOPER, :PARTE, :TITULOS, :PRECIOOPERACION, :IMPORTEOPERACION, :IMPORTELIBROS, :DIASTRANSCURRIDOS," +
+                                                                                  ":DXV, :TASAVENCIMIENTO, :TASADIARIA, :TASACURVA, :PREMIO, :PRECIOVECTOR, :VALORMERCADO, :PORTAFOLIO)";
+
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje += "Hubo un error al borrar los registros. " + conexion.ConnectionString.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 1
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool eliminarValuacionReportos(int fechaConsulta, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                cmd.Parameters.Add("FECHAVALUACION", fechaConsulta);
+                cmd.BindByName = true;
+                int aff = 0;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_VAL_REPORTOS WHERE FECHAVALUACION = :FECHAVALUACION", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception ex)
+            {
+                exito = false;
+                respuesta.mensaje = ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 2
+
+        /// <summary>
+        /// Reporte # 2
+        /// </summary>
+        /// <param name="reporte"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public Respuesta guardarTenenciaTitulos(List<TenenciaTitulos> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = eliminarTenenciaTitulos(reporte[0].FechaValuacion, conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (TenenciaTitulos item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FECHAVALUACION", item.FechaValuacion);
+                        cmd.Parameters.Add("EMISION", item.Emision);
+                        cmd.Parameters.Add("TITULOS", item.Titulos);
+                        cmd.Parameters.Add("ImporteSucio", item.ImporteSucio);
+                        cmd.Parameters.Add("TIPO", item.Tipo);
+                        cmd.Parameters.Add("Descripcion", item.Descripcion);
+                        cmd.Parameters.Add("PORTAFOLIO", item.Portafolio);
+                        cmd.Parameters.Add("NumOperacion", item.NumOperacion);
+                        cmd.Parameters.Add("InteresDevengado", item.InteresDevengado);
+                        cmd.Parameters.Add("TitulosGarantia", item.TitulosGarantia);
+                        cmd.Parameters.Add("Intercupon", item.Intercupon);
+                        cmd.Parameters.Add("DXVencer", item.DXVencer);
+                        cmd.Parameters.Add("DXVRC0103", item.DXVRC0103);
+                        cmd.Parameters.Add("PrecioSucio", item.PrecioSucio);
+                        cmd.Parameters.Add("PrecioLimpio", item.PrecioLimpio);
+                        cmd.Parameters.Add("ImporteLimpio", item.ImporteLimpio);
+                        cmd.Parameters.Add("ImporteInteres", item.ImporteInteres);
+                        cmd.Parameters.Add("PrecioMercado", item.PrecioMercado);
+                        cmd.Parameters.Add("ImporteMercado", item.ImporteMercado);
+                        cmd.Parameters.Add("DXVRC02", item.DXVRC02);
+                        cmd.Parameters.Add("PlusMinus", item.PlusMinus);
+                        cmd.Parameters.Add("TasaCosto", item.TasaCosto);
+                        cmd.Parameters.Add("Parte", item.Parte);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_TENENCIA_TITULOS (FECHAVALUACION" +
+                                                                                                   ",EMISION" +
+                                                                                                   ",TITULOS" +
+                                                                                                   ",ImporteSucio" +
+                                                                                                   ",TIPO" +
+                                                                                                   ",Descripcion" +
+                                                                                                   ",PORTAFOLIO" +
+                                                                                                   ",NumOperacion" +
+                                                                                                   ",InteresDevengado" +
+                                                                                                   ",TitulosGarantia" +
+                                                                                                   ",Intercupon" +
+                                                                                                   ",DXVencer" +
+                                                                                                   ",DXVRC0103" +
+                                                                                                   ",PrecioSucio" +
+                                                                                                   ",PrecioLimpio" +
+                                                                                                   ",ImporteLimpio" +
+                                                                                                   ",ImporteInteres" +
+                                                                                                   ",PrecioMercado" +
+                                                                                                   ",ImporteMercado" +
+                                                                                                   ",DXVRC02" +
+                                                                                                   ",PlusMinus" +
+                                                                                                   ",TasaCosto" +
+                                                                                                   ",Parte) " +
+                                                                                            "VALUES (:FECHAVALUACION,:EMISION,:TITULOS,:ImporteSucio,:TIPO,:Descripcion,:PORTAFOLIO,:NumOperacion,:InteresDevengado,:TitulosGarantia,:Intercupon,:DXVencer,:DXVRC0103,:PrecioSucio,:PrecioLimpio,:ImporteLimpio,:ImporteInteres,:PrecioMercado,:ImporteMercado,:DXVRC02,:PlusMinus,:TasaCosto,:Parte)";
+
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 2
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool eliminarTenenciaTitulos(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHAVALUACION", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = String.Format("DELETE FROM RIESVARM.IKOS_TENENCIA_TITULOS WHERE FECHAVALUACION = :FECHAVALUACION", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 3
+
+        public Respuesta guardarComprasMesaDinero(List<ComprasMesaDinero> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = eliminarComprasMesaDinero(Convert.ToInt32(reporte[0].FechaValor), conexion);
+
+            conexion.Open();
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+
+            try
+            {
+                if (borro)
+                {
+                    ////conexion.Open();
+                    int aff = 0;
+                    foreach (ComprasMesaDinero item in reporte)
+                    {
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FechaValor", item.FechaValor);
+                        cmd.Parameters.Add("Moneda", item.Moneda);
+                        cmd.Parameters.Add("NumOperacion", item.NumOperacion);
+                        cmd.Parameters.Add("Contraparte", item.Contraparte);
+                        cmd.Parameters.Add("Papel", item.Papel);
+                        cmd.Parameters.Add("Emision", item.Emision);
+                        cmd.Parameters.Add("Posicion", item.Posicion);
+                        cmd.Parameters.Add("FV", item.FV);
+                        cmd.Parameters.Add("NumTitulos", item.NumTitulos);
+                        cmd.Parameters.Add("PrecioSucio", item.PrecioSucio);
+                        cmd.Parameters.Add("TasaRend", item.TasaRend);
+                        cmd.Parameters.Add("TasaDiaria", item.TasaDiaria);
+                        cmd.Parameters.Add("Plazo", item.Plazo);
+                        cmd.Parameters.Add("ImporteReal", item.ImporteReal);
+                        cmd.Parameters.Add("Portafolio", item.Portafolio);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_COMPRAS_MD (FechaValor" +
+                                                                                            ",Moneda" +
+                                                                                            ",NumOperacion" +
+                                                                                            ",Contraparte" +
+                                                                                            ",Papel" +
+                                                                                            ",Emision" +
+                                                                                            ",Posicion" +
+                                                                                            ",FV" +
+                                                                                            ",NumTitulos" +
+                                                                                            ",PrecioSucio" +
+                                                                                            ",TasaRend" +
+                                                                                            ",TasaDiaria" +
+                                                                                            ",Plazo" +
+                                                                                            ",ImporteReal" +
+                                                                                            ",PORTAFOLIO) " +
+                                                                                            "VALUES (:FechaValor,:Moneda,:NumOperacion,:Contraparte,:Papel,:Emision,:Posicion,:FV,:NumTitulos,:PrecioSucio,:TasaRend,:TasaDiaria,:Plazo,:ImporteReal,:Portafolio)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = aff >= 0;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarComprasMesaDinero(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FechaValor", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_COMPRAS_MD WHERE FECHAVALOR = :FechaValor", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 4
+
+        public Respuesta guardarComprasTesoreria(List<ComprasTesoreria> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = eliminarComprasTesoreria(Convert.ToInt32(reporte[0].FechaValor), conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (ComprasTesoreria item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FechaValor", item.FechaValor);
+                        cmd.Parameters.Add("Moneda", item.Moneda);
+                        cmd.Parameters.Add("NumOperacion", item.NumOperacion);
+                        cmd.Parameters.Add("Contraparte", item.Contraparte);
+                        cmd.Parameters.Add("Papel", item.Papel);
+                        cmd.Parameters.Add("Emision", item.Emision);
+                        cmd.Parameters.Add("Posicion", item.Posicion);
+                        cmd.Parameters.Add("FV", item.FV);
+                        cmd.Parameters.Add("NumTitulos", item.NumTitulos);
+                        cmd.Parameters.Add("PrecioSucio", item.PrecioSucio);
+                        cmd.Parameters.Add("TasaRend", item.TasaRend);
+                        cmd.Parameters.Add("TasaDiaria", item.TasaDiaria);
+                        cmd.Parameters.Add("Plazo", item.Plazo);
+                        cmd.Parameters.Add("ImporteReal", item.ImporteReal);
+                        cmd.Parameters.Add("Portafolio", item.Portafolio);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_COMPRAS_TESO (FechaValor" +
+                                                                                               ",Moneda" +
+                                                                                               ",NumOperacion" +
+                                                                                               ",Contraparte" +
+                                                                                               ",Papel" +
+                                                                                               ",Emision" +
+                                                                                               ",Posicion" +
+                                                                                               ",FV" +
+                                                                                               ",NumTitulos" +
+                                                                                               ",PrecioSucio" +
+                                                                                               ",TasaRend" +
+                                                                                               ",TasaDiaria" +
+                                                                                               ",Plazo" +
+                                                                                               ",ImporteReal" +
+                                                                                               ",PORTAFOLIO) " +
+                                                                                        "VALUES (:FechaValor,:Moneda,:NumOperacion,:Contraparte,:Papel,:Emision,:Posicion,:FV,:NumTitulos,:PrecioSucio,:TasaRend,:TasaDiaria,:Plazo,:ImporteReal,:Portafolio)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarComprasTesoreria(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FechaValor", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_COMPRAS_TESO WHERE FECHAVALOR = :FechaValor", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 5
+
+        public Respuesta guardarPosicionPatrimonial(List<PosicionPatrimonial> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = eliminarPosicionPatrimonial(Convert.ToInt32(reporte[0].FechaValuacion), conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (PosicionPatrimonial item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FechaValuacion", item.FechaValuacion);
+                        cmd.Parameters.Add("FechaInicioOper", item.FechaInicioOper);
+                        cmd.Parameters.Add("NumOpera", item.NumOpera);
+                        cmd.Parameters.Add("Cliente", item.Cliente);
+                        cmd.Parameters.Add("TipoInstrumento", item.TipoInstrumento);
+                        cmd.Parameters.Add("NumTitulosPos", item.NumTitulosPos);
+                        cmd.Parameters.Add("Monto", item.Monto);
+                        cmd.Parameters.Add("Plazo", item.Plazo);
+                        cmd.Parameters.Add("DT", item.DT);
+                        cmd.Parameters.Add("DXV", item.DXV);
+                        cmd.Parameters.Add("Tasa", item.Tasa);
+                        cmd.Parameters.Add("PremioDev", item.PremioDev);
+                        cmd.Parameters.Add("ImpCIntereses", item.ImpCIntereses);
+                        cmd.Parameters.Add("FechaVencimiento", item.FechaVencimiento);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_PATRIMONIAL (FechaValuacion" +
+                                                                                              ",FechaInicioOper" +
+                                                                                              ",NumOpera" +
+                                                                                              ",Cliente" +
+                                                                                              ",TipoInstrumento" +
+                                                                                              ",NumTitulosPos" +
+                                                                                              ",Monto" +
+                                                                                              ",Plazo" +
+                                                                                              ",DT" +
+                                                                                              ",DXV" +
+                                                                                              ",Tasa" +
+                                                                                              ",PremioDev" +
+                                                                                              ",ImpCIntereses" +
+                                                                                              ",FechaVencimiento) " +
+                                                                                       "VALUES (:FechaValuacion,:FechaInicioOper,:NumOpera,:Cliente,:TipoInstrumento,:NumTitulosPos,:Monto,:Plazo,:DT,:DXV,:Tasa,:PremioDev,:ImpCIntereses,:FechaVencimiento)";
+
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarPosicionPatrimonial(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FechaValuacion", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_PATRIMONIAL WHERE FECHAVALUACION = :FechaValuacion", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 7
+
+        public Respuesta guardarReporteREVAME(List<ReporteRevame> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = eliminarReporteREVAME(Convert.ToInt32(reporte[0].Fecha), conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (ReporteRevame item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("Fecha", item.Fecha);
+                        cmd.Parameters.Add("Portafolio", item.Portafolio);
+                        cmd.Parameters.Add("Emision", item.Emision);
+                        cmd.Parameters.Add("Titulos", item.Titulos);
+                        cmd.Parameters.Add("PrecioLimpio", item.PrecioLimpio);
+                        cmd.Parameters.Add("PrecioSucio", item.PrecioSucio);
+                        cmd.Parameters.Add("ImporteLimpio", item.ImporteLimpio);
+                        cmd.Parameters.Add("ImporteSucio", item.ImporteSucio);
+                        cmd.Parameters.Add("PrecioLimpioLib", item.PrecioLimpioLib);
+                        cmd.Parameters.Add("PrecioSucioLib", item.PrecioSucioLib);
+                        cmd.Parameters.Add("ImporteLimpioLib", item.ImporteLimpioLib);
+                        cmd.Parameters.Add("ImporteSucioLib", item.ImporteSucioLib);
+                        cmd.Parameters.Add("Plus_Minus", item.Valuacion);
+                        cmd.Parameters.Add("Precio_Mercado", item.PrecioMercado);
+
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_REVAME (Fecha" +
+                                                                            ",Portafolio" +
+                                                                            ",Emision" +
+                                                                            ",Titulos" +
+                                                                            ",PrecioLimpio" +
+                                                                            ",PrecioSucio" +
+                                                                            ",ImporteLimpio" +
+                                                                            ",ImporteSucio" +
+                                                                            ",PrecioLimpioLib" +
+                                                                            ",PrecioSucioLib" +
+                                                                            ",ImporteLimpioLib" +
+                                                                            ",ImporteSucioLib" +
+                                                                            ",Plus_Minus" +
+                                                                            ",Precio_Mercado) " +
+                                                                             "VALUES (:Fecha,:Portafolio,:Emision,:Titulos,:PrecioLimpio,:PrecioSucio,:ImporteLimpio,:ImporteSucio,:PrecioLimpioLib,:PrecioSucioLib,:ImporteLimpioLib,:ImporteSucioLib,:Plus_Minus,:Precio_Mercado)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarReporteREVAME(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("Fecha", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_REVAME WHERE FECHA = :Fecha", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 8
+
+        public Respuesta guardarPosicionCalculoVAR(List<PosicionCalculoVar> reporte, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = eliminarPosicionCalculoVAR(Convert.ToInt32(reporte[0].Fecha), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+                    foreach (PosicionCalculoVar item in reporte)
+                    {
+                        string newPortafolio = "null"; //Variable para nombrar el portafolio de CENTURA
+                        int newNumPortafolio = 0;
+
+                        if (item.NumPortafolio == 1)
+                        {
+                            newPortafolio = "Titulos a Negociar";
+                            newNumPortafolio = 0;
+                        }
+
+                        if (item.NumPortafolio == 7 && item.TipoPosicion == 2)
+                        {
+                            newPortafolio = "PI_IFCPI_TV";
+                            newNumPortafolio = 15;
+
+                        }
+
+                        if (item.NumPortafolio == 8 && item.TipoPosicion == 2)
+                        {
+                            newPortafolio = "PI_IFCPI_TF";
+                            newNumPortafolio = 16;
+
+                        }
+                        if (item.NumPortafolio == 11 && item.TipoPosicion == 2)
+                        {
+                            newPortafolio = "IFCV";
+                            newNumPortafolio = 13;
+
+                        }
+                        if (item.NumPortafolio == 5 && item.TipoPosicion == 1)
+                        {
+                            newPortafolio = "IFCV";
+                            newNumPortafolio = 13;
+
+                        }
+                        if (item.NumPortafolio == 16 && item.TipoPosicion == 2)
+                        {
+                            newPortafolio = "IFN";
+                            newNumPortafolio = 12;
+
+                        }
+                        if (item.NumPortafolio == 4 && item.TipoPosicion == 1)
+                        {
+                            newPortafolio = "IFN";
+                            newNumPortafolio = 12;
+
+                        }
+                        if (item.NumPortafolio == 14)
+                        {
+                            newPortafolio = "FONDOS DE PENSIONES";
+                            newNumPortafolio = 4;
+
+                        }
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("F_POSICION", item.Fecha);
+                        cmd.Parameters.Add("INTENCION", item.Intencion);
+                        cmd.Parameters.Add("T_OPERACION", item.TipoOperacion);
+                        cmd.Parameters.Add("T_VALOR", item.TipoValor);
+                        cmd.Parameters.Add("EMISION", item.Emision);
+                        cmd.Parameters.Add("SERIE", item.Serie);
+                        cmd.Parameters.Add("F_VENCIMIENTO", item.FechaVto);
+                        cmd.Parameters.Add("P_CUPON", item.TCupon);
+                        cmd.Parameters.Add("D_VTO", item.DxV);
+                        cmd.Parameters.Add("T_CUPON", item.TasaCupon);
+                        cmd.Parameters.Add("T_PREMIO", item.Premio);
+                        cmd.Parameters.Add("N_TITULOS", item.Titulos);
+                        cmd.Parameters.Add("M_POSICION", item.TipoPosicion);
+                        cmd.Parameters.Add("P_COMPRA", item.PrecioCompra);
+                        cmd.Parameters.Add("F_COMPRA", item.FechaCompra);
+                        cmd.Parameters.Add("MERCADO", item.Mercado);
+                        cmd.Parameters.Add("NUMPORTAFOLIO", newNumPortafolio);
+                        cmd.Parameters.Add("NOMPORTAFOLIO", newPortafolio);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESGO.POS_MESA_TESO (F_POSICION" +
+                                                                            ",INTENCION" +
+                                                                            ",T_OPERACION" +
+                                                                            ",T_VALOR" +
+                                                                            ",EMISION" +
+                                                                            ",SERIE" +
+                                                                            ",F_VENCIMIENTO" +
+                                                                            ",P_CUPON" +
+                                                                            ",D_VTO" +
+                                                                            ",T_CUPON" +
+                                                                            ",T_PREMIO" +
+                                                                            ",N_TITULOS" +
+                                                                            ",M_POSICION" +
+                                                                            ",P_COMPRA" +
+                                                                            ",F_COMPRA" +
+                                                                            ",MERCADO" +
+                                                                            ",NUMPORTAFOLIO" +
+                                                                            ",NOMPORTAFOLIO) " +
+                                                                "VALUES (:F_POSICION,:INTENCION,:T_OPERACION,:T_VALOR,:EMISION,:SERIE,:F_VENCIMIENTO,:P_CUPON,:D_VTO,:T_CUPON,:T_PREMIO,:N_TITULOS,:M_POSICION,:P_COMPRA,:F_COMPRA,:MERCADO,:NUMPORTAFOLIO,:NOMPORTAFOLIO)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " resgistros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarPosicionCalculoVAR(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("F_POSICION", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESGO.POS_MESA_TESO WHERE F_POSICION = :F_POSICION", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 9
+
+        public Respuesta guardarPosicionRegulatorios(List<PosicionRegulatorios> reporte, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = eliminarPosicionRegulatorios(Convert.ToInt32(reporte[0].Fecha), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+                    foreach (PosicionRegulatorios item in reporte)
+                    {
+
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FECHA_CORTE", item.Fecha);
+                        cmd.Parameters.Add("EMISION", item.Emision);
+                        cmd.Parameters.Add("TV", item.TV);
+                        cmd.Parameters.Add("SERIE", item.Serie);
+                        cmd.Parameters.Add("EMISOR", item.Emisor);
+                        cmd.Parameters.Add("OP", item.TipoInventario);//se ajusta 
+                        cmd.Parameters.Add("FECHA_VAL", item.FechaValor);
+                        cmd.Parameters.Add("FECHA_F_OPER", item.FechaVto);
+                        cmd.Parameters.Add("NUM_OP", item.NumOper);
+                        cmd.Parameters.Add("CPRA_VTA", item.CompraVenta);
+                        cmd.Parameters.Add("TITULOS", item.Titulos);
+                        cmd.Parameters.Add("PRECIO_LIB", item.PrecioLibros);
+                        cmd.Parameters.Add("VALOR_LIB", item.ImporteLibros); //se ajusta 
+                        cmd.Parameters.Add("DIAS_TRANS", item.DiasTrans);
+                        cmd.Parameters.Add("DXV", item.DxV);
+                        cmd.Parameters.Add("TASA_VMTO", item.TasaVto);
+                        cmd.Parameters.Add("IMP_VMTO", item.ImporteVto);
+                        cmd.Parameters.Add("TASA_CVA_P", item.TasaCurva);
+                        cmd.Parameters.Add("PREMIO_DEV", item.PremioDev);
+                        cmd.Parameters.Add("TASA_MERCA", item.TasaMercado);
+                        cmd.Parameters.Add("VPPV", item.ImporteAcum); //se ajusta 
+                        cmd.Parameters.Add("PRECIO_MERC", item.PrecioMercado);//se ajusta 
+                        cmd.Parameters.Add("VALOR_MERC", item.ImporteMercado);//se ajusta 
+                        cmd.Parameters.Add("PLAZO_PAPE", item.PlazoPapel);
+                        cmd.Parameters.Add("TVMTOPAPEL", item.TasaVtoPos); //Se ajusta
+                        cmd.Parameters.Add("INTERES_PA", item.Interes);
+                        cmd.Parameters.Add("AREA", item.Area);
+                        cmd.Parameters.Add("TAS_DIARIA", item.TasaDiaria);
+                        cmd.Parameters.Add("CLAVE_EMISOR", item.ClaveEmisor); // anteriormente se consideraba 0
+                        cmd.Parameters.Add("T_INST", item.ClaveInstrumento);
+                        cmd.Parameters.Add("SECTOR", item.Sector);//anteriormente se consideraba 0
+                        cmd.Parameters.Add("DXV_FCORTE", item.DxVCorte);
+                        cmd.Parameters.Add("T_OPER", item.TipoOper);
+                        cmd.Parameters.Add("CVE_CONT", item.ClaveContraparte);
+                        cmd.Parameters.Add("DXV_PAPEL", item.DxVPapel);
+                        cmd.Parameters.Add("DURACION", item.Duracion);
+                        cmd.Parameters.Add("PLAZO_OPER", item.PlazoOper);
+                        cmd.Parameters.Add("VA_DRO", item.VaDro);
+                        cmd.Parameters.Add("SOBRETASA", item.SobreTasa);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESGO.LIQ_REPORTOS (FECHA_CORTE" +
+                                                                                        ",EMISION" +
+                                                                                        ",TV" +
+                                                                                        ",SERIE" +
+                                                                                        ",EMISOR" +
+                                                                                        ",OP" +
+                                                                                        ",FECHA_VAL" +
+                                                                                        ",FECHA_F_OPER" +
+                                                                                        ",NUM_OP" +
+                                                                                        ",CPRA_VTA" +
+                                                                                        ",TITULOS" +
+                                                                                        ",PRECIO_LIB" +
+                                                                                        ",VALOR_LIB" +
+                                                                                        ",DIAS_TRANS" +
+                                                                                        ",DXV" +
+                                                                                        ",TASA_VMTO" +
+                                                                                        ",IMP_VMTO" +
+                                                                                        ",TASA_CVA_P" +
+                                                                                        ",PREMIO_DEV" +
+                                                                                        ",TASA_MERCA" +
+                                                                                        ",VPPV" +
+                                                                                        ",PRECIO_MERC" +
+                                                                                        ",VALOR_MERC" +
+                                                                                        ",PLAZO_PAPE" +
+                                                                                        ",TVMTOPAPEL" +
+                                                                                        ",INTERES_PA" +
+                                                                                        ",AREA" +
+                                                                                        ",TAS_DIARIA" +
+                                                                                        ",CLAVE_EMISOR" +
+                                                                                        ",T_INST" +
+                                                                                        ",SECTOR" +
+                                                                                        ",DXV_FCORTE" +
+                                                                                        ",T_OPER" +
+                                                                                        ",CVE_CONT" +
+                                                                                        ",DXV_PAPEL" +
+                                                                                        ",DURACION" +
+                                                                                        ",PLAZO_OPER" +
+                                                                                        ",VA_DRO" +
+                                                                                        ",SOBRETASA) " +
+                                                                                  "VALUES (to_date(:FECHA_CORTE,'yyyymmdd'),:EMISION ,:TV,:SERIE,:EMISOR,:OP, to_date(:FECHA_VAL,'yyyymmdd'), to_date(:FECHA_F_OPER,'yyyymmdd'),:NUM_OP,:CPRA_VTA,:TITULOS,:PRECIO_LIB,:VALOR_LIB,:DIAS_TRANS,:DXV,:TASA_VMTO ,:IMP_VMTO,:TASA_CVA_P,:PREMIO_DEV,:TASA_MERCA,:VPPV,:PRECIO_MERC,:VALOR_MERC,:PLAZO_PAPE,:TVMTOPAPEL,:INTERES_PA,:AREA,:TAS_DIARIA,:CLAVE_EMISOR,:T_INST,:SECTOR,:DXV_FCORTE,:T_OPER,:CVE_CONT,:DXV_PAPEL,:DURACION,:PLAZO_OPER,:VA_DRO,:SOBRETASA)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarPosicionRegulatorios(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHA_CORTE", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESGO.LIQ_REPORTOS WHERE FECHA_CORTE = to_date(:FECHA_CORTE,'yyyymmdd')", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 10
+
+        public Respuesta guardarReportePosicionTesoreria(List<ReportePosicionTesoreria> reporte, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = eliminarPosicionPosicionTesoreria(Convert.ToInt32(reporte[0].FechaCorte), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+
+                    foreach (ReportePosicionTesoreria item in reporte)
+                    {
+                        string? fcort = null;
+                        string? fvenc = null;
+                        string? femis = null;
+                        string? fcte = null;
+                        int newValorMoneda = 0;
+                        int ncEmisor = 0;
+
+                        if (item.FechaCorte > 0)
+                        {
+                            fcort = item.FechaCorte.ToString();
+                        }
+                        if (item.FechaVto > 0)
+                        {
+                            fvenc = item.FechaVto.ToString();
+                        }
+                        if (item.FechaEmision > 0)
+                        {
+                            femis = item.FechaEmision.ToString();
+                        }
+                        if (item.FechaVtoCup > 0)
+                        {
+                            fcte = item.FechaVtoCup.ToString();
+                        }
+                        if (item.ClaveEmisor != "")
+                        {
+                            ncEmisor = Convert.ToInt32(item.ClaveEmisor.ToString());
+                        }
+                        if (Convert.ToInt32(item.Moneda.ToString()) == 6)
+                        {
+                            newValorMoneda = 10;
+                        }
+                        else
+                        {
+                            newValorMoneda = Convert.ToInt32(item.Moneda.ToString());
+                        }
+                        //Se actualiza el cambio de moneda en US
+                        if (item.Moneda == "1" && item.Udizado)
+                        {
+                            newValorMoneda = 2;
+                        }
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("EMISION", item.Emision);
+                        cmd.Parameters.Add("POSICION", item.Posicion);
+                        cmd.Parameters.Add("OPERACION", item.Operacion);
+                        cmd.Parameters.Add("FECHA_CORTE", fcort);
+                        cmd.Parameters.Add("TITULOS", item.Titulos);
+                        cmd.Parameters.Add("PRECIO_REF", item.PrecioMercado); // anteriormente se condideraba 0
+                        cmd.Parameters.Add("FEC_VENC", fvenc);
+                        cmd.Parameters.Add("TASA_MDO", item.TasaMercado);
+                        cmd.Parameters.Add("PRECIO_LIBROS", item.PrecioLibros);
+                        cmd.Parameters.Add("TASA_CPN", item.TasaCupon);
+                        cmd.Parameters.Add("VN", item.ValorNominal);
+                        cmd.Parameters.Add("FEC_EMISION", femis);
+                        cmd.Parameters.Add("FEC_CTE_CPN", fcte);
+                        cmd.Parameters.Add("CVE_INST", item.ClaveInstrumento);
+                        cmd.Parameters.Add("CVE_EMISOR", ncEmisor);
+                        cmd.Parameters.Add("DURACION", item.Duracion);
+                        cmd.Parameters.Add("TIPO_TASA", item.TipoTasa);
+                        cmd.Parameters.Add("MONEDA", newValorMoneda);
+                        cmd.Parameters.Add("AREA", item.Area);
+                        cmd.Parameters.Add("TPZO_OPER", item.Mercado);
+                        cmd.Parameters.Add("CVE_CONT", "0");
+                        cmd.Parameters.Add("PZO_CPN", item.PlazoCupon);
+                        cmd.Parameters.Add("PZO_REPO", item.PlazoRepo);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESGO.LIQ_TESORERIA (EMISION" +
+                                                                    ",POSICION" +
+                                                                    ",OPERACION" +
+                                                                    ",FECHA_CORTE" +
+                                                                    ",TITULOS" +
+                                                                    ",PRECIO_REF" +
+                                                                    ",FEC_VENC" +
+                                                                    ",TASA_MDO" +
+                                                                    ",PRECIO_LIBROS" +
+                                                                    ",TASA_CPN" +
+                                                                    ",VN" +
+                                                                    ",FEC_EMISION" +
+                                                                    ",FEC_CTE_CPN" +
+                                                                    ",CVE_INST" +
+                                                                    ",CVE_EMISOR" +
+                                                                    ",DURACION" +
+                                                                    ",TIPO_TASA" +
+                                                                    ",MONEDA" +
+                                                                    ",AREA" +
+                                                                    ",TPZO_OPER" +
+                                                                    ",CVE_CONT" +
+                                                                    ",PZO_CPN" +
+                                                                    ",PZO_REPO) " +
+                                                        "VALUES (:EMISION,:POSICION,:OPERACION, to_date(:FECHA_CORTE,'yyyymmdd'),:TITULOS,:PRECIO_REF, to_date(:FEC_VENC,'yyyymmdd'),:TASA_MDO,:PRECIO_LIBROS,:TASA_CPN,:VN, to_date(:FEC_EMISION,'yyyymmdd'), to_date(:FEC_CTE_CPN,'yyyymmdd'),:CVE_INST,:CVE_EMISOR, :DURACION, :TIPO_TASA,:MONEDA,:AREA,:TPZO_OPER,:CVE_CONT, :PZO_CPN,:PZO_REPO)";
+
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.exito = false;
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+        public bool eliminarPosicionPosicionTesoreria(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHA_CORTE", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESGO.LIQ_TESORERIA WHERE FECHA_CORTE = to_date(:FECHA_CORTE,'yyyymmdd')", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 11
+
+        public Respuesta guardarPosicionGlobalTitulos(List<PosicionGlobalTitulos> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = this.R11_EliminarPosicionGlobalTitulos(Convert.ToInt32(reporte[0].Fecha), conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (PosicionGlobalTitulos item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("Fecha", item.Fecha);
+                        cmd.Parameters.Add("Emision", item.Emision);
+                        cmd.Parameters.Add("TipoInventario", item.TipoInventario);
+                        cmd.Parameters.Add("TotalTitulos", item.TotalTitulos);
+                        cmd.Parameters.Add("TitulosRepIntermediarios", item.TitulosRepIntermediarios);
+                        cmd.Parameters.Add("TitulosGarOtorgados", item.TitulosGarOtorgados);
+                        cmd.Parameters.Add("TenenciaIndeval", item.TenenciaIndeval);
+                        cmd.Parameters.Add("TitulosReportoCli", item.TitulosReportoCli);
+                        cmd.Parameters.Add("TitulosEnAdmon", item.TitulosEnAdmon);
+                        cmd.Parameters.Add("TitulosDisponibles", item.TitulosDisponibles);
+                        cmd.Parameters.Add("TitulosGarRecibidos", item.TitulosGarRecibidos);
+                        cmd.Parameters.Add("TitulosRecibidosCustodia", item.TitulosRecibidosCustodia);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_POSICION_GLOBAL_TIT (Fecha" +
+                                                                                        ",Emision" +
+                                                                                        ",TipoInventario" +
+                                                                                        ",TotalTitulos" +
+                                                                                        ",TitulosRepIntermediarios" +
+                                                                                        ",TitulosGarOtorgados" +
+                                                                                        ",TenenciaIndeval" +
+                                                                                        ",TitulosReportoCli" +
+                                                                                        ",TitulosEnAdmon" +
+                                                                                        ",TitulosDisponibles" +
+                                                                                        ",TitulosGarRecibidos" +
+                                                                                        ",TitulosRecibidosCustodia)" +
+                                                                                        " VALUES (:Fecha,:Emision,:TipoInventario,:TotalTitulos,:TitulosRepIntermediarios,:TitulosGarOtorgados,:TenenciaIndeval,:TitulosReportoCli,:TitulosEnAdmon,:TitulosDisponibles,:TitulosGarRecibidos,:TitulosRecibidosCustodia)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        public bool R11_EliminarPosicionGlobalTitulos(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHA", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_POSICION_GLOBAL_TIT WHERE FECHA = :FECHA", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 12
+
+        public Respuesta guardarMovimientosTesoreria(List<MovimientosTesoreria> reporte, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = this.R12_EliminarMovimientosTesoreria(Convert.ToInt32(reporte[0].FechaExp), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+                    foreach (MovimientosTesoreria item in reporte)
+                    {
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("IDENTIFICADOR", item.Identificador);
+                        cmd.Parameters.Add("NOMINSTRUMENTO", item.NomInstrumento);//0 
+                                                                                  ////  Console.WriteLine(item.NomInstrumento);
+                        cmd.Parameters.Add("EMISOR", item.Emisor);
+                        cmd.Parameters.Add("NOMEMI", item.Emision);
+                        cmd.Parameters.Add("CLAVEOPER", item.ClaveOper);
+                        cmd.Parameters.Add("TIPOMOV", item.TipoMov);
+                        cmd.Parameters.Add("NUMTITASIG", item.NumTitAsig);
+                        cmd.Parameters.Add("PRECIODEREF", item.PrecioRef);
+                        cmd.Parameters.Add("PRECIOLIBROS", item.PrecioLibros);
+                        cmd.Parameters.Add("IMPASIG", item.ImporteAsig);
+                        cmd.Parameters.Add("TASACOSTO", item.TasaCosto);
+                        cmd.Parameters.Add("PLAZO", item.Plazo);
+                        cmd.Parameters.Add("FECHAALTA", item.FechaAlta);
+                        cmd.Parameters.Add("FECHAVENC", item.FechaVen);
+                        cmd.Parameters.Add("TITGARAN", item.TitGarant);
+                        cmd.Parameters.Add("PERIODO", item.Periodo);
+                        cmd.Parameters.Add("TASAREF", item.TasaRef);
+                        cmd.Parameters.Add("EMISIONGAR", item.EmisionGar);
+                        cmd.Parameters.Add("NUMFUNCIONARIO", item.NumFuncionario);//0
+                        cmd.Parameters.Add("NUMCONTRAPARTE", item.NumContraparte);
+                        cmd.Parameters.Add("NUMOPER", item.NumOper);
+                        cmd.Parameters.Add("FECHAEXP", item.FechaExp);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESGO.POS_TESO (IDENTIFICADOR" +
+                                                                                    ",NOMINSTRUMENTO" +
+                                                                                    ",EMISOR" +
+                                                                                    ",NOMEMI" +
+                                                                                    ",CLAVEOPER" +
+                                                                                    ",TIPOMOV" +
+                                                                                    ",NUMTITASIG" +
+                                                                                    ",PRECIODEREF" +
+                                                                                    ",PRECIOLIBROS" +
+                                                                                    ",IMPASIG" +
+                                                                                    ",TASACOSTO" +
+                                                                                    ",PLAZO" +
+                                                                                    ",FECHAALTA" +
+                                                                                    ",FECHAVENC" +
+                                                                                    ",TITGARAN" +
+                                                                                    ",PERIODO" +
+                                                                                    ",TASAREF" +
+                                                                                    ",EMISIONGAR" +
+                                                                                    ",NUMFUNCIONARIO" +
+                                                                                    ",NUMCONTRAPARTE" +
+                                                                                    ",NUMOPER" +
+                                                                                    ",FECHAEXP) " +
+                                                                           "VALUES (:IDENTIFICADOR,:NOMINSTRUMENTO ,:EMISOR,:NOMEMI,:CLAVEOPER,:TIPOMOV,:NUMTITASIG,:PRECIODEREF,:PRECIOLIBROS,:IMPASIG,:TASACOSTO,:PLAZO, to_date(:FECHAALTA,'yyyymmdd'), to_date(:FECHAVENC,'yyyymmdd'),:TITGARAN,:PERIODO,:TASAREF,:EMISIONGAR,:NUMFUNCIONARIO,:NUMCONTRAPARTE,:NUMOPER, to_date(:FECHAEXP,'yyyymmdd'))";
+                        //Se cambia el valor fijo  de 0 en NOMINSTRUMENTO Y NUMFUNCIONARIO
+
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = aff >= 0;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.exito = false;
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+        public bool R12_EliminarMovimientosTesoreria(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHAEXP", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESGO.POS_TESO WHERE FECHAEXP = to_date(:FECHAEXP,'yyyymmdd')", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 13
+
+        /// <summary>
+        /// Reporte # 13
+        /// </summary>
+        /// <param name="reporte"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public Respuesta guardarPosicionForwards(List<PosicionForwards> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            ////borro = R13_EliminarPosicionForwards(Convert.ToInt32(reporte[0].F_Posicion), conexion);
+            respuesta = this.R13_EliminarPosicionForwards(Convert.ToInt32(reporte[0].F_Posicion), conexion);
+            if (!respuesta.exito)
+            {
+                return respuesta;
+            }
+
+            try
+            {
+                conexion.Open();
+                OracleCommand cmd = new OracleCommand();
+                cmd.Connection = conexion;
+
+                int aff = 0;
+                string newClaveProducto;
+                foreach (PosicionForwards item in reporte)
+                {
+
+                    if (item.Clave_Producto == "")
+                    {
+                        newClaveProducto = "null";
+                    }
+                    else
+                    {
+                        newClaveProducto = item.Clave_Producto;
+                    }
+
+                    cmd.Parameters.Clear();
+                    cmd.Parameters.Add("F_POSICION", item.F_Posicion);
+                    cmd.Parameters.Add("CLAVE_OP", item.Clave_Op);
+                    cmd.Parameters.Add("T_OPERACION", item.T_Operacion);
+                    cmd.Parameters.Add("M_NOCIONAL", item.M_Nocional);
+                    cmd.Parameters.Add("F_INICIO", item.F_inicio);
+                    cmd.Parameters.Add("F_VENCIMIENTO", item.F_Vencimiento);
+                    cmd.Parameters.Add("F_LIQUIDACION", item.F_Liquidacion);
+                    cmd.Parameters.Add("CLAVE_PRODUCTO", newClaveProducto);
+                    cmd.Parameters.Add("PLAZO_FWD", item.Plazo_Fwd);
+                    cmd.Parameters.Add("TC_PACTADO", item.Tc_Pactado);
+                    cmd.Parameters.Add("INTENCION", item.Intencion);
+                    cmd.Parameters.Add("LIQUIDACION", item.Liquidacion);
+                    cmd.Parameters.Add("VALUACION", item.Valuacion);
+                    cmd.Parameters.Add("CONTRAPARTE", item.Contraparte);
+                    cmd.Parameters.Add("NEGO_ESTRUC", item.Nego_Estruc);
+
+
+                    cmd.CommandText = "INSERT INTO XYZWIN.OPER_FWDS (F_POSICION" +
+                                                            ",CLAVE_OP" +
+                                                            ",T_OPERACION" +
+                                                            ",M_NOCIONAL" +
+                                                            ",F_INICIO" +
+                                                            ",F_VENCIMIENTO" +
+                                                            ",F_LIQUIDACION" +
+                                                            ",CLAVE_PRODUCTO" +
+                                                            ",PLAZO_FWD" +
+                                                            ",TC_PACTADO" +
+                                                            ",INTENCION" +
+                                                            ",LIQUIDACION" +
+                                                            ",VALUACION" +
+                                                            ",CONTRAPARTE" +
+                                                            ",NEGO_ESTRUC) " +
+                                                            "VALUES (to_date(:F_POSICION,'yyyymmdd'),:CLAVE_OP,:T_OPERACION,:M_NOCIONAL,to_date(:F_INICIO,'yyyymmdd'),to_date(:F_VENCIMIENTO,'yyyymmdd'),to_date(:F_LIQUIDACION,'yyyymmdd'),:CLAVE_PRODUCTO,:PLAZO_FWD,:TC_PACTADO,:INTENCION,:LIQUIDACION,:VALUACION,:CONTRAPARTE,:NEGO_ESTRUC)";
+
+                    cmd.BindByName = true;
+
+                    cmd.CommandType = CommandType.Text;
+                    aff += cmd.ExecuteNonQuery();
+                }
+
+                respuesta.exito = aff >= 0;
+                respuesta.mensaje = aff + " registros fueron insertados.";
+
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 13
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        private Respuesta R13_EliminarPosicionForwards(int fechaConsulta, OracleConnection conexion)
+        {
+            int affectedRecords = 0;
+            Respuesta response = new Respuesta() { exito = false };
+            OracleCommand cmd = new OracleCommand();
+
+            try
+            {
+                conexion.Open();
+                cmd.BindByName = true;
+                cmd.Connection = conexion;
+                cmd.Parameters.Add("F_Posicion", fechaConsulta);
+                string strSQL = string.Format("DELETE FROM XYZWIN.OPER_FWDS WHERE F_Posicion = to_date(:F_Posicion,'yyyymmdd')", fechaConsulta);
+                cmd.CommandText = strSQL;
+
+                affectedRecords = cmd.ExecuteNonQuery();
+                response.exito = affectedRecords >= 0;
+                response.mensaje = $"{affectedRecords} registros eliminados con éxito.";
+            }
+            catch (Exception ex)
+            {
+                response.exito = false;
+                response.mensaje = ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return response;
+        }
+
+        #endregion
+
+
+        #region Reporte # 14 (Flujos Swaps)
+
+        //REPORTE 14
+        public Respuesta guardarFlujosSwaps(List<FlujosSwaps> reporte, List<CatalogoDivisas> catalogoDivisas, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta() { exito = false };
+            int aff0 = 0;
+            int aff1 = 0;
+            int aff2 = 0;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            bool borro = this.R14_EliminarFlujoswaps(conexion);
+            if (!borro)
+            {
+                respuesta.mensaje = "Hubo un error al borrar los registros.";
+                return respuesta;
+            }
+
+            OracleTransaction? transaction = null;
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+            try
+            {
+                cmd.CommandTimeout = 0;
+
+                conexion.Open();
+                transaction = conexion.BeginTransaction(System.Data.IsolationLevel.ReadCommitted);
+
+                foreach (FlujosSwaps item in reporte)
+                {
+                    string? newFechaLiq = item.Fec_Liq != 0 ? Convert.ToString(item.Fec_Liq) : null;
+
+                    cmd.Parameters.Clear();
+                    cmd.Parameters.Add("AMORTIZACION", item.Amortizacion);
+                    cmd.Parameters.Add("CONVENCION", item.Convencion);
+                    cmd.Parameters.Add("CUPON", item.Cupon);
+                    cmd.Parameters.Add("CVESWAP", item.Cveswap);
+                    cmd.Parameters.Add("FECHA_POS", item.Fecha_Pos);
+                    cmd.Parameters.Add("FEC_INI", item.Fec_Ini);
+                    cmd.Parameters.Add("FEC_INI_R", item.Fec_Ini_R);
+                    cmd.Parameters.Add("FEC_LIQ", newFechaLiq);
+                    cmd.Parameters.Add("FEC_TER", item.Fec_Ter);
+                    cmd.Parameters.Add("FEC_TER_R", item.Fec_Ter_R);
+                    cmd.Parameters.Add("ID_SIDE", item.Id_Side);
+                    cmd.Parameters.Add("INTERF", item.Interf);
+                    cmd.Parameters.Add("INTERI", item.Interi);
+                    cmd.Parameters.Add("NEGO_ESTRUC", item.Nego_Estruc);
+                    cmd.Parameters.Add("NUMMON", catalogoDivisas.Find(x => x.Id_Apesa == item.Nummon)!.Id_Sivarmer);
+                    cmd.Parameters.Add("PAGA_INT", item.Paga_int);
+                    cmd.Parameters.Add("POSICION", item.Posicion);
+                    cmd.Parameters.Add("SECUENCIA", item.Secuencia);
+                    cmd.Parameters.Add("SPREAD", item.Spread);
+                    cmd.Parameters.Add("TASA", item.Tasa);
+                    cmd.Parameters.Add("TIP_NEGOC", item.Tip_Negoc);
+                    cmd.Parameters.Add("TIP_SWAP", item.Tip_Swap);
+                    cmd.Parameters.Add("VALOR_NOC", item.Valor_Noc);
+                    cmd.BindByName = true;
+                    cmd.CommandType = CommandType.Text;
+
+                    string query01 = this.R14_GetStringSQL("XYZWIN.SW_RIESGOS1", false);
+                    cmd.CommandText = query01;
+                    aff0 += cmd.ExecuteNonQuery();
+
+                    string query02 = this.R14_GetStringSQL("XYZWIN.SW_RIESGOS1_TEMP", true);
+                    cmd.CommandText = query02;
+                    aff1 += cmd.ExecuteNonQuery();
+
+                    string query03 = this.R14_GetStringSQL("XYZWIN.SW_RIESGOS1_COPIA", true);
+                    cmd.CommandText = query03;
+                    aff2 += cmd.ExecuteNonQuery();
+                }
+
+                transaction.Commit();
+                respuesta.exito = true;
+                respuesta.mensaje = $"{ aff0 }, {aff1}, {aff2}, registros fueron insertados.";
+            }
+            catch (Exception ex)
+            {
+                transaction?.Rollback();
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 14
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool R14_EliminarFlujoswaps(OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleTransaction? transaction = null;
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                transaction = conexion.BeginTransaction(System.Data.IsolationLevel.ReadCommitted);
+
+                cmd.Transaction = transaction;
+                cmd.Connection = conexion;
+                cmd.CommandType = CommandType.Text;
+
+                cmd.CommandText = "DELETE FROM XYZWIN.SW_RIESGOS1";
+                cmd.ExecuteNonQuery();
+
+                cmd.CommandText = "DELETE FROM XYZWIN.SW_RIESGOS1_TEMP";
+                cmd.ExecuteNonQuery();
+
+                cmd.CommandText = "DELETE FROM XYZWIN.SW_RIESGOS1_COPIA";
+                cmd.ExecuteNonQuery();
+
+                exito = true;
+                transaction.Commit();
+            }
+            catch (Exception)
+            {
+                transaction?.Rollback();
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        /// <summary>
+        /// Obtener la sentencia SQL
+        /// </summary>
+        /// <param name="tableName">Nombre de tabla</param>
+        /// <returns></returns>
+        private string R14_GetStringSQL(string tableName, bool isAdd)
+        {
+            StringBuilder sbCommand = new StringBuilder();
+
+            sbCommand.Append($"INSERT INTO {tableName} (");
+
+            sbCommand.Append("AMORTIZACION, ");
+            sbCommand.Append("CONVENCION, ");
+            sbCommand.Append("CUPON, ");
+            sbCommand.Append("CVESWAP, ");
+            sbCommand.Append("FECHA_POS, ");
+            sbCommand.Append("FEC_INI, ");
+            if (isAdd) sbCommand.Append("FEC_INI_R, ");
+            sbCommand.AppendLine("FEC_LIQ, ");
+            sbCommand.Append("FEC_TER, ");
+            if (isAdd) sbCommand.Append("FEC_TER_R, ");
+            sbCommand.Append("ID_SIDE, ");
+            sbCommand.Append("INTERF, ");
+            sbCommand.Append("INTERI, ");
+            sbCommand.Append("NEGO_ESTRUC, ");
+            sbCommand.Append("NUMMON, ");
+            sbCommand.AppendLine("PAGA_INT, ");
+            sbCommand.Append("POSICION, ");
+            sbCommand.Append("SECUENCIA, ");
+            sbCommand.Append("TASA, ");
+            sbCommand.Append("TIP_NEGOC, ");
+            sbCommand.Append("TIP_SWAP, ");
+            sbCommand.Append("SPREAD, ");
+            sbCommand.Append("VALOR_NOC) ");
+
+            sbCommand.AppendLine("VALUES ( ");
+
+            sbCommand.Append(":AMORTIZACION, ");
+            sbCommand.Append(":CONVENCION, ");
+            sbCommand.Append(":CUPON, ");
+            sbCommand.Append(":CVESWAP, ");
+            sbCommand.Append("to_date(:FECHA_POS,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FEC_INI,'yyyymmdd'), ");
+            if (isAdd) sbCommand.Append("to_date(:FEC_INI_R,'yyyymmdd'), ");
+            sbCommand.AppendLine("to_date(:FEC_LIQ,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FEC_TER,'yyyymmdd'), ");
+            if (isAdd) sbCommand.Append("to_date(:FEC_TER_R,'yyyymmdd'), ");
+            sbCommand.Append(":ID_SIDE, ");
+            sbCommand.Append(":INTERF, ");
+            sbCommand.Append(":INTERI, ");
+            sbCommand.Append(":NEGO_ESTRUC, ");
+            sbCommand.Append(":NUMMON, ");
+            sbCommand.AppendLine(":PAGA_INT, ");
+            sbCommand.Append(":POSICION, ");
+            sbCommand.Append(":SECUENCIA, ");
+            sbCommand.Append(":TASA, ");
+            sbCommand.Append(":TIP_NEGOC, ");
+            sbCommand.Append(":TIP_SWAP, ");
+            sbCommand.Append(":SPREAD, ");
+            sbCommand.Append(":VALOR_NOC)");
+
+            return sbCommand.ToString();
+        }
+
+        #endregion
+
+
+        #region Reporte # 15 (Comparación de Flujos de Posiciones Primarias)
+
+        /// <summary>
+        /// Reporte # 15 - Comparación de Flujos
+        /// </summary>
+        /// <param name="reporte"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public async Task<Respuesta> FlujosPosicionesPrimariasProcess(int fechaConsulta, List<FlujosPosicionesPrimarias> apiDataList, OracleConnection conexion)
+        {
+            Respuesta response = new Respuesta { exito = false, ListaMensajes = new List<string>() };
+
+            //Filtrando por CPosicion = 50
+            apiDataList = apiDataList.Where(x => x.TipoPos == 1 && x.CPosicion == 50).ToList();
+            if (apiDataList.Count == 0)
+            {
+                response.exito = true;
+                response.mensaje = "No se encontraron registros para procesar.";
+                return response;
+            }
+
+            try
+            {
+                //Obteniendo el conjunto de datos de la tabla productiva
+                var productionDataList = await this.R15_GetProductionData(conexion);
+
+                //Agrupando datos espejo por COperacion
+                var mirrorDataGroups = apiDataList.GroupBy(x => x.COperacion).ToList();
+                foreach (var groupCOperacion in mirrorDataGroups)
+                {
+                    string currentCOperacion = groupCOperacion.Key;
+                    var currentApiDataList_B = groupCOperacion.Where(x => x.T_Pata == "B").ToList();
+                    var currentProductionList_B = productionDataList.Where(x => x.COperacion == currentCOperacion && x.T_Pata == "B").ToList();
+                    var currentApiDataList_C = groupCOperacion.Where(x => x.T_Pata == "C").ToList();
+                    var currentProductionList_C = productionDataList.Where(x => x.COperacion == currentCOperacion && x.T_Pata == "C").ToList();
+
+                    //Si el conteo entre espejo y productivo es diferente o en producción no hay registros, insertar toda la data
+                    if ((currentProductionList_B.Count + currentProductionList_C.Count == 0) ||
+                        ((currentApiDataList_B.Count + currentApiDataList_C.Count) != (currentProductionList_B.Count + currentProductionList_C.Count)))
+                    {
+                        var respuesta = this.R15_SaveFlujosPosicionesPrimarias(groupCOperacion.ToList(), groupCOperacion.ToList(), fechaConsulta.ToString(), conexion);
+                        response.ListaMensajes.Add($"COperacion = { currentCOperacion }, " + respuesta.mensaje);
+                        continue;
+                    }
+
+                    //1. Procesando información con T_PATA => B
+                    if (currentApiDataList_B.Count != currentProductionList_B.Count)
+                    {
+                        //Si hay diferencia, insertar todos los registros espejo en tabla productiva
+                        var respuesta =  this.R15_SaveFlujosPosicionesPrimarias(currentApiDataList_B, currentApiDataList_B, fechaConsulta.ToString(), conexion);
+                        response.ListaMensajes.Add(respuesta.mensaje);
+                    }
+                    else
+                    {
+                        //3. Si el conteo es igual, ejecuta la comparación entre campos y actualiza aquellos que hayan sufrido un cambio
+                        //Hacer distinción por los campos F_INICIO, F_FINAL, PAGO_INT, INT_S_SALDO, SALDO, AMORTIZACION, T_APLICAR.
+                        var newDataList = currentApiDataList_B.Where(sc => !currentProductionList_B.Any(dc =>
+                                                                                this.ConvertToDecimal(dc.Amortizacion.ToString()) == this.ConvertToDecimal(sc.Amortizacion.ToString()) &&
+                                                                                this.ConvertToDate(dc.F_Final.ToString(), 2) == this.ConvertToDate(sc.F_Final.ToString(), 2) &&
+                                                                                this.ConvertToDate(dc.F_Inicio.ToString(), 2) == this.ConvertToDate(sc.F_Inicio.ToString(), 2) &&
+                                                                                this.ConvertToStr(dc.Int_S_Saldo.ToString()) == this.ConvertToStr(sc.Int_S_Saldo.ToString()) &&
+                                                                                this.ConvertToStr(dc.Pago_int.ToString()) == this.ConvertToStr(sc.Pago_int.ToString()) &&
+                                                                                this.ConvertToDecimal(dc.Saldo.ToString()) == this.ConvertToDecimal(sc.Saldo.ToString()) &&
+                                                                                this.ConvertToDecimal(dc.T_Aplicar.ToString()) == this.ConvertToDecimal(sc.T_Aplicar.ToString())
+                                                                    )).ToList();
+                        if (newDataList.Any() && newDataList.Count > 0)
+                        {
+                            var respuesta = this.R15_SaveFlujosPosicionesPrimarias(newDataList, currentApiDataList_B, fechaConsulta.ToString(), conexion);
+                            response.ListaMensajes.Add(respuesta.mensaje);
+                        }
+                        else {
+                            var respuesta = this.R15_SaveFlujosPosicionesPrimarias(new List<FlujosPosicionesPrimarias>(), currentApiDataList_B, fechaConsulta.ToString(), conexion);
+                            response.ListaMensajes.Add(respuesta.mensaje);
+                        }
+                    }
+
+                    //2. Procesando información con T_PATA => C
+                    if (currentApiDataList_C.Count != currentProductionList_C.Count)
+                    {
+                        //Si hay diferencia, insertar todos los registros espejo en tabla productiva
+                        var respuesta = this.R15_SaveFlujosPosicionesPrimarias(currentApiDataList_C, currentApiDataList_C, fechaConsulta.ToString(), conexion);
+                        response.ListaMensajes.Add(respuesta.mensaje);
+                    }
+                    else
+                    {
+                        //3. Si el conteo es igual, ejecuta la comparación entre campos y actualiza aquellos que hayan sufrido un cambio
+                        //Hacer distinción por los campos F_INICIO, F_FINAL, PAGO_INT, INT_S_SALDO, SALDO, AMORTIZACION, T_APLICAR.
+                        var newDataList = currentApiDataList_C.Where(sc => !currentProductionList_C.Any(dc =>
+                                                                                this.ConvertToDecimal(dc.Amortizacion.ToString()) == this.ConvertToDecimal(sc.Amortizacion.ToString()) &&
+                                                                                this.ConvertToDate(dc.F_Final.ToString(), 2) == this.ConvertToDate(sc.F_Final.ToString(), 2) &&
+                                                                                this.ConvertToDate(dc.F_Inicio.ToString(), 2) == this.ConvertToDate(sc.F_Inicio.ToString(), 2) &&
+                                                                                this.ConvertToStr(dc.Int_S_Saldo.ToString()) == this.ConvertToStr(sc.Int_S_Saldo.ToString()) &&
+                                                                                this.ConvertToStr(dc.Pago_int.ToString()) == this.ConvertToStr(sc.Pago_int.ToString()) &&
+                                                                                this.ConvertToDecimal(dc.Saldo.ToString()) == this.ConvertToDecimal(sc.Saldo.ToString()) &&
+                                                                                this.ConvertToDecimal(dc.T_Aplicar.ToString()) == this.ConvertToDecimal(sc.T_Aplicar.ToString())
+                                                                    )).ToList();
+                        if (newDataList.Any() && newDataList.Count > 0)
+                        {
+                            var respuesta = this.R15_SaveFlujosPosicionesPrimarias(newDataList, currentApiDataList_C, fechaConsulta.ToString(), conexion);
+                            response.ListaMensajes.Add(respuesta.mensaje);
+                        }
+                        else
+                        {
+                            var respuesta = this.R15_SaveFlujosPosicionesPrimarias(new List<FlujosPosicionesPrimarias>(), currentApiDataList_C, fechaConsulta.ToString(), conexion);
+                            response.ListaMensajes.Add(respuesta.mensaje);
+                        }
+                    }
+                }
+                response.exito = true;
+            }
+            catch (Exception ex)
+            {
+                response.mensaje = ex.Message;
+            }
+
+            return response;
+        }
+
+        /// <summary>
+        /// Obtener parámetros para inserción de información
+        /// </summary>
+        /// <param name="source">Nombre de tabla de BD destino</param>
+        /// <param name="item">Contenedor con valores para los parámetros</param>
+        /// <returns></returns>
+        private List<OracleParameter> R15_GetParameters(FlujosPosicionesPrimarias item)
+        {
+            List<OracleParameter> parameterList = new List<OracleParameter>();
+
+            parameterList.Add(new OracleParameter("AMORTIZACION", item.Amortizacion));
+            parameterList.Add(new OracleParameter("COPERACION", item.COperacion));
+            parameterList.Add(new OracleParameter("CPOSICION", item.CPosicion));
+            parameterList.Add(new OracleParameter("FECHAREG", item.Fechareg));
+            parameterList.Add(new OracleParameter("FECHA_LIQ", item.FechaLiq == 0 ? null : item.FechaLiq));
+            parameterList.Add(new OracleParameter("F_DESC", item.F_Desc == 0 ? null : item.F_Desc));
+            parameterList.Add(new OracleParameter("F_FINAL", item.F_Final));
+            parameterList.Add(new OracleParameter("F_FIXING", item.F_Fixing));
+            parameterList.Add(new OracleParameter("F_INICIO", item.F_Inicio));
+            parameterList.Add(new OracleParameter("HORAREG", item.HoraReg));
+            parameterList.Add(new OracleParameter("INT_S_SALDO", item.Int_S_Saldo));
+            parameterList.Add(new OracleParameter("NOMPOS", item.NomPos));
+            parameterList.Add(new OracleParameter("PAGO_INT", item.Pago_int));
+            parameterList.Add(new OracleParameter("TIPOPOS", item.TipoPos));
+            parameterList.Add(new OracleParameter("T_APLICAR", item.T_Aplicar));
+            parameterList.Add(new OracleParameter("T_PATA", item.T_Pata));
+            parameterList.Add(new OracleParameter("SALDO", item.Saldo));
+
+            return parameterList;
+        }
+
+        /// <summary>
+        /// Reporte # 15 - Obtener lista de registros en tabla productiva
+        /// </summary>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        private async Task<List<FlujosPosicionesPrimarias>> R15_GetProductionData(OracleConnection conexion)
+        {
+            List<FlujosPosicionesPrimarias> productionDataList = new List<FlujosPosicionesPrimarias>();
+
+            try
+            {
+                StringBuilder sbSQL = new StringBuilder();
+                sbSQL.AppendLine("SELECT * FROM RIESVARM.VAR_TD_FLUJOS_SWAPS_BK ");
+                sbSQL.AppendLine("WHERE TIPOPOS = 1 ");
+                sbSQL.AppendLine("AND CPOSICION = 50 ");
+                sbSQL.AppendLine("AND T_PATA IN('B', 'C') ");
+                sbSQL.AppendLine("AND FECHAREG = (SELECT MAX(FECHAREG) FROM RIESVARM.VAR_TD_FLUJOS_SWAPS_BK ");
+                sbSQL.AppendLine("                WHERE TIPOPOS = 1 ");
+                sbSQL.AppendLine("                AND CPOSICION = 50 ");
+                sbSQL.AppendLine("                AND T_PATA IN('B', 'C'))");
+
+                using (OracleCommand cmd = new OracleCommand(sbSQL.ToString(), conexion))
+                {
+                    await conexion.OpenAsync(); 
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = sbSQL.ToString();
+
+                    var reader = await cmd.ExecuteReaderAsync();
+
+                    var result = reader.Cast<IDataRecord>()
+                                        .Select(dr => new FlujosPosicionesPrimarias
+                                        {
+                                            Amortizacion = (decimal)this.ConvertToDecimal(dr["Amortizacion"].ToString()!)!,
+                                            COperacion = (string)dr["COperacion"],
+                                            CPosicion = this.ConvertToInt(dr["CPosicion"].ToString()!)!,
+                                            F_Desc = this.ConvertToDate(dr["F_Desc"].ToString()!, 1)!,
+                                            F_Final = this.ConvertToDate(dr["F_Final"].ToString()!, 1)!,
+                                            F_Fixing = this.ConvertToDate(dr["F_Fixing"].ToString()!, 1)!,
+                                            F_Inicio = this.ConvertToDate(dr["F_Inicio"].ToString()!, 1)!,
+                                            Fechareg = this.ConvertToDate(dr["FechaReg"].ToString()!, 1)!,
+                                            HoraReg = (string)dr["HoraReg"],
+                                            Int_S_Saldo = (string)dr["Int_S_Saldo"],
+                                            NomPos = (string)dr["NomPos"],
+                                            Pago_int = (string)dr["Pago_Int"],
+                                            Saldo = (decimal)this.ConvertToDecimal(dr["Saldo"].ToString()!)!,
+                                            T_Aplicar = (decimal)this.ConvertToDecimal(dr["T_Aplicar"].ToString()!)!,
+                                            T_Pata = (string)dr["T_Pata"],
+                                            TipoPos = this.ConvertToInt(dr["TipoPos"].ToString()!)!
+                                        });
+
+                    productionDataList = result.ToList();
+                    await reader.CloseAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                await conexion.CloseAsync();
+            }
+
+            return productionDataList;
+        }
+
+        /// <summary>
+        /// Obtener la sentencia SQL para datos productivos
+        /// </summary>
+        /// <param name="tableName">Nombre de tabla</param>
+        /// <returns></returns>
+        private string R15_GetStringSQLProduction(string tableName, int FechaLiq, int F_Desc)
+        {
+            StringBuilder sbCommand = new StringBuilder();
+
+            sbCommand.Append($"INSERT INTO {tableName} (");
+            sbCommand.Append("AMORTIZACION, ");
+            sbCommand.Append("COPERACION, ");
+            sbCommand.Append("CPOSICION, ");
+            sbCommand.Append("FECHAREG, ");
+            sbCommand.Append("FECHA_LIQ, ");
+            sbCommand.Append("F_DESC, ");
+            sbCommand.Append("F_FINAL, ");
+            sbCommand.Append("F_FIXING, ");
+            sbCommand.Append("F_INICIO, ");
+            sbCommand.AppendLine("HORAREG, ");
+            sbCommand.Append("INT_S_SALDO, ");
+            sbCommand.Append("NOMPOS, ");
+            sbCommand.Append("PAGO_INT, ");
+            sbCommand.Append("TIPOPOS, ");
+            sbCommand.Append("T_APLICAR, ");
+            sbCommand.Append("T_PATA, ");
+            sbCommand.Append("SALDO) ");
+
+            sbCommand.AppendLine("VALUES ( ");
+
+            sbCommand.Append(":AMORTIZACION, ");
+            sbCommand.Append(":COPERACION, ");
+            sbCommand.Append(":CPOSICION, ");
+            sbCommand.Append("to_date(:FECHAREG,'yyyymmdd'), ");
+            string strFechaLiq = FechaLiq == 0 ? ":FECHA_LIQ," : "to_date(:FECHA_LIQ,'yyyymmdd'),";
+            sbCommand.Append(strFechaLiq);
+            string strF_Desc = F_Desc == 0 ? ":F_DESC," : "to_date(:F_DESC,'yyyymmdd'),";
+            sbCommand.Append(strF_Desc);
+            sbCommand.Append("to_date(:F_FINAL,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:F_FIXING,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:F_INICIO,'yyyymmdd'), ");
+            sbCommand.Append(":HORAREG, ");
+            sbCommand.Append(":INT_S_SALDO, ");
+            sbCommand.Append(":NOMPOS, ");
+            sbCommand.Append(":PAGO_INT, ");
+            sbCommand.Append(":TIPOPOS, ");
+            sbCommand.Append(":T_APLICAR, ");
+            sbCommand.Append(":T_PATA, ");
+            sbCommand.Append(":SALDO)");
+
+            return sbCommand.ToString();
+        }
+
+        /// <summary>
+        /// Reporte # 15 - Guardar información de Flujos de Posiciones Primarias
+        /// </summary>
+        /// <param name="dataList"></param>
+        /// <param name="dateSave"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        private Respuesta R15_SaveFlujosPosicionesPrimarias(List<FlujosPosicionesPrimarias> dataListPrincipal, List<FlujosPosicionesPrimarias> dataListBackUp, string fechaConsulta, OracleConnection conexion)
+        {
+            Respuesta response = new Respuesta { exito = false };
+            ////string strDateSave= fechaConsulta.ToString(); //DateTime.UtcNow.AddDays(-1).ToString("yyyyMMdd");
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+            ////OracleTransaction transaction = conexion.BeginTransaction(System.Data.IsolationLevel.ReadCommitted);
+            ////cmd.Transaction = transaction;
+            OracleTransaction? transaction = null;
+            int recordsInsertedProduction = 0;
+            int recordsInsertedMirror = 0;
+
+            try
+            {
+                conexion.Open();
+                transaction = conexion.BeginTransaction(System.Data.IsolationLevel.ReadCommitted);
+                cmd.Transaction = transaction;
+                cmd.CommandTimeout = 0;
+
+                //Insercion en Productiva
+                foreach (FlujosPosicionesPrimarias item in dataListPrincipal)
+                {
+                    item.Fechareg = Convert.ToInt32(fechaConsulta);
+                    item.HoraReg = "00000";
+                    item.FechaLiq = item.F_Desc;
+
+                    ////cmd.CommandTimeout = 0;
+                    cmd.Parameters.Clear();
+                    var parameterList = this.R15_GetParameters(item).ToArray();
+                    cmd.Parameters.AddRange(parameterList);
+                    cmd.BindByName = true;
+                    cmd.CommandText = this.R15_GetStringSQLProduction("RIESVARM.VAR_TD_FLUJOS_SWAPS_BK", item.FechaLiq, item.F_Desc);
+                    recordsInsertedProduction += cmd.ExecuteNonQuery();
+                }
+
+                //Inserción en Backup
+                foreach (FlujosPosicionesPrimarias item in dataListBackUp)
+                {
+                    item.Fechareg = Convert.ToInt32(fechaConsulta);
+                    item.HoraReg = DateTime.UtcNow.ToString("HH:mm:ss"); ////"00000";
+                    item.FechaLiq = item.F_Desc;
+
+                    ////cmd.CommandTimeout = 0;
+                    cmd.Parameters.Clear();
+                    var parameterList = this.R15_GetParameters(item).ToArray();
+                    cmd.Parameters.AddRange(parameterList);
+                    cmd.BindByName = true;
+                    cmd.CommandText = this.R15_GetStringSQLProduction("RIESVARM.VAR_TD_FLUJOS_SWAPS_COPIA", item.FechaLiq, item.F_Desc);
+                    recordsInsertedMirror += cmd.ExecuteNonQuery();
+                }
+
+
+                transaction.Commit();
+                response.exito = true;
+                response.mensaje = $"[{recordsInsertedProduction}-P, {recordsInsertedMirror}-E] registros fueron insertados.";
+            }
+            catch (Exception ex)
+            {
+                transaction?.Rollback();
+                var error = this.GetExceptionMessage(ex);
+                response.mensaje = $"[{recordsInsertedProduction}-P, {recordsInsertedMirror}-E] registros fueron revertidos. " + "Hubo un error al insertar los registros. " + error;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return response;
+        }
+
+        #endregion
+
+
+        #region Reporte # 16
+
+        //REPORTE 16
+        public Respuesta guardarCaracteristicasSwaps(List<CaracteristicasSwaps> reporte, List<CatalogoDivisas> catalogoDivisas, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = this.R16_EliminarCaracteristicasSwaps(Convert.ToInt32(reporte[0].Fecha_Pos), conexion);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    int aff2 = 0;
+
+                    foreach (CaracteristicasSwaps item in reporte)
+                    {
+                        cmd.BindByName = true;
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Parameters.Clear();
+
+                        string newTasa_Activa = this.GetTasa(item.Tasa_Ref_Activa, item.T_Ref_Activa_Dias_Ante);
+                        string newTasa_Pasiva = this.GetTasa(item.Tasa_Ref_Pasiva, item.T_Ref_Pasiva_Dias_Ante);
+                        int newCvecontpp = !string.IsNullOrEmpty(item.Cvecontpp) ? Convert.ToInt32(item.Cvecontpp.ToString()) : 0;
+                        int newBaseCalcTasa = !string.IsNullOrEmpty(item.Base_Cal_Tasa) ? Convert.ToInt32(item.Base_Cal_Tasa.ToString()) : 0;
+                        ////int newCvemoneda = item.Cvemoneda != "MXN" ? 1 : 2;
+                        int newBaseCalculo = !string.IsNullOrEmpty(item.Base_Calculo) ? Convert.ToInt32(item.Base_Calculo.ToString()) : 0;
+                        ////int newTipoMoneda = !string.IsNullOrEmpty(item.Tipo_Moneda) ? 1 : 0;
+                        int newF_Prox_Flujo_Ent = item.F_Prox_Flujo_Ent != null ? Convert.ToInt32(item.F_Prox_Flujo_Ent) : 0;
+                        int newF_Prox_Flujo = item.Fec_Prox_Flujo != null ? Convert.ToInt32(item.Fec_Prox_Flujo) : 0;
+                        string? newNegoEstruct = item.Nego_Estruc == " " ? "N" : item.Nego_Estruc;
+
+                        cmd.Parameters.Add("FECHA_POS", item.Fecha_Pos);
+                        cmd.Parameters.Add("PERIODO", item.Periodo);
+                        cmd.Parameters.Add("CVE_INST", item.Cve_Inst);
+                        cmd.Parameters.Add("CVE_PROV", item.Cve_Prov);
+                        cmd.Parameters.Add("NUMSEC", item.Numsec);
+                        cmd.Parameters.Add("CVECONTPP", newCvecontpp);
+                        cmd.Parameters.Add("FEC_OPERAC", item.Fec_Operac);
+                        cmd.Parameters.Add("FEC_INI", item.Fec_Ini);
+                        cmd.Parameters.Add("FEC_VENC", item.Fec_Venc);
+                        cmd.Parameters.Add("TIPO_VALOR", item.Tipo_Valor);
+                        cmd.Parameters.Add("TIPO_OPER", item.Tipo_Oper);
+                        cmd.Parameters.Add("FEC_PROX_FLUJO", newF_Prox_Flujo);
+                        cmd.Parameters.Add("PERIODO_FLUJO", item.Periodo_Flujo);
+                        cmd.Parameters.Add("BASE_CAL_TASA", newBaseCalcTasa);
+                        cmd.Parameters.Add("CVEMONEDA", catalogoDivisas?.Find(x => x.Id_Apesa == item.Cvemoneda)!.Id_Sivarmer);
+                        cmd.Parameters.Add("TIPO_CAMBIO_REC", item.Tipo_Cambio_Rec);
+                        cmd.Parameters.Add("M_NOC_FLUJO", item.M_Noc_Flujo);
+                        cmd.Parameters.Add("FORMULA_FLUJO", item.Formula_Flujo);
+                        cmd.Parameters.Add("TASA_RECIBE", item.Tasa_Recibe);
+                        cmd.Parameters.Add("F_PROX_FLUJO_ENT", newF_Prox_Flujo_Ent);
+                        cmd.Parameters.Add("PERIODICIDAD", item.Periodicidad);
+                        cmd.Parameters.Add("BASE_CALCULO", newBaseCalculo);
+                        cmd.Parameters.Add("TIPO_MONEDA", catalogoDivisas?.Find(x => x.Id_Apesa == item.Tipo_Moneda)!.Id_Sivarmer);
+                        cmd.Parameters.Add("TIPO_CAMBIO_ENT", item.Tipo_Cambio_Ent);
+                        cmd.Parameters.Add("M_NOC_FLUJO_ENT", item.M_Noc_Flujo_Ent);
+                        cmd.Parameters.Add("TASA_REF_ACTIVA", newTasa_Activa);
+                        cmd.Parameters.Add("T_REF_ACTIVA_DIAS_ANTE", item.T_Ref_Activa_Dias_Ante);
+                        cmd.Parameters.Add("TASA_REF_PASIVA", newTasa_Pasiva);
+                        cmd.Parameters.Add("T_REF_PASIVA_DIAS_ANTE", item.T_Ref_Pasiva_Dias_Ante);
+                        cmd.Parameters.Add("SOBRETASA_ACTIVA", item.Sobretasa_Activa);
+                        cmd.Parameters.Add("OP_SOBRETASA_ACTIVA", item.Op_Sobretasa_Activa);
+                        cmd.Parameters.Add("SOBRETASA_PASIVA", item.Sobretasa_Pasiva);
+                        cmd.Parameters.Add("OP_SOBRETASA_PASIVA", item.Op_Sobretasa_Pasiva);
+                        cmd.Parameters.Add("TASA_ENTREGA", item.Tasa_Entrega);
+                        cmd.Parameters.Add("PRIMA", item.Prima);
+                        cmd.Parameters.Add("OBJETIVO_OPER", item.Objetivo_Oper);
+                        cmd.Parameters.Add("VAL_ACTIVA", item.Val_Activa);
+                        cmd.Parameters.Add("VAL_PASIVA", item.Val_Pasiva);
+                        cmd.Parameters.Add("VALOR_NETO", item.Valor_Neto);
+                        cmd.Parameters.Add("MARCA_MERCADO", item.Marca_Mercado);
+                        cmd.Parameters.Add("ID_SIDE", item.Id_Side);
+                        cmd.Parameters.Add("LLAMA_MARGEN", item.Llama_Margen);
+                        cmd.Parameters.Add("NEGO_ESTRUC", newNegoEstruct);
+                        cmd.Parameters.Add("REINVIERTE_INT_ACT", item.Reinvierte_int_Act);
+                        cmd.Parameters.Add("REINVIERTE_INT_PAS", item.Reinvierte_int_Pas);
+                        cmd.Parameters.Add("UTI", item.UTI);
+
+                        string query1 = "INSERT INTO XYZWIN.SW_RIESGOS2_TEMP (FECHA_POS" +
+                                                                               ",PERIODO" +
+                                                                               ",CVE_INST" +
+                                                                               ",CVE_PROV" +
+                                                                               ",NUMSEC" +
+                                                                               ",CVECONTPP" +
+                                                                               ",FEC_OPERAC" +
+                                                                               ",FEC_INI" +
+                                                                               ",FEC_VENC" +
+                                                                               ",TIPO_VALOR" +
+                                                                               ",TIPO_OPER" +
+                                                                               ",FEC_PROX_FLUJO" +
+                                                                               ",PERIODO_FLUJO" +
+                                                                               ",BASE_CAL_TASA" +
+                                                                               ",CVEMONEDA" +
+                                                                               ",TIPO_CAMBIO_REC" +
+                                                                               ",M_NOC_FLUJO" +
+                                                                               ",FORMULA_FLUJO" +
+                                                                               ",TASA_RECIBE" +
+                                                                               ",F_PROX_FLUJO_ENT" +
+                                                                               ",PERIODICIDAD" +
+                                                                               ",BASE_CALCULO" +
+                                                                               ",TIPO_MONEDA" +
+                                                                               ",TIPO_CAMBIO_ENT" +
+                                                                               ",M_NOC_FLUJO_ENT" +
+                                                                               ",TASA_REF_ACTIVA" +
+                                                                               ",TASA_REF_PASIVA" +
+                                                                               ",SOBRETASA_ACTIVA" +
+                                                                               ",SOBRETASA_PASIVA" +
+                                                                               ",TASA_ENTREGA" +
+                                                                               ",PRIMA" +
+                                                                               ",OBJETIVO_OPER" +
+                                                                               ",VAL_ACTIVA" +
+                                                                               ",VAL_PASIVA" +
+                                                                               ",VALOR_NETO" +
+                                                                               ",MARCA_MERCADO" +
+                                                                               ",ID_SIDE" +
+                                                                               ",LLAMA_MARGEN" +
+                                                                               ",NEGO_ESTRUC" +
+                                                                               ",REINVIERTE_INT_ACT" +
+                                                                               ",REINVIERTE_INT_PAS ) " +
+                                        "VALUES (to_date(:FECHA_POS,'yyyymmdd'),:PERIODO,:CVE_INST,:CVE_PROV,:NUMSEC,:CVECONTPP,to_date(:FEC_OPERAC,'yyyymmdd'),to_date(:FEC_INI,'yyyymmdd'),to_date(:FEC_VENC,'yyyymmdd'),:TIPO_VALOR,:TIPO_OPER,to_date(:FEC_PROX_FLUJO,'yyyymmdd'),:PERIODO_FLUJO,:BASE_CAL_TASA,:CVEMONEDA,:TIPO_CAMBIO_REC,:M_NOC_FLUJO,:FORMULA_FLUJO,:TASA_RECIBE,to_date(:F_PROX_FLUJO_ENT,'yyyymmdd'),:PERIODICIDAD,:BASE_CALCULO,:TIPO_MONEDA,:TIPO_CAMBIO_ENT,:M_NOC_FLUJO_ENT,:TASA_REF_ACTIVA,:TASA_REF_PASIVA,:SOBRETASA_ACTIVA,:SOBRETASA_PASIVA,:TASA_ENTREGA,:PRIMA,:OBJETIVO_OPER,:VAL_ACTIVA,:VAL_PASIVA,:VALOR_NETO,:MARCA_MERCADO,:ID_SIDE,:LLAMA_MARGEN,:NEGO_ESTRUC,:REINVIERTE_INT_ACT,:REINVIERTE_INT_PAS)";
+
+                        string query2 = "INSERT INTO XYZWIN.SW_RIESGOS2_COPIA (FECHA_POS" +
+                                            ",PERIODO" +
+                                            ",CVE_INST" +
+                                            ",CVE_PROV" +
+                                            ",NUMSEC" +
+                                            ",CVECONTPP" +
+                                            ",FEC_OPERAC" +
+                                            ",FEC_INI" +
+                                            ",FEC_VENC" +
+                                            ",TIPO_VALOR" +
+                                            ",TIPO_OPER" +
+                                            ",FEC_PROX_FLUJO" +
+                                            ",PERIODO_FLUJO" +
+                                            ",BASE_CAL_TASA" +
+                                            ",CVEMONEDA" +
+                                            ",TIPO_CAMBIO_REC" +
+                                            ",M_NOC_FLUJO" +
+                                            ",FORMULA_FLUJO" +
+                                            ",TASA_RECIBE" +
+                                            ",F_PROX_FLUJO_ENT" +
+                                            ",PERIODICIDAD" +
+                                            ",BASE_CALCULO" +
+                                            ",TIPO_MONEDA" +
+                                            ",TIPO_CAMBIO_ENT" +
+                                            ",M_NOC_FLUJO_ENT" +
+                                            ",TASA_REF_ACTIVA" +
+                                            ",TASA_REF_PASIVA" +
+                                            ",SOBRETASA_ACTIVA" +
+                                            ",SOBRETASA_PASIVA" +
+                                            ",TASA_ENTREGA" +
+                                            ",PRIMA" +
+                                            ",OBJETIVO_OPER" +
+                                            ",VAL_ACTIVA" +
+                                            ",VAL_PASIVA" +
+                                            ",VALOR_NETO" +
+                                            ",MARCA_MERCADO" +
+                                            ",ID_SIDE" +
+                                            ",LLAMA_MARGEN" +
+                                            ",NEGO_ESTRUC" +
+                                            ",REINVIERTE_INT_ACT" +
+                                            ",REINVIERTE_INT_PAS" +
+                                            ",T_REF_ACTIVA_DIAS_ANTE" +
+                                            ",T_REF_PASIVA_DIAS_ANTE" +
+                                            ",OP_SOBRETASA_ACTIVA" +
+                                            ",OP_SOBRETASA_PASIVA" +
+                                            ",UTI) " +
+                        "VALUES (to_date(:FECHA_POS,'yyyymmdd'),:PERIODO,:CVE_INST,:CVE_PROV,:NUMSEC,:CVECONTPP,to_date(:FEC_OPERAC,'yyyymmdd'),to_date(:FEC_INI,'yyyymmdd'),to_date(:FEC_VENC,'yyyymmdd'),:TIPO_VALOR,:TIPO_OPER,to_date(:FEC_PROX_FLUJO,'yyyymmdd'),:PERIODO_FLUJO,:BASE_CAL_TASA,:CVEMONEDA,:TIPO_CAMBIO_REC,:M_NOC_FLUJO,:FORMULA_FLUJO,:TASA_RECIBE,to_date(:F_PROX_FLUJO_ENT,'yyyymmdd'),:PERIODICIDAD,:BASE_CALCULO,:TIPO_MONEDA,:TIPO_CAMBIO_ENT,:M_NOC_FLUJO_ENT,:TASA_REF_ACTIVA,:TASA_REF_PASIVA,:SOBRETASA_ACTIVA,:SOBRETASA_PASIVA,:TASA_ENTREGA,:PRIMA,:OBJETIVO_OPER,:VAL_ACTIVA,:VAL_PASIVA,:VALOR_NETO,:MARCA_MERCADO,:ID_SIDE,:LLAMA_MARGEN,:NEGO_ESTRUC,:REINVIERTE_INT_ACT,:REINVIERTE_INT_PAS,:T_REF_ACTIVA_DIAS_ANTE,:T_REF_PASIVA_DIAS_ANTE,:OP_SOBRETASA_ACTIVA,:OP_SOBRETASA_PASIVA,:UTI)";
+                        
+                        cmd.CommandText = query1;
+                        aff += cmd.ExecuteNonQuery();
+
+                        cmd.CommandText = query2;
+                        aff2 += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 16
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool R16_EliminarCaracteristicasSwaps(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            try
+            {
+                conexion.Open();
+
+                OracleCommand cmd = new OracleCommand();
+                cmd.Connection = conexion;
+                cmd.Parameters.Add("FECHA_POS", fechaConsulta);
+                cmd.BindByName = true;
+
+                cmd.CommandText = "DELETE FROM XYZWIN.SW_RIESGOS2_TEMP";
+                cmd.ExecuteNonQuery();
+
+                cmd.CommandText = "DELETE FROM XYZWIN.SW_RIESGOS2_COPIA";
+                cmd.ExecuteNonQuery();            
+
+                exito = true;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 17
+
+        //REPORTE 17
+        public Respuesta guardarLlamadaMargen(List<LlamadaMargen> reporte, OracleConnection conexion)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+
+            }
+
+            borro = this.R17_EliminarLlamadaMargen(Convert.ToInt32(reporte[0].CveContPP), conexion);
+
+            conexion.Open();
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+
+            try
+            {
+                if (borro)
+                {
+                    ////conexion.Open();
+                    int aff = 0;
+                    foreach (LlamadaMargen item in reporte)
+                    {
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("CveContPP", item.CveContPP);
+                        cmd.Parameters.Add("NombreContra", item.NombreContra);
+                        cmd.Parameters.Add("Thresh_C", item.Thresh_C);
+                        cmd.Parameters.Add("MMT_C", item.MMT_C);
+                        cmd.Parameters.Add("Thresh_B", item.Thresh_B);
+                        cmd.Parameters.Add("MMT_B", item.MMT_B);
+                        cmd.Parameters.Add("Mon_Calc",item.Mon_Calc);
+                        cmd.Parameters.Add("Val_Simefin",item.Val_Simefin);
+                        cmd.Parameters.Add("Val_Agente",item.Val_Agente);
+                        cmd.Parameters.Add("Exposicion_Neta", item.Exposicion_Neta);
+                        cmd.Parameters.Add("Val_Gtias",item.Val_Gtias);
+                        cmd.Parameters.Add("Gtias_Programadas",item.Gtias_Programadas);
+                        cmd.Parameters.Add("Llamada_Margen",item.Llamada_Margen);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_LLAMADA_MARGEN (CveContPP" +
+                                                                                            ",NombreContra" +
+                                                                                            ",Thresh_C" +
+                                                                                            ",MMT_C" +
+                                                                                            ",Thresh_B" +
+                                                                                            ",MMT_B" +
+                                                                                            ",Mon_Calc" +
+                                                                                            ",Val_Simefin" +
+                                                                                            ",Val_Agente" +
+                                                                                            ",Exposicion_Neta" +
+                                                                                            ",Val_Gtias" +
+                                                                                            ",Gtias_Programadas" +
+                                                                                            ",Llamada_Margen) " +
+                                                                                            "VALUES (:CveContPP,:NombreContra,:Thresh_C,:MMT_C,:Thresh_B,:MMT_B,:Mon_Calc,:Val_Simefin,:Val_Agente,:Exposicion_Neta,:Val_Gtias,:Gtias_Programadas,:Llamada_Margen)";
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 17
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool R17_EliminarLlamadaMargen(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("CveContPP", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.IKOS_LLAMADA_MARGEN WHERE CveContPP = :CveContPP", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 18 (Comparación de Características)
+
+        /// <summary>
+        /// Reporte # 18 - Comparación de Características
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="mirrorDataList"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public async Task<Respuesta> guardarPosicionPrimariaSwaps(int fechaOperacion, List<PosicionPrimariaSwaps> apiDataList, OracleConnection conexion)
+        {
+            Respuesta response = new Respuesta { exito = false, ListaMensajes = new List<string>() };
+            Respuesta result = new Respuesta { exito = false };
+            bool isProccessed = false;
+            int position = 1;
+
+            //Obteniendo el conjunto de datos de la tabla productiva
+            var productionDataList = await this.R18_GetProductionData(position, conexion);
+            ////var results = await Task.Run(() => this.GetProductionData(position, newFechareg!, conexion));
+
+
+            //Agrupando datos por COperacion
+            var mirrorDataGroups = apiDataList.GroupBy(x => x.COperacion).ToList();
+            foreach (var groupCOperacion in mirrorDataGroups)
+            {
+                string currentCOperacion = groupCOperacion.Key;
+                var currentApiDataList = groupCOperacion.Where(x => x.Tipopos == position).ToList();
+
+                //Buscando en producción registros con COperacion igual al COperación actual del espejo
+                var currentProductionList = productionDataList.Where(x => x.COperacion == currentCOperacion).ToList();
+
+                //Sacando las posiciones de la tabla espejo a buscar en productiva, ya que la posición en espejo
+                //pudiera no estar en alguno de los registros de producción y, en dado caso, se requiere una inserción
+                var positionValues = currentApiDataList.Select(x => x.CPosicion).Distinct().ToList();
+                currentProductionList = currentProductionList.Where(x => positionValues.Contains(x.CPosicion)).ToList();
+
+                //Aquellos valores de COPERACION de la tabla espejo que no se encuentren en la tabla productiva
+                //son los nuevos registros y deberán escribirse en la tabla productiva
+
+                List<PosicionPrimariaSwaps> newDataList = new List<PosicionPrimariaSwaps>();
+                //Si no hay coincidencias en tabla productiva
+                if (currentProductionList.Count == 0)
+                {
+                    newDataList = currentApiDataList;
+                }
+                else ////if (currentMirrorList.Count != currentProductionList.Count)
+                {
+                    //Haciendo la comparativa por los campos:
+                    #region Campos a comparar ...
+                    // AC_INT_ACT,
+                    // AC_INT_PAS,
+                    // CAL_F_T_ACTIVA,
+                    // CAL_F_T_PASIVA,
+                    // CAL_LIQ_ACTIVA,
+                    // CAL_LIQ_PASIVA,
+                    // COLATERAL,
+                    // CONV_INT_ACT,
+                    // CONV_INT_PAS
+                    // ESTRUCTURAL,
+                    // FINICIO,
+                    // FVENCIMIENTO,
+                    // F_VALUACION,
+                    // ID_BANXICO,
+                    // ID_CONTRAP,
+                    // INTENCION,
+                    // INTER_F,
+                    // INTER_I,
+                    // LLAMA_MARGEN,
+                    // ST_ACTIVA,
+                    // ST_PASIVA,
+                    // TC_ACTIVA,
+                    // TC_PASIVA
+                    #endregion
+                    newDataList = currentApiDataList.Where(cm => !currentProductionList.Any(cp =>
+                                                        cp.Ac_Int_Act == cm.Ac_Int_Act &&
+                                                        cp.Ac_Int_Pas == cm.Ac_Int_Pas &&
+                                                        cp.Cal_F_T_Activa == cm.Cal_F_T_Activa &&
+                                                        cp.Cal_F_T_Pasiva == cm.Cal_F_T_Pasiva &&
+                                                        cp.Cal_Liq_Activa == cm.Cal_Liq_Activa &&
+                                                        cp.Cal_Liq_Pasiva == cm.Cal_Liq_Pasiva &&
+                                                        cp.Colateral == cm.Colateral &&
+                                                        cp.Conv_Int_Act == cm.Conv_Int_Act &&
+                                                        cp.Conv_Int_Pas == cm.Conv_Int_Pas &&
+                                                        cp.Estructural == cm.Estructural &&
+                                                        cp.F_Inicio == cm.F_Inicio &&
+                                                        cp.F_Valuacion == cm.F_Valuacion &&
+                                                        cp.F_Vencimiento == cm.F_Vencimiento &&
+                                                        cp.Id_Banxico == cm.Id_Banxico &&
+                                                        cp.Id_Contrap == cm.Id_Contrap &&
+                                                        cp.Intencion == cm.Intencion &&
+                                                        cp.Inter_F == cm.Inter_F &&
+                                                        cp.Inter_I == cm.Inter_I &&
+                                                        cp.Llama_Margen == cm.Llama_Margen &&
+                                                        this.ConvertToDecimal(cp.St_Activa.ToString()!) == this.ConvertToDecimal(cm.St_Activa.ToString()!) &&
+                                                        this.ConvertToDecimal(cp.St_Pasiva.ToString()!) == this.ConvertToDecimal(cm.St_Pasiva.ToString()!) &&
+                                                        cp.Tc_Activa == this.GetTasa(cm.Tc_Activa, cm.D_Ante_Activa) &&
+                                                        cp.Tc_Pasiva == this.GetTasa(cm.Tc_Pasiva, cm.D_Ante_Pasiva)
+                                                    )).ToList();
+                }
+
+                if (newDataList.Count == 0)
+                {
+                    //Almacenando sólo los que no coinciden en tabla copia
+                    result = this.R18_SavePosicionPrimariaSwaps(new List<PosicionPrimariaSwaps>(), currentApiDataList, conexion, fechaOperacion.ToString());
+                    result.exito = true;
+                    result.mensaje = "Los registros de la tabla espejo ya se encuentran almacenados en producción. Registros insertados = 0.";
+                    result.ListaMensajes.Add($"COperacion = {currentCOperacion}, " + result.mensaje);
+                    response.ListaMensajes.Add($"COperacion = {currentCOperacion}, " + result.mensaje);
+                    continue;
+                }
+
+                result = this.R18_SavePosicionPrimariaSwaps(newDataList, currentApiDataList, conexion, fechaOperacion.ToString());
+                result.ListaMensajes.Add($"COperacion = {currentCOperacion}, " + result.mensaje);
+                response.ListaMensajes.Add($"COperacion = {currentCOperacion}, " + result.mensaje);
+                isProccessed = true;
+
+            } //foreach
+
+            response.exito = true;
+            response.mensaje = isProccessed ? "Registros procesados." : "Registros procesados, pero ninguno insertado.";
+
+            return response;
+        }
+
+        /// <summary>
+        /// Obtener parámetros para inserción de información
+        /// </summary>
+        /// <param name="source">Nombre de tabla de BD destino</param>
+        /// <param name="item">Contenedor con valores para los parámetros</param>
+        /// <returns></returns>
+        private List<OracleParameter> R18_GetParameters(string source, PosicionPrimariaSwaps item)
+        {
+            List<OracleParameter> parameterList = new List<OracleParameter>();
+
+            parameterList.Add(new OracleParameter("AC_INT_ACT", item.Ac_Int_Act));
+            parameterList.Add(new OracleParameter("AC_INT_PAS", item.Ac_Int_Pas));
+            parameterList.Add(new OracleParameter("CAL_F_T_ACTIVA", item.Cal_F_T_Activa));
+            parameterList.Add(new OracleParameter("CAL_F_T_PASIVA", item.Cal_F_T_Pasiva));
+            parameterList.Add(new OracleParameter("CAL_LIQ_ACTIVA", item.Cal_Liq_Activa));
+            parameterList.Add(new OracleParameter("CAL_LIQ_PASIVA", item.Cal_Liq_Pasiva));
+            parameterList.Add(new OracleParameter("COLATERAL", item.Colateral));
+            parameterList.Add(new OracleParameter("CONV_INT_ACT", item.Conv_Int_Act));
+            parameterList.Add(new OracleParameter("CONV_INT_PAS", item.Conv_Int_Pas));
+            parameterList.Add(new OracleParameter("COPERACION", item.COperacion));
+            parameterList.Add(new OracleParameter("CPOSICION", item.CPosicion));
+            parameterList.Add(new OracleParameter("C_PRODUCTO", item.C_Producto));
+            parameterList.Add(new OracleParameter("ESTRUCTURAL", item.Estructural));
+            parameterList.Add(new OracleParameter("FECHAREG", item.Fechareg));
+            parameterList.Add(new OracleParameter("FINICIO", item.F_Inicio));
+            parameterList.Add(new OracleParameter("FVENCIMIENTO", item.F_Vencimiento));
+            parameterList.Add(new OracleParameter("F_VALUACION", item.F_Valuacion));
+            parameterList.Add(new OracleParameter("HORAREG", item.Horareg));
+            parameterList.Add(new OracleParameter("ID_BANXICO", item.Id_Banxico));
+            parameterList.Add(new OracleParameter("ID_CONTRAP", item.Id_Contrap));
+            parameterList.Add(new OracleParameter("INTENCION", item.Intencion));
+            parameterList.Add(new OracleParameter("INTER_F", item.Inter_F));
+            parameterList.Add(new OracleParameter("INTER_I", item.Inter_I));
+            parameterList.Add(new OracleParameter("LLAMA_MARGEN", item.Llama_Margen));
+            parameterList.Add(new OracleParameter("NOMPOS", item.Nompos));
+            parameterList.Add(new OracleParameter("PX_SWAP", item.Px_Swap));
+            parameterList.Add(new OracleParameter("ST_ACTIVA", item.St_Activa));
+            parameterList.Add(new OracleParameter("ST_PASIVA", item.St_Pasiva));
+            parameterList.Add(new OracleParameter("TC_ACTIVA", item.Tc_Activa));
+            parameterList.Add(new OracleParameter("TC_PASIVA", item.Tc_Pasiva));
+            parameterList.Add(new OracleParameter("TIPOPOS", item.Tipopos));
+
+            if (source == "MIRROR")
+            {
+                parameterList.Add(new OracleParameter("D_ANTE_ACTIVA", item.D_Ante_Activa));
+                parameterList.Add(new OracleParameter("D_ANTE_PASIVA", item.D_Ante_Pasiva));
+                parameterList.Add(new OracleParameter("MONEDA_ACT", item.Moneda_Act));
+                parameterList.Add(new OracleParameter("MONEDA_PAS", item.Moneda_Pas));
+                parameterList.Add(new OracleParameter("OP_ST_ACTIVA", item.Op_St_Activa));
+                parameterList.Add(new OracleParameter("OP_ST_PASIVA", item.Op_St_Pasiva));
+                parameterList.Add(new OracleParameter("PORC_COB", item.Porc_Cob));
+                parameterList.Add(new OracleParameter("REF_POS_COB", item.Ref_Pos_Cob));
+                parameterList.Add(new OracleParameter("TIPO_POS_COB", item.Tipo_Pos_Cob));
+            }
+
+            return parameterList;
+        }
+
+        /// <summary>
+        /// Obtener la sentencia SQL para datos productivos
+        /// </summary>
+        /// <param name="tableName">Nombre de tabla</param>
+        /// <returns></returns>
+        private string R18_GetStringSQLProduction(string tableName)
+        {
+            StringBuilder sbCommand = new StringBuilder();
+
+            sbCommand.Append($"INSERT INTO {tableName} (");
+            sbCommand.Append("AC_INT_ACT, ");
+            sbCommand.Append("AC_INT_PAS, ");
+            sbCommand.Append("C_PRODUCTO, ");
+            sbCommand.Append("CAL_F_T_ACTIVA, ");
+            sbCommand.Append("CAL_F_T_PASIVA, ");
+            sbCommand.Append("CAL_LIQ_ACTIVA, ");
+            sbCommand.Append("CAL_LIQ_PASIVA, ");
+            sbCommand.Append("COLATERAL, ");
+            sbCommand.Append("CONV_INT_ACT, ");
+            sbCommand.AppendLine("CONV_INT_PAS, ");
+            sbCommand.Append("COPERACION, ");
+            sbCommand.Append("CPOSICION, ");
+            sbCommand.Append("ESTRUCTURAL, ");
+            sbCommand.Append("FECHAREG, ");
+            sbCommand.Append("FINICIO, ");
+            sbCommand.Append("FVENCIMIENTO, ");
+            sbCommand.Append("F_VALUACION, ");
+            sbCommand.Append("HORAREG, ");
+            sbCommand.Append("ID_BANXICO, ");
+            sbCommand.AppendLine("ID_CONTRAP, ");
+            sbCommand.Append("INTENCION, ");
+            sbCommand.Append("INTER_F, ");
+            sbCommand.Append("INTER_I, ");
+            sbCommand.Append("LLAMA_MARGEN, ");
+            sbCommand.Append("NOMPOS, ");
+            sbCommand.Append("PX_SWAP, ");
+            sbCommand.Append("ST_ACTIVA, ");
+            sbCommand.Append("ST_PASIVA, ");
+            sbCommand.Append("TC_ACTIVA, ");
+            sbCommand.Append("TC_PASIVA, ");
+            sbCommand.Append("TIPOPOS) ");
+
+            sbCommand.AppendLine("VALUES ( ");
+
+            sbCommand.Append(":AC_INT_ACT, ");
+            sbCommand.Append(":AC_INT_PAS, ");
+            sbCommand.Append(":C_PRODUCTO, ");
+            sbCommand.Append(":CAL_F_T_ACTIVA, ");
+            sbCommand.Append(":CAL_F_T_PASIVA, ");
+            sbCommand.Append(":CAL_LIQ_ACTIVA, ");
+            sbCommand.Append(":CAL_LIQ_PASIVA, ");
+            sbCommand.Append(":COLATERAL, ");
+            sbCommand.Append(":CONV_INT_ACT, ");
+            sbCommand.AppendLine(":CONV_INT_PAS, ");
+            sbCommand.Append(":COPERACION, ");
+            sbCommand.Append(":CPOSICION, ");
+            sbCommand.Append(":ESTRUCTURAL, ");
+            sbCommand.Append("to_date(:FECHAREG,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FINICIO,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FVENCIMIENTO,'yyyymmdd'), ");
+            sbCommand.Append(":F_VALUACION, ");
+            sbCommand.Append(":HORAREG, ");
+            sbCommand.Append(":ID_BANXICO, ");
+            sbCommand.AppendLine(":ID_CONTRAP, ");
+            sbCommand.Append(":INTENCION, ");
+            sbCommand.Append(":INTER_F, ");
+            sbCommand.Append(":INTER_I, ");
+            sbCommand.Append(":LLAMA_MARGEN, ");
+            sbCommand.Append(":NOMPOS, ");
+            sbCommand.Append(":PX_SWAP, ");
+            sbCommand.Append(":ST_ACTIVA, ");
+            sbCommand.Append(":ST_PASIVA, ");
+            sbCommand.Append(":TC_ACTIVA, ");
+            sbCommand.Append(":TC_PASIVA, ");
+            sbCommand.Append(":TIPOPOS)");
+
+            return sbCommand.ToString();
+        }
+
+        /// <summary>
+        /// Obtener la sentencia SQL para datos espejo
+        /// </summary>
+        /// <param name="tableName"></param>
+        /// <returns></returns>
+        private string R18_GetStringSQLMirror(string tableName)
+        {
+            StringBuilder sbCommand = new StringBuilder();
+
+            sbCommand.Append($"INSERT INTO {tableName} (");
+            sbCommand.Append("AC_INT_ACT, ");
+            sbCommand.Append("AC_INT_PAS, ");
+            sbCommand.Append("CAL_F_T_ACTIVA, ");
+            sbCommand.Append("CAL_F_T_PASIVA, ");
+            sbCommand.Append("CAL_LIQ_ACTIVA, ");
+            sbCommand.Append("CAL_LIQ_PASIVA, ");
+            sbCommand.Append("COLATERAL, ");
+            sbCommand.Append("CONV_INT_ACT, ");
+            sbCommand.AppendLine("CONV_INT_PAS, ");
+            sbCommand.Append("COPERACION, ");
+            sbCommand.Append("CPOSICION, ");
+            sbCommand.Append("C_PRODUCTO, ");
+            sbCommand.Append("D_ANTE_ACTIVA, ");
+            sbCommand.Append("D_ANTE_PASIVA, ");
+            sbCommand.Append("ESTRUCTURAL, ");
+            sbCommand.Append("FECHAREG, ");
+            sbCommand.Append("FINICIO, ");
+            sbCommand.Append("FVENCIMIENTO, ");
+            sbCommand.Append("F_VALUACION, ");
+            sbCommand.Append("HORAREG, ");
+            sbCommand.Append("ID_BANXICO, ");
+            sbCommand.AppendLine("ID_CONTRAP, ");
+            sbCommand.Append("INTENCION, ");
+            sbCommand.Append("INTER_F, ");
+            sbCommand.Append("INTER_I, ");
+            sbCommand.Append("LLAMA_MARGEN, ");
+            sbCommand.Append("MONEDA_ACT, ");
+            sbCommand.Append("MONEDA_PAS, ");
+            sbCommand.Append("NOMPOS, ");
+            sbCommand.Append("OP_ST_ACTIVA, ");
+            sbCommand.Append("OP_ST_PASIVA, ");
+            sbCommand.Append("PORC_COB, ");
+            sbCommand.Append("PX_SWAP, ");
+            sbCommand.Append("REF_POS_COB, ");
+            sbCommand.Append("ST_ACTIVA, ");
+            sbCommand.Append("ST_PASIVA, ");
+            sbCommand.Append("TC_ACTIVA, ");
+            sbCommand.Append("TC_PASIVA, ");
+            sbCommand.Append("TIPOPOS, ");
+            sbCommand.Append("TIPO_POS_COB) ");
+
+            sbCommand.AppendLine("VALUES ( ");
+
+            sbCommand.Append(":AC_INT_ACT, ");
+            sbCommand.Append(":AC_INT_PAS, ");
+            sbCommand.Append(":CAL_F_T_ACTIVA, ");
+            sbCommand.Append(":CAL_F_T_PASIVA, ");
+            sbCommand.Append(":CAL_LIQ_ACTIVA, ");
+            sbCommand.Append(":CAL_LIQ_PASIVA, ");
+            sbCommand.Append(":COLATERAL, ");
+            sbCommand.Append(":CONV_INT_ACT, ");
+            sbCommand.AppendLine(":CONV_INT_PAS, ");
+            sbCommand.Append(":COPERACION, ");
+            sbCommand.Append(":CPOSICION, ");
+            sbCommand.Append(":C_PRODUCTO, ");
+            sbCommand.Append(":D_ANTE_ACTIVA, ");
+            sbCommand.Append(":D_ANTE_PASIVA, ");
+            sbCommand.Append(":ESTRUCTURAL, ");
+            sbCommand.Append("to_date(:FECHAREG,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FINICIO,'yyyymmdd'), ");
+            sbCommand.Append("to_date(:FVENCIMIENTO,'yyyymmdd'), ");
+            sbCommand.Append(":F_VALUACION, ");
+            sbCommand.Append(":HORAREG, ");
+            sbCommand.Append(":ID_BANXICO, ");
+            sbCommand.AppendLine(":ID_CONTRAP, ");
+            sbCommand.Append(":INTENCION, ");
+            sbCommand.Append(":INTER_F, ");
+            sbCommand.Append(":INTER_I, ");
+            sbCommand.Append(":LLAMA_MARGEN, ");
+            sbCommand.Append(":MONEDA_ACT, ");
+            sbCommand.Append(":MONEDA_PAS, ");
+            sbCommand.Append(":NOMPOS, ");
+            sbCommand.Append(":OP_ST_ACTIVA, ");
+            sbCommand.Append(":OP_ST_PASIVA, ");
+            sbCommand.Append(":PORC_COB, ");
+            sbCommand.Append(":PX_SWAP, ");
+            sbCommand.Append(":REF_POS_COB, ");
+            sbCommand.Append(":ST_ACTIVA, ");
+            sbCommand.Append(":ST_PASIVA, ");
+            sbCommand.Append(":TC_ACTIVA, ");
+            sbCommand.Append(":TC_PASIVA, ");
+            sbCommand.Append(":TIPOPOS, ");
+            sbCommand.Append(":TIPO_POS_COB)");
+
+            return sbCommand.ToString();
+        }
+
+        /// <summary>
+        /// Reporte # 18 - Obtener lista de registros en tabla productiva, con posición => 1
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        private async Task<List<PosicionPrimariaSwaps>> R18_GetProductionData(int position, OracleConnection conexion)
+        {
+            List<PosicionPrimariaSwaps> productionDataList = new List<PosicionPrimariaSwaps>(); 
+            OracleCommand cmd = new OracleCommand();
+
+            try
+            {
+                await conexion.OpenAsync();
+                cmd.Connection = conexion;
+                cmd.Parameters.Add("POSICION", position!);
+                ////cmd.Parameters.Add("FECHAREG", fechaConsulta!);
+                cmd.CommandType = CommandType.Text;
+                ////string strSQL = String.Format("SELECT * FROM RIESVARM.VAR_TD_POS_SWAPS WHERE TIPOPOS = :POSICION AND FECHAREG = to_date(:FECHAREG,'yyyymmdd')", position, fechaConsulta);
+                string strSQL = string.Format("SELECT * FROM RIESVARM.VAR_TD_POS_SWAPS_BK WHERE TIPOPOS = :POSICION", position);
+                cmd.CommandText = strSQL;
+                cmd.BindByName = true;
+
+                var reader = await cmd.ExecuteReaderAsync();
+                if (reader.HasRows)
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        productionDataList.Add(new PosicionPrimariaSwaps
+                        {
+                            Ac_Int_Act = reader.GetString("Ac_Int_Act"),
+                            Ac_Int_Pas = reader.GetString("Ac_Int_Pas"),
+                            C_Producto = this.ConvertToStr(reader["C_Producto"].ToString()!),
+                            Cal_F_T_Activa = this.ConvertToStr(reader["Cal_F_T_Activa"].ToString()!),
+                            Cal_F_T_Pasiva = this.ConvertToStr(reader["Cal_F_T_Pasiva"].ToString()!),
+                            Cal_Liq_Activa = this.ConvertToStr(reader["Cal_Liq_Activa"].ToString()!),
+                            Cal_Liq_Pasiva = this.ConvertToStr(reader["Cal_Liq_Pasiva"].ToString()!),
+                            Colateral = reader.GetString("Colateral"),
+                            Conv_Int_Act = this.ConvertToStr(reader["Conv_Int_Act"].ToString()!),
+                            Conv_Int_Pas = reader.GetString("Conv_Int_Pas"),
+                            COperacion = reader.GetString("COperacion"),
+                            CPosicion = this.ConvertToInt(reader["CPosicion"].ToString()!),
+                            //D_Ante_Activa = reader.GetInt32("D_Ante_Activa"),
+                            //D_Ante_Pasiva = reader.GetInt32("D_Ante_Pasiva"),
+                            Estructural = reader.GetString("Estructural"),
+                            Fechareg = this.ConvertToDate(reader["FechaReg"].ToString()!, 1),
+                            F_Inicio = this.ConvertToDate(reader["FInicio"].ToString()!, 1),
+                            F_Valuacion = reader.GetString("F_Valuacion"),
+                            F_Vencimiento = this.ConvertToDate(reader["FVencimiento"].ToString()!, 1),
+                            Horareg = reader.GetString("Horareg"),
+                            Id_Banxico = reader.GetString("Id_Banxico"),
+                            Id_Contrap = reader.GetString("Id_Contrap"),
+                            Intencion = reader.GetString("Intencion"),
+                            Inter_F = reader.GetString("Inter_F"),
+                            Inter_I = reader.GetString("Inter_I"),
+                            Llama_Margen = this.ConvertToStr(reader["Llama_Margen"].ToString()!),
+                            Nompos = reader.GetString("Nompos"),
+                            Px_Swap = reader.GetString("Px_Swap"),
+                            St_Activa = this.ConvertToDecimal(reader["St_Activa"].ToString()!),
+                            St_Pasiva = this.ConvertToDecimal(reader["St_Pasiva"].ToString()!),
+                            Tc_Activa = this.ConvertToStr(reader["Tc_Activa"].ToString()!),
+                            Tc_Pasiva = this.ConvertToStr(reader["Tc_Pasiva"].ToString()!),
+                            Tipopos = this.ConvertToInt(reader["TipoPos"].ToString()!)
+                        });
+                    }//while
+                    await reader.CloseAsync();
+                    await reader.DisposeAsync();
+                }//if
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                await conexion.CloseAsync();
+            }
+
+            return productionDataList;
+        }
+
+        /// <summary>
+        /// Guardando información en tabla productiva y espejo
+        /// </summary>
+        /// <param name="registrationDate">Fecha de registro</param>
+        /// <param name="productionDataList">Contenedor de datos productivos</param>
+        /// <param name="mirrorDataList">Contenedor de datos espejo</param>
+        /// <param name="conexion">Conexión a BD</param>
+        /// <returns></returns>
+        private Respuesta R18_SavePosicionPrimariaSwaps(List<PosicionPrimariaSwaps> productionDataList, 
+                                                        List<PosicionPrimariaSwaps> mirrorDataList, 
+                                                        OracleConnection conexion, string registrationDate)
+        {
+            Respuesta response = new Respuesta { exito = false };
+            int recordsInsertedProduction = 0;
+            int recordsInsertedMirror = 0;
+
+            OracleCommand cmdOracle = new OracleCommand();
+            cmdOracle.Connection = conexion;
+            OracleTransaction? transaction = null;
+
+            try
+            {
+                conexion.Open();
+                transaction = conexion.BeginTransaction(System.Data.IsolationLevel.ReadCommitted);
+                cmdOracle.Transaction = transaction;
+                cmdOracle.CommandTimeout = 0;
+
+                //Guardando en tabla productiva
+                foreach (PosicionPrimariaSwaps item in productionDataList)
+                {
+                    cmdOracle.Parameters.Clear();
+                    cmdOracle.BindByName = true;
+                    cmdOracle.CommandType = CommandType.Text;
+
+                    item.Fechareg = Convert.ToInt32(registrationDate);
+                    item.Horareg = "00000";
+                    item.Tc_Activa = this.GetTasa(item.Tc_Activa, item.D_Ante_Activa);
+                    item.Tc_Pasiva = this.GetTasa(item.Tc_Pasiva, item.D_Ante_Pasiva);
+
+                    var parameterList = this.R18_GetParameters("PRODUCTION", item).ToArray();
+                    cmdOracle.Parameters.AddRange(parameterList);
+
+                    cmdOracle.CommandText = this.R18_GetStringSQLProduction("RIESVARM.VAR_TD_POS_SWAPS_BK");
+                    recordsInsertedProduction += cmdOracle.ExecuteNonQuery();
+                }
+
+                //Guardando en tabla espejo
+                foreach (PosicionPrimariaSwaps item in mirrorDataList)
+                {
+                    cmdOracle.Parameters.Clear();
+                    cmdOracle.BindByName = true;
+                    cmdOracle.CommandType = CommandType.Text;
+
+                    item.Fechareg = Convert.ToInt32(registrationDate);
+                    item.Horareg = DateTime.UtcNow.ToString("HH:mm:ss"); //// "00000";
+
+                    var parameterList = this.R18_GetParameters("MIRROR", item).ToArray();
+                    cmdOracle.Parameters.AddRange(parameterList);
+
+                    cmdOracle.CommandText = this.R18_GetStringSQLMirror("RIESVARM.VAR_TD_POS_SWAPS_COPIA");
+                    recordsInsertedMirror += cmdOracle.ExecuteNonQuery();
+                }
+
+                transaction.Commit();
+                response.exito = true;
+                response.mensaje = $"[{recordsInsertedProduction}-P, {recordsInsertedMirror}-E] registros fueron insertados.";
+            }
+            catch (Exception ex)
+            {
+                var error = this.GetExceptionMessage(ex);
+                transaction?.Rollback();
+                response.mensaje = $"[{recordsInsertedProduction}-P, {recordsInsertedMirror}-E] registros fueron revertidos. " + "Hubo un error al insertar los registros. " + error;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return response;
+        }
+
+        #endregion
+
+
+        #region Reporte # 19
+
+
+        //REPORTE 19
+        public Respuesta guardarReporteOperacionCVDivisas(List<ReporteOperacionCVDivisas> reporte, List<CatalogoDivisas> catalogoDivisas, List<CatalogoPosiciones> catalogoPosiciones, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = this.R19_EliminarReporteOperacionCVDivisas(Convert.ToInt32(reporte[0].Fecha), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+                    foreach (ReporteOperacionCVDivisas item in reporte)
+                    {
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FECHA", item.Fecha);
+                        cmd.Parameters.Add("CVE_CONTRAPARTE", item.Cve_contraparte);
+                        cmd.Parameters.Add("DESCRIPCION", item.Descripcion);
+                        cmd.Parameters.Add("TIPO_OPER", item.Tipo_oper);
+                        cmd.Parameters.Add("POSICION", catalogoPosiciones.Find(x => x.Id_Apesa == item.Posicion)!.Id_Sivarmer);
+                        cmd.Parameters.Add("MONTO", item.Monto);
+                        cmd.Parameters.Add("TIPO_MONEDA", item.Tipo_moneda);
+                        cmd.Parameters.Add("CVE_MONEDA", catalogoDivisas.Find(x => x.Id_Apesa == item.Tipo_moneda)!.Id_Sivarmer);
+                        cmd.Parameters.Add("TIPO_CAMBIO_CONC", item.Tipo_cambio_conc);
+                        cmd.Parameters.Add("TIPO_CAMBIO_MDO", item.Tipo_cambio_mdo);
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESGO.LIQ_MDO_CAMBIOS (FECHA" +
+                                                   ",CVE_CONTRAPARTE" +
+                                                   ",DESCRIPCION" +
+                                                   ",TIPO_OPER" +
+                                                   ",POSICION" +
+                                                   ",MONTO" +
+                                                   ",TIPO_MONEDA" +
+                                                   ",CVE_MONEDA" +
+                                                   ",TIPO_CAMBIO_CONC" +
+                                                   ",TIPO_CAMBIO_MDO) " +
+                                                   "VALUES (to_date(:FECHA,'yyyymmdd'),:CVE_CONTRAPARTE,:DESCRIPCION,:TIPO_OPER,:POSICION,:MONTO,:TIPO_MONEDA,:CVE_MONEDA,:TIPO_CAMBIO_CONC,:TIPO_CAMBIO_MDO)";
+
+                        cmd.CommandType = CommandType.Text;
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.exito = false;
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+
+        /// <summary>
+        /// Reporte # 19
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool R19_EliminarReporteOperacionCVDivisas(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FECHA", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESGO.LIQ_MDO_CAMBIOS WHERE Fecha = to_date(:FECHA,'yyyymmdd')", fechaConsulta);
+
+
+                aff = cmd.ExecuteNonQuery();
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Reporte # 20
+
+        //REPORTE 20
+        public Respuesta guardarPosicionesPrimForwards(List<PosicionesPrimForwards> reporte, List<CatalogoDivisas> catalogoDivisas, OracleConnection conexionRiesgos)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = this.R20_EliminarPosicionesPrimForwards(Convert.ToInt32(reporte[0].FPosicion), conexionRiesgos);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexionRiesgos;
+
+            try
+            {
+                if (borro)
+                {
+                    conexionRiesgos.Open();
+                    int aff = 0;
+                    foreach (PosicionesPrimForwards item in reporte)
+                    {
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("F_POSICION", item.FPosicion);
+                        cmd.Parameters.Add("CIKOS", item.CIkos);
+                        cmd.Parameters.Add("F_INICIO", item.F_inicio);
+                        cmd.Parameters.Add("F_VEN", item.F_ven);
+                        cmd.Parameters.Add("F_LIQ", item.F_Liq);
+                        cmd.Parameters.Add("MONTO_BASE_ACT", item.Monto_Base_Act);
+                        cmd.Parameters.Add("MONTO_FWD_ACT", item.Monto_Fwd_Act);
+                        cmd.Parameters.Add("MONEDA_ACT", catalogoDivisas.Find(x => x.Id_Apesa == item.Moneda_Act)!.Id_Sivarmer);
+                        cmd.Parameters.Add("CURVA_VAL_ACTIVO", item.Curva_Val_Activo);
+                        cmd.Parameters.Add("MONTO_BASE_PAS", item.Monto_Base_Pas);
+                        cmd.Parameters.Add("MONTO_FWD_PAS", item.Monto_Fwd_Pas);
+                        cmd.Parameters.Add("MONEDA_PAS", catalogoDivisas.Find(x => x.Id_Apesa == item.Moneda_Pas)!.Id_Sivarmer);
+                        cmd.Parameters.Add("CURVA_VAL_PASIVO", item.Curva_Val_Pasivo);
+
+                        cmd.BindByName = true;
+                        cmd.CommandText = "INSERT INTO RIESVARM.IKOS_POSPRIM_FORWARDS (F_POSICION" +
+                                                   ",CIKOS" +
+                                                   ",F_INICIO" +
+                                                   ",F_VEN" +
+                                                   ",F_LIQ" +
+                                                   ",MONTO_BASE_ACT" +
+                                                   ",MONTO_FWD_ACT" +
+                                                   ",MONEDA_ACT" +
+                                                   ",CURVA_VAL_ACTIVO" +
+                                                   ",MONTO_BASE_PAS" +
+                                                   ",MONTO_FWD_PAS" +
+                                                   ",MONEDA_PAS" +
+                                                   ",CURVA_VAL_PASIVO) " +
+                                                   "VALUES (TO_DATE(:F_POSICION,'yyyymmdd'),:CIKOS,TO_DATE(:F_INICIO,'yyyymmdd'),TO_DATE(:F_VEN,'yyyymmdd'),TO_DATE(:F_LIQ,'yyyymmdd'),:MONTO_BASE_ACT,:MONTO_FWD_ACT,:MONEDA_ACT,:CURVA_VAL_ACTIVO,:MONTO_BASE_PAS,:MONTO_FWD_PAS,:MONEDA_PAS,:CURVA_VAL_PASIVO)";
+
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.exito = false;
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexionRiesgos.Close();
+            }
+            return respuesta;
+        }
+
+        /// <summary>
+        /// Reporte # 20
+        /// </summary>
+        /// <param name="fechaConsulta"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public bool R20_EliminarPosicionesPrimForwards(int fechaConsulta, OracleConnection conexion)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("F_POSICION", fechaConsulta);
+                cmd.BindByName = true;
+                cmd.CommandText = String.Format("DELETE FROM RIESVARM.IKOS_POSPRIM_FORWARDS WHERE F_POSICION =to_date(:F_POSICION,'yyyymmdd')", fechaConsulta);
+
+                aff = cmd.ExecuteNonQuery();
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        #region Funciones de Conversión
+
+        /// <summary>
+        /// Convertir el valor de una fila de un objeto DataReader en cadena
+        /// </summary>
+        /// <param name="strValue"></param>
+        /// <returns></returns>
+        private string ConvertToStr(string strValue) 
+        {
+            string valueConverted = string.Empty;
+
+            if (!string.IsNullOrEmpty(strValue))
+            {
+                valueConverted = strValue;
+            }
+
+            return valueConverted;
+        }
+
+        /// <summary>
+        /// Convertir el valor de una fila de un objeto DataReader en fecha
+        /// </summary>
+        /// <param name="strValue"></param>
+        /// <returns></returns>
+        private int ConvertToDate(string strValue, int type)
+        {
+            int valueConverted = 0;
+
+            if (!string.IsNullOrEmpty(strValue))
+            {
+                switch (type)
+                {
+                    case 1:
+                        //De la forma => 01/04/2024 12:00:00 a. m.
+                        valueConverted = int.Parse(DateTime.Parse(strValue).ToString("yyyyMMdd"));
+                        break;
+                    case 2:
+                        //De la forma => 20240401
+                        valueConverted = int.Parse(DateTime.ParseExact(strValue, "yyyyMMdd", null).ToString("yyyyMMdd"));
+                        break;
+                }
+            }
+
+            return valueConverted;
+        }
+
+        /// <summary>
+        /// Convertir el valor de una fila de un objeto DataReader en entero
+        /// </summary>
+        /// <param name="strValue"></param>
+        /// <returns></returns>
+        private int ConvertToInt(string strValue) 
+        {
+            int valueConverted = 0;
+
+            if (!string.IsNullOrEmpty(strValue))
+            {
+                valueConverted = int.Parse(strValue);
+            }
+
+            return valueConverted;
+        }
+
+        /// <summary>
+        /// Convertir el valor de una fila de un objeto DataReader en decimal
+        /// </summary>
+        /// <param name="strValue"></param>
+        /// <returns></returns>
+        private decimal? ConvertToDecimal(string strValue)
+        {
+            decimal? valueConverted = null;
+
+            try
+            {
+                if (!string.IsNullOrEmpty(strValue))
+                {
+                    valueConverted = decimal.Parse(strValue);
+                }
+            }
+            catch (Exception)
+            {
+                valueConverted = null;
+            }
+
+            return valueConverted;
+        }
+
+        #endregion
+
+
+        #region Reporte Riesgo-Rango
+
+        /// <summary>
+        /// Reporte Riesgo-Rango
+        /// </summary>
+        /// <param name="reporte"></param>
+        /// <param name="conexion"></param>
+        /// <param name="fechaIni"></param>
+        /// <param name="fechaFin"></param>
+        /// <returns></returns>
+        public Respuesta guardarComprasVentasOperador(List<ComprasVentasOperador> reporte, OracleConnection conexion, int fechaIni, int fechaFin)
+        {
+            Respuesta respuesta = new Respuesta();
+            respuesta.exito = false;
+            bool borro = false;
+
+            if (reporte.Count <= 0)
+            {
+                respuesta.mensaje = "No hay registros en SIMEFIN para insertar en la base de datos.";
+                return respuesta;
+            }
+
+            borro = this.eliminarComprasVentasOperador(conexion, fechaIni, fechaFin);
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                if (borro)
+                {
+                    conexion.Open();
+                    int aff = 0;
+                    foreach (ComprasVentasOperador item in reporte)
+                    {
+
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.Add("FechaConcertacion", item.FechaConcertacion);
+                        cmd.Parameters.Add("Contraparte", item.Contraparte);
+                        cmd.Parameters.Add("Contrato", item.Contrato);
+                        cmd.Parameters.Add("TipoValor", item.TipoValor);
+                        cmd.Parameters.Add("Emisor", item.Emisor);
+                        cmd.Parameters.Add("Serie", item.Serie);
+                        cmd.Parameters.Add("ClaveOper", item.ClaveOper);
+                        cmd.Parameters.Add("TipoOper", item.TipoOper);
+                        cmd.Parameters.Add("ImporteAsignado", item.ImporteAsignado);
+                        cmd.Parameters.Add("ImporteCierre", item.ImporteCierre);
+                        cmd.Parameters.Add("Parte", item.Parte);
+                        cmd.Parameters.Add("Usuario", item.Usuario);
+                        cmd.BindByName = true;
+
+                        cmd.CommandText = "INSERT INTO RIESVARM.COMPRAS_VENTAS_OPER (FechaConcertacion" +
+                                                    ",Contraparte" +
+                                                    ",Contrato" +
+                                                    ",TipoValor" +
+                                                    ",Emisor" +
+                                                    ",Serie" +
+                                                    ",ClaveOper" +
+                                                    ",TipoOper" +
+                                                    ",ImporteAsignado" +
+                                                    ",ImporteCierre" +
+                                                    ",Parte" +
+                                                    ",Usuario)" +
+                                                    "VALUES (:FechaConcertacion, :Contraparte, :Contrato, :TipoValor, :Emisor, :Serie, :ClaveOper, :TipoOper, :ImporteAsignado, :ImporteCierre, :Parte, :Usuario)";
+
+                        aff += cmd.ExecuteNonQuery();
+                    }
+
+                    respuesta.exito = true;
+                    respuesta.mensaje = aff + " registros fueron insertados.";
+                }
+                else
+                {
+                    respuesta.mensaje = "Hubo un error al borrar los registros.";
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.exito = false;
+                respuesta.mensaje = "Hubo un error al insertar los registros. " + ex.Message;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return respuesta;
+        }
+
+
+        /// <summary>
+        /// Reporte Riesgo-Rango
+        /// </summary>
+        /// <param name="conexion"></param>
+        /// <param name="fechaIni"></param>
+        /// <param name="fechaFin"></param>
+        /// <returns></returns>
+        private bool eliminarComprasVentasOperador(OracleConnection conexion, int fechaIni, int fechaFin)
+        {
+            bool exito = false;
+
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                int aff = 0;
+                cmd.Parameters.Add("FechaConcertacion", fechaIni);
+                cmd.Parameters.Add("Contraparte", fechaFin);
+                cmd.BindByName = true;
+                cmd.CommandText = string.Format("DELETE FROM RIESVARM.COMPRAS_VENTAS_OPER WHERE FechaConcertacion >= :FechaConcertacion AND FechaConcertacion <= :Contraparte", fechaIni, fechaFin);
+
+                aff = cmd.ExecuteNonQuery();
+                exito = aff >= 0;
+            }
+            catch (Exception)
+            {
+                exito = false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+            return exito;
+        }
+
+        #endregion
+
+
+        /// <summary>
+        /// Obteniendo el valor para las columnas (Tc_Activa, Tc_Pasiva) y D_Ante_Activa, D_Ante_Pasiva)
+        /// </summary>
+        /// <param name="tasaPata">Tasa de la Pata</param>
+        /// <param name="diasAntelacion">Días de antelación</param>
+        /// <returns></returns>
+        private string GetTasa(string tasaPata, int? diasAntelacion)
+        {
+            string result = tasaPata;
+            int cte = 0;
+
+            if (!string.IsNullOrEmpty(tasaPata) && !char.IsDigit(tasaPata[0]))
+            {
+                if (diasAntelacion == null)
+                {
+                    result = tasaPata + "[" + cte + "]";
+                }
+                else
+                {
+                    result = tasaPata + "[" + diasAntelacion + "]";
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Obtener todos los registros de Divisas
+        /// </summary>
+        /// <param name="esquema"></param>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public List<CatalogoDivisas> GetCatalogoDivisas(string esquema, OracleConnection conexion)
+        {
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+            List<CatalogoDivisas> result = new List<CatalogoDivisas>();
+            try
+            {
+                conexion.Open();
+                cmd.CommandText = $"SELECT * FROM {esquema}.CATALOGO_DIVISAS ";
+
+                var reader = cmd.ExecuteReader();
+                result = reader.Cast<IDataRecord>().Select(x => new CatalogoDivisas
+                {
+                    Id_Apesa = (string)x["ID_APESA"],
+                    Id_Sivarmer = (decimal)x["ID_SIVARMER"],
+                }).ToList();
+            }
+            catch (Exception)
+            {
+                result = new List<CatalogoDivisas>();
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Obtener todos los registros de Posiciones
+        /// </summary>
+        /// <param name="conexion"></param>
+        /// <returns></returns>
+        public List<CatalogoPosiciones> GetCatalogoPosiciones(OracleConnection conexion)
+        {
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conexion;
+            List<CatalogoPosiciones> result = new List<CatalogoPosiciones>();
+            try
+            {
+                conexion.Open();
+                cmd.CommandText = "SELECT * FROM RIESVARM.CATALOGO_ID_POSICIONES ";
+
+                var reader = cmd.ExecuteReader();
+                result = reader.Cast<IDataRecord>().Select(x => new CatalogoPosiciones
+                {
+                    Id_Apesa = (string)x["ID_APESA"],
+                    Id_Sivarmer = (string)x["ID_SIVARMER"],
+                }).ToList();
+            }
+            catch (Exception)
+            {
+                result = new List<CatalogoPosiciones>();
+            }
+            finally
+            {
+                conexion.Close();
+            }
+
+            return result;
+        }
+
+        public string GetExceptionMessage(Exception exception)
+        {
+            StringBuilder sbMessage = new StringBuilder(exception.Message);
+            while (exception?.InnerException != null)
+            {
+                sbMessage.Append(" " + exception.InnerException?.Message);
+                exception = exception.InnerException!;
+            }
+
+            return sbMessage.ToString();
+        }
+
+    }
+}
