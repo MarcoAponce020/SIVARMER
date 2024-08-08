@@ -42,19 +42,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nelson\\.nuget\\packages\\": {}
+    "C:\\Users\\vcarrilm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+      "projectUniqueName": "C:\\Users\\vcarrilm\\Documents\\SST3\\Trunk\\Código\\Variables de Entorno\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj",
       "projectName": "ENTITY",
-      "projectPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\ENTITY\\ENTITY.csproj",
-      "packagesPath": "C:\\Users\\Nelson\\.nuget\\packages\\",
-      "outputPath": "D:\\Banobras\\Sistemas .NET\\SST3\\SIVARMER\\TransicionNvaFSW\\Trunk\\Código\\API_DERIVADOS_ETAPA4_2024_06_06\\apiRiesgos\\ENTITY\\obj\\",
+      "projectPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\Trunk\\Código\\Variables de Entorno\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\ENTITY.csproj",
+      "packagesPath": "C:\\Users\\vcarrilm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vcarrilm\\Documents\\SST3\\Trunk\\Código\\Variables de Entorno\\API_DERIVADOS_ETAPA4\\apiRiesgos\\ENTITY\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nelson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vcarrilm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -106,15 +111,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           }
         ],
         "frameworkReferences": {
@@ -122,7 +127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
