@@ -1,0 +1,1249 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.9.0.0",
+        "fileVersion": "4.9.0-3.24121.1 (a98c90d5)",
+        "semanticVersion": "4.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 9,
+                  "endLine": 25,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 13,
+                  "endLine": 33,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 17,
+                  "endLine": 48,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 307,
+                  "startColumn": 17,
+                  "endLine": 307,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 33,
+                  "endLine": 336,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3604",
+          "level": "warning",
+          "message": "Remove the member initializer, all constructors set an initial value for the member.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 50,
+                  "endLine": 18,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field '_configuration' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 41,
+                  "endLine": 17,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private method 'GetOracleParameters'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 9,
+                  "endLine": 384,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3604",
+          "level": "warning",
+          "message": "Remove the member initializer, all constructors set an initial value for the member.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 53,
+                  "endLine": 26,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3604",
+          "level": "warning",
+          "message": "Remove the member initializer, all constructors set an initial value for the member.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 56,
+                  "endLine": 27,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3604",
+          "level": "warning",
+          "message": "Remove the member initializer, all constructors set an initial value for the member.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 53,
+                  "endLine": 28,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 42,
+                  "endLine": 46,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 21,
+                  "endLine": 44,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 42,
+                  "endLine": 47,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 21,
+                  "endLine": 45,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 30,
+                  "endLine": 68,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 24,
+                  "endLine": 66,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to strQuery."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 30,
+                  "endLine": 66,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 24,
+                  "endLine": 65,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to strQuery."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 34,
+                  "endLine": 82,
+                  "endColumn": 100
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 24,
+                  "endLine": 81,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to strQuery."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 34,
+                  "endLine": 85,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 24,
+                  "endLine": 83,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to strQuery."
+            }
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'userId' to 'id' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 53,
+                  "endLine": 75,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 42,
+                  "endLine": 143,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 21,
+                  "endLine": 141,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 42,
+                  "endLine": 115,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 21,
+                  "endLine": 109,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 39,
+                  "endLine": 107,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 24,
+                  "endLine": 104,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to strQuery."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 42,
+                  "endLine": 171,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 21,
+                  "endLine": 166,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 42,
+                  "endLine": 187,
+                  "endColumn": 142
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 40,
+                  "endLine": 82,
+                  "endColumn": 106
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 43,
+                  "endLine": 201,
+                  "endColumn": 150
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'filters' to 'whereFilter' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 78,
+                  "endLine": 44,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1155",
+          "level": "warning",
+          "message": "Use '.Any()' to test whether this 'IEnumerable<Riesgos.Simefin.Domain.Entities.Portafolio>' is empty or not.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 70,
+                  "endLine": 239,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 29,
+                  "endLine": 67,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 25,
+                  "endLine": 69,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 42,
+                  "endLine": 286,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 284,
+                  "startColumn": 21,
+                  "endLine": 284,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S1006",
+          "level": "warning",
+          "message": "Remove the default parameter value to match the signature of overridden method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 271,
+                  "startColumn": 125,
+                  "endLine": 271,
+                  "endColumn": 135
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3604",
+          "level": "warning",
+          "message": "Remove the member initializer, all constructors set an initial value for the member.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 51,
+                  "endLine": 18,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field '_configuration' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/AuthorizationRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 41,
+                  "endLine": 17,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'pairs'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 29,
+                  "endLine": 61,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Es preferible comparar \"Count\" con 0 en lugar de usar \"Any()\", tanto por claridad como por rendimiento.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 17,
+                  "endLine": 215,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Se usa Count() donde podría usarse Any() para mejorar el rendimiento.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 58,
+                  "endLine": 239,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetAnonymusParameters\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 44,
+                  "endLine": 391,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetOracleParameters\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 39,
+                  "endLine": 362,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1859",
+          "level": "note",
+          "message": "Cambiar el tipo de variable 'connection' de 'System.Data.IDbConnection' a 'Oracle.ManagedDataAccess.Client.OracleConnection' para mejorar el rendimiento",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Infrastructure.Oracle/Repositories/PortfolioRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 34,
+                  "endLine": 46,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1827": {
+          "id": "CA1827",
+          "shortDescription": "No usar Count() ni LongCount() si se puede usar Any()",
+          "fullDescription": "Para colecciones no vacías, Count() y LongCount() enumeran la secuencia completa, mientras que Any() se detiene en el primer elemento o en el primer elemento que satisface una condición.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1859": {
+          "id": "CA1859",
+          "shortDescription": "Usar tipos concretos cuando sea posible para mejorar el rendimiento",
+          "fullDescription": "El uso de tipos concretos evita la sobrecarga de llamadas virtuales o de interfaz y habilita la inserción.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Evitar usar el método de extensión \"Enumerable.Any()\"",
+          "fullDescription": "Es preferible usar las propiedades \"IsEmpty\", \"Count\" o \"Length\", si hay alguna disponible, en lugar de llamar a \"Enumerable.Any()\". La intención es más clara y tiene un mejor rendimiento que usar el método de extensión \"Enumerable.Any()\".",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1006": {
+          "id": "S1006",
+          "shortDescription": "Method overrides should not change parameter defaults",
+          "fullDescription": "Default arguments are determined by the static type of the object. If a default argument is different for a parameter in an overriding method, the value used in the call will be different when calls are made via the base or derived object, which may be contrary to developer expectations.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1006",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S1155": {
+          "id": "S1155",
+          "shortDescription": "\"Any()\" should be used to test for emptiness",
+          "fullDescription": "Using .Count() to test for emptiness works, but using .Any() makes the intent clearer, and the code more readable. However, there are some cases where special attention should be paid:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1155",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1643": {
+          "id": "S1643",
+          "shortDescription": "Strings should not be concatenated using '+' in a loop",
+          "fullDescription": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2077": {
+          "id": "S2077",
+          "shortDescription": "Formatting SQL queries is security-sensitive",
+          "fullDescription": "Formatted SQL queries can be difficult to maintain, debug and can increase the risk of SQL injection when concatenating untrusted values into the query. However, this rule doesn’t detect SQL injections (unlike rule {rule:csharpsquid:S3649}), the goal is only to highlight complex/formatted queries.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2077",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3604": {
+          "id": "S3604",
+          "shortDescription": "Member initializer values should not be redundant",
+          "fullDescription": "Fields, properties and events can be initialized either inline or in the constructor. Initializing them inline and in the constructor at the same time is redundant; the inline initialization will be overridden.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3604",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

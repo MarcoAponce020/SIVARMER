@@ -1,0 +1,1338 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.9.0.0",
+        "fileVersion": "4.9.0-3.24121.1 (a98c90d5)",
+        "semanticVersion": "4.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/PortafolioCreateDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 9,
+                  "endLine": 9,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/PortafolioCreateDTO.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 9,
+                  "endLine": 21,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/Helpers/ExceptionMessageHelper.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/AuthorizationUseCase.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 174
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/AuthorizationUseCase.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 17,
+                  "endLine": 68,
+                  "endColumn": 142
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/AuthorizationUseCase.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 17,
+                  "endLine": 77,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResponseDTO' to match pascal case naming rules, consider using 'ResponseDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/ResponseDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoginRequestDTO' to match pascal case naming rules, consider using 'LoginRequestDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/User/LoginRequestDTO.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 18,
+                  "endLine": 4,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ListaDatosDTO' to match pascal case naming rules, consider using 'ListaDatosDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/ListaDatosDTO.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 18,
+                  "endLine": 4,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PortafolioCreateDTO' to match pascal case naming rules, consider using 'PortafolioCreateDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/PortafolioCreateDTO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RegistroRequestDTO' to match pascal case naming rules, consider using 'RegistroRequestDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/User/RegistroRequestDTO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TokenDTO' to match pascal case naming rules, consider using 'TokenDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/User/TokenDTO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PortafolioUpdateDTO' to match pascal case naming rules, consider using 'PortafolioUpdateDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/PortafolioUpdateDTO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PortafolioDTO' to match pascal case naming rules, consider using 'PortafolioDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/Portfolio/PortafolioDTO.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'UserDTO' to match pascal case naming rules, consider using 'UserDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/DTOs/User/UserDTO.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 18,
+                  "endLine": 4,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/Helpers/TokenHelper.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 18,
+                  "endLine": 16,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/Helpers/ExceptionMessageHelper.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 17,
+                  "endLine": 20,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field '_configuration' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 41,
+                  "endLine": 25,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/AuthorizationUseCase.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 125,
+                  "endLine": 47,
+                  "endColumn": 132
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'True'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 49,
+                  "endLine": 105,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'updateToken'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/AuthorizationUseCase.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 21,
+                  "endLine": 80,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/UserUseCase.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 57,
+                  "endLine": 46,
+                  "endColumn": 122
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": "ToLower"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"ListaDatosMAP\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/Mapping/AutoMappingProfile.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 36,
+                  "endLine": 23,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 46 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 40,
+                  "endLine": 274,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 13,
+                  "endLine": 278,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 302,
+                  "startColumn": 17,
+                  "endLine": 302,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 21,
+                  "endLine": 321,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 21,
+                  "endLine": 331,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 48,
+                  "endLine": 331,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 21,
+                  "endLine": 344,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 25,
+                  "endLine": 356,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 29,
+                  "endLine": 359,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 33,
+                  "endLine": 362,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 37,
+                  "endLine": 368,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 33,
+                  "endLine": 374,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 45,
+                  "endLine": 374,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 25,
+                  "endLine": 381,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 51,
+                  "endLine": 381,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 96,
+                  "endLine": 385,
+                  "endColumn": 98
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 386,
+                  "startColumn": 29,
+                  "endLine": 386,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 399,
+                  "startColumn": 29,
+                  "endLine": 399,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 17,
+                  "endLine": 414,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 21,
+                  "endLine": 418,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 423,
+                  "startColumn": 17,
+                  "endLine": 423,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 426,
+                  "startColumn": 21,
+                  "endLine": 426,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 17,
+                  "endLine": 433,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 21,
+                  "endLine": 436,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 447,
+                  "startColumn": 13,
+                  "endLine": 447,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 455,
+                  "startColumn": 13,
+                  "endLine": 455,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+4 (incl 3 for nesting)",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+1",
+              "14": "+1",
+              "15": "+3 (incl 2 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+1",
+              "18": "+2 (incl 1 for nesting)",
+              "19": "+1",
+              "2": "+1",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+1",
+              "22": "+2 (incl 1 for nesting)",
+              "23": "+1",
+              "24": "+1",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+5 (incl 4 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/UserUseCase.cs",
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 84,
+                  "endLine": 265,
+                  "endColumn": 126
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": "ToLower"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/UserUseCase.cs",
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 84,
+                  "endLine": 254,
+                  "endColumn": 126
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": "ToLower",
+              "RightOffendingMethod": "ToLower"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 522,
+                  "startColumn": 29,
+                  "endLine": 522,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 528,
+                  "startColumn": 13,
+                  "endLine": 528,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 528,
+                  "startColumn": 30,
+                  "endLine": 528,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 535,
+                  "startColumn": 13,
+                  "endLine": 535,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 535,
+                  "startColumn": 30,
+                  "endLine": 535,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 17,
+                  "endLine": 541,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 543,
+                  "startColumn": 21,
+                  "endLine": 543,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 548,
+                  "startColumn": 25,
+                  "endLine": 548,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 25,
+                  "endLine": 552,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 21,
+                  "endLine": 571,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 577,
+                  "startColumn": 17,
+                  "endLine": 577,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 585,
+                  "startColumn": 13,
+                  "endLine": 585,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 585,
+                  "startColumn": 30,
+                  "endLine": 585,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1862",
+          "level": "note",
+          "message": "Prefiera usar \"string.Equals(string, StringComparison)\" para realizar una comparación sin distinción de mayúsculas y minúsculas, pero tenga en cuenta que esto puede provocar cambios sutiles en el comportamiento, por lo que asegúrese de realizar pruebas exhaustivas después de aplicar la sugerencia, o si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 511,
+                  "startColumn": 50,
+                  "endLine": 511,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "LeftOffendingMethod": null,
+              "RightOffendingMethod": "ToUpper"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Es preferible comparar \"Count\" con 0 en lugar de usar \"Any()\", tanto por claridad como por rendimiento.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 26,
+                  "endLine": 331,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetSubPortfolioValue\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 21,
+                  "endLine": 505,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"GetDateList\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Banobras/Sistemas%20.NET/SST3/SIVARMER/TransicionNvaFSW/Trunk/C%C3%B3digo/RiesgosSimefin_Oracle_2024_05_29/Riesgos.Simefin/Riesgos.Simefin.Application/UseCases/PortfolioUseCase.cs",
+                "region": {
+                  "startLine": 472,
+                  "startColumn": 42,
+                  "endLine": 472,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Evitar usar el método de extensión \"Enumerable.Any()\"",
+          "fullDescription": "Es preferible usar las propiedades \"IsEmpty\", \"Count\" o \"Length\", si hay alguna disponible, en lugar de llamar a \"Enumerable.Any()\". La intención es más clara y tiene un mejor rendimiento que usar el método de extensión \"Enumerable.Any()\".",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1862": {
+          "id": "CA1862",
+          "shortDescription": "Use las sobrecargas del método \"StringComparison\" para realizar comparaciones de cadenas sin distinción de mayúsculas y minúsculas",
+          "fullDescription": "Evite llamar a \"ToLower\", \"ToUpper\", \"ToLowerInvariant\" y \"ToUpperInvariant\" para realizar comparaciones de cadenas sin distinción de mayúsculas y minúsculas, como en \"string.ToLower() == string.ToLower()\" porque dan lugar a una asignación. En su lugar, use \"string\". Equals(string, StringComparison)\" para realizar comparaciones sin distinción de mayúsculas y minúsculas. Si cambia a una sobrecarga que toma una \"StringComparison\", es posible que se produzcan cambios sutiles en el comportamiento, por lo que es importante realizar pruebas exhaustivas después de aplicar la sugerencia. Además, si no se requiere una comparación culturalmente confidencial, considere la posibilidad de usar \"StringComparison.OrdinalIgnoreCase\".",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "A boolean literal can be represented in two different ways: true or false. They can be combined with logical operators (!, &&, ||, ==, !=) to produce logical expressions that represent truth values. However, comparing a boolean literal to a variable or expression that evaluates to a boolean value is unnecessary and can make the code harder to read and understand. The more complex a boolean expression is, the harder it will be for developers to understand its meaning and expected behavior, and it will favour the introduction of new bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1643": {
+          "id": "S1643",
+          "shortDescription": "Strings should not be concatenated using '+' in a loop",
+          "fullDescription": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2589": {
+          "id": "S2589",
+          "shortDescription": "Boolean expressions should not be gratuitous",
+          "fullDescription": "Gratuitous boolean expressions are conditions that do not change the evaluation of a program. This issue can indicate logical errors and affect the correctness of an application, as well as its maintainability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2589",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
